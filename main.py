@@ -13,7 +13,7 @@ global totalLoc
 TIME_LIMIT_TO_FIND_LOC = 600 #seconds
 TIMESLEEP = 60 #seconds
 
-headers = {"Authorization": "Bearer 8ae75f646ea8969a39bffb77fe3bcc0c1c72d084 "}
+headers = {"Authorization": "Bearer YOUR KEY HERE "}
 
 
 def run_query(json, headers):  # Função que executa uma request pela api graphql
