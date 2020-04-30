@@ -70,7 +70,7 @@ if not os.path.exists("base.csv"):
     # Query do GraphQL que procura os primeiros 1000 repositorios com mais de 100 estrelas.
     query = """
     query example{
-  search (query:"stars:>100 and language: Python",type: REPOSITORY, first:2) {
+  search (query:"language: Python",type: REPOSITORY, first:2) {
       pageInfo{
        hasNextPage
         endCursor
