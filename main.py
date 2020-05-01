@@ -1,19 +1,20 @@
-import git
 import csv
 import os
 import shutil
 import stat
+import threading
 import time
+import git
 import requests
 from radon.raw import analyze
-import threading
+from send2trash import send2trash
 
 global totalLoc
 
 TIME_LIMIT_TO_FIND_LOC = 600 #seconds
 TIMESLEEP = 60 #seconds
 
-headers = {"Authorization": "Bearer 8ae75f646ea8969a39bffb77fe3bcc0c1c72d084 "}
+headers = {"Authorization": "Bearer 876193f7d69060be5f105f85035b2d84152ad825 "}
 
 
 def run_query(json, headers):  # Função que executa uma request pela api graphql
@@ -48,7 +49,7 @@ def clean_repository(folder):
             print('Failed to delete %s. Reason: %s' % (file_path, e))
 
 def cloneAndReadFileAndGetLoc(repo_path, tag, x):
-    g.checkout(tag['node']['tagName'])
+    g.checkout(tag)
     print("Lendo arquivos do Repositório e calculando LOC.....")
     global totalLoc
     for root, dirs, files in os.walk(repo_path):
@@ -64,13 +65,13 @@ def cloneAndReadFileAndGetLoc(repo_path, tag, x):
                             totalLoc[x] += item
                             i += 1
 
-if not os.path.exists("base.csv"):
-    print("Iniciando processo")
+
+print("Iniciando processo")
 
     # Query do GraphQL que procura os primeiros 1000 repositorios com mais de 100 estrelas.
-    query = """
-    query example{
-  search (query:"stars:>100 and language: Python",type: REPOSITORY, first:2) {
+query = """
+query example{
+  search (query:"language: Python",type: REPOSITORY, first:2{AFTER}) {
       pageInfo{
        hasNextPage
         endCursor
@@ -84,90 +85,84 @@ if not os.path.exists("base.csv"):
           primaryLanguage{
             name
           }
-          releases(first: 3){
-            totalCount
-            edges {
-              node {
-                tagName
-                name
-              }
-            }
-          }
         }
       }
     }
   }
 }
-    """
+"""
 
-    finalQuery = query.replace("{AFTER}", "")
+finalQuery = query.replace("{AFTER}", "")
 
-    json = {
-        "query": finalQuery, "variables": {}
-    }
+json = {
+    "query": finalQuery, "variables": {}
+}
 
-    total_pages = 1
-    print("Executando Query\n[", end='')
-    result = run_query(json, headers)  # Executar a Query
-    nodes = result["data"]["search"]["edges"]  # separar a string para exibir apenas os nodes
+total_pages = 1
+print("Executando Query\n[", end='')
+result = run_query(json, headers)  # Executar a Query
+nodes = result["data"]["search"]["edges"]  # separar a string para exibir apenas os nodes
+next_page = result["data"]["search"]["pageInfo"]["hasNextPage"]
+
+page = 0
+while next_page and total_pages < 1:
+    total_pages += 1
+    cursor = result["data"]["search"]["pageInfo"]["endCursor"]
+    next_query = query.replace("{AFTER}", ", after: \"%s\"" % cursor)
+    json["query"] = next_query
+    result = run_query(json, headers)
+    nodes += result['data']['search']['nodes']
     next_page = result["data"]["search"]["pageInfo"]["hasNextPage"]
+    print(".", end='')
+print("]")
 
-    page = 0
-    while next_page and total_pages < 1:
-        total_pages += 1
-        cursor = result["data"]["search"]["pageInfo"]["endCursor"]
-        next_query = query.replace("{AFTER}", ", after: \"%s\"" % cursor)
-        json["query"] = next_query
-        result = run_query(json, headers)
-        nodes += result['data']['search']['nodes']
-        next_page = result["data"]["search"]["pageInfo"]["hasNextPage"]
-        print(".", end='')
-    print("]")
+fileFinal = open("final.csv", 'w', newline='')
+final = csv.writer(fileFinal)
+final.writerow(('nameWithOwner', 'updateAt', 'url', 'primary language/name', 'release 1',
+                'release 2', 'release 3'))
 
-    fileFinal = open("final.csv", 'w', newline='')
-    final = csv.writer(fileFinal)
-    final.writerow(('nameWithOwner', 'updateAt', 'url', 'primary language/name', 'release 1',
-                    'release 2', 'release 3'))
+for node in nodes:
+    print("\n ------ Começo leitura repositorios ------ \n")
 
-    for node in nodes:
-        print("\n ------ Começo leitura repositorios ------ \n")
+    numRepo = 0
+    time.sleep(1)
+    totalLoc = 0
+    name = node['node']['name']
+    repo_path = "path/to/" + name
+    gitURL = node['node']['url']
 
-        numRepo = 0
-        time.sleep(1)
-        totalLoc = 0
-        name = node['node']['name']
-        repo_path = "path/to/" + name
-        gitURL = node['node']['url']
+    if os.path.exists(repo_path):
+        send2trash(repo_path)
+    print("\n" + "Começa o git clone")
+    print(gitURL)
+    repo = git.Repo.clone_from(gitURL, repo_path)
+    tags = repo.tags
+    repo.close()
+    print("Termina o git clone \n")
 
-        if not os.path.exists(repo_path):
-            print("\n" + "Começa o git clone")
-            print(gitURL)
-            repo = git.Repo.clone_from(gitURL, repo_path)
-            repo.close()
-            print("Termina o git clone \n")
+    g = git.Git(repo_path)
+    x = 0
+    totalLoc = [0, 0, 0]
+    for tag in tags:
+        clrd = threading.Thread(target=cloneAndReadFileAndGetLoc, args=(repo_path, tag.name, x))
+        clrd.daemon = True
+        clrd.start()
+        clrd.join(TIME_LIMIT_TO_FIND_LOC)  # Wait for x seconds or until process finishes
+        if clrd.is_alive():  # If thread is still active
+            print("\n--> Excedeu limite de tempo. Interrompendo análise do repositório.....")
+            th = threading.currentThread()
+            th._stop
+            time.sleep(TIMESLEEP)
+            totalLoc[x] = -1  # Define a negative value for LOC
+        print("Total loc final é " + str(totalLoc[x]))
+        x += 1
+    print("\n ------ Fim de um repositorio ------ \n")
+    final.writerow((name, node['node']['updatedAt'], gitURL, node['node']['primaryLanguage']['name'], totalLoc[0],
+                    totalLoc[1], totalLoc[2]))
+    clean_repository(repo_path)
+    numRepo = numRepo + 1
+    print("Total repositórios " + str(numRepo))
+fileFinal.close()
+print("\n ------------- Fim da execução ------------- \n")
 
-        g = git.Git(repo_path)
-        x = 0
-        totalLoc = [0,0,0]
-        for tag in node['node']['releases']['edges']:
-            clrd = threading.Thread(target=cloneAndReadFileAndGetLoc, args=(repo_path, tag, x))
-            clrd.daemon = True
-            clrd.start()
-            clrd.join(TIME_LIMIT_TO_FIND_LOC)  # Wait for x seconds or until process finishes
-            if clrd.is_alive():  # If thread is still active
-                print("\n--> Excedeu limite de tempo. Interrompendo análise do repositório.....")
-                th = threading.currentThread()
-                th._stop
-                time.sleep(TIMESLEEP)
-                totalLoc[x] = -1  # Define a negative value for LOC
-            print("Total loc final é " + str(totalLoc[x]))
-            x += 1
-        print("\n ------ Fim de um repositorio ------ \n")
-        final.writerow((name, node['node']['updatedAt'], gitURL, node['node']['primaryLanguage']['name'], totalLoc[0],
-                        totalLoc[1], totalLoc[2]))
-        clean_repository(repo_path)
-        numRepo = numRepo + 1
-        print("Total repositórios " + str(numRepo))
-    fileFinal.close()
-    print("\n ------------- Fim da execução ------------- \n")
 
