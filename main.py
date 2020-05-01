@@ -1,3 +1,4 @@
+import git
 import csv
 import os
 import shutil
@@ -14,7 +15,7 @@ global totalLoc
 TIME_LIMIT_TO_FIND_LOC = 600 #seconds
 TIMESLEEP = 60 #seconds
 
-headers = {"Authorization": "Bearer 876193f7d69060be5f105f85035b2d84152ad825 "}
+headers = {"Authorization": "Bearer YOUR KEY HERE "}
 
 
 def run_query(json, headers):  # Função que executa uma request pela api graphql
@@ -49,7 +50,7 @@ def clean_repository(folder):
             print('Failed to delete %s. Reason: %s' % (file_path, e))
 
 def cloneAndReadFileAndGetLoc(repo_path, tag, x):
-    g.checkout(tag)
+    g.checkout(tag['node']['tagName'])
     print("Lendo arquivos do Repositório e calculando LOC.....")
     global totalLoc
     for root, dirs, files in os.walk(repo_path):
@@ -164,5 +165,4 @@ for node in nodes:
     print("Total repositórios " + str(numRepo))
 fileFinal.close()
 print("\n ------------- Fim da execução ------------- \n")
-
 
