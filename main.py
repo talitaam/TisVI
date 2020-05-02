@@ -49,10 +49,12 @@ def clean_repository(folder):
         except Exception as e:
             print('Failed to delete %s. Reason: %s' % (file_path, e))
 
-def cloneAndReadFileAndGetLoc(repo_path, tag, x):
-    g.checkout(tag['node']['tagName'])
+
+def cloneAndReadFileAndGetLoc(repo_path, tag):
+    g.checkout(tag)
     print("Lendo arquivos do Repositório e calculando LOC.....")
     global totalLoc
+    loc = 0
     for root, dirs, files in os.walk(repo_path):
         for file in files:
             if file.endswith('.py'):
@@ -63,8 +65,9 @@ def cloneAndReadFileAndGetLoc(repo_path, tag, x):
                     i = 0
                     for item in b:
                         if i == 0:
-                            totalLoc[x] += item
+                            loc += item
                             i += 1
+    totalLoc.append(loc)
 
 
 print("Iniciando processo")
@@ -143,9 +146,9 @@ for node in nodes:
 
     g = git.Git(repo_path)
     x = 0
-    totalLoc = [0, 0, 0]
+    totalLoc = []
     for tag in tags:
-        clrd = threading.Thread(target=cloneAndReadFileAndGetLoc, args=(repo_path, tag.name, x))
+        clrd = threading.Thread(target=cloneAndReadFileAndGetLoc, args=(repo_path, tag.name))
         clrd.daemon = True
         clrd.start()
         clrd.join(TIME_LIMIT_TO_FIND_LOC)  # Wait for x seconds or until process finishes
@@ -155,11 +158,10 @@ for node in nodes:
             th._stop
             time.sleep(TIMESLEEP)
             totalLoc[x] = -1  # Define a negative value for LOC
-        print("Total loc final é " + str(totalLoc[x]))
+        print("Total loc final é " + str(totalLoc[-1]))
         x += 1
     print("\n ------ Fim de um repositorio ------ \n")
-    final.writerow((name, node['node']['updatedAt'], gitURL, node['node']['primaryLanguage']['name'], totalLoc[0],
-                    totalLoc[1], totalLoc[2]))
+    final.writerow((name, node['node']['updatedAt'], gitURL, node['node']['primaryLanguage']['name'], totalLoc))
     clean_repository(repo_path)
     numRepo = numRepo + 1
     print("Total repositórios " + str(numRepo))
