@@ -21,7 +21,7 @@ from json import load, loads
 import searchGraphQL
 
 
-TIME_LIMIT_TO_FIND_LOC = 900  # seconds
+TIME_LIMIT_TO_FIND_LOC = 1200  # seconds
 TIMESLEEP = 10  # seconds
 
 
@@ -53,17 +53,13 @@ def main():
     
     if not os.path.exists("base.csv"):
         createBase = searchGraphQL.searchAttributes()
-        createBase.createBaseOrTagFile("base", "", "", "", "", "")
+        createBase.createBaseOrTagFile("base", "", "", "", "")
         print("\n ------------------- Fim arquivo base ------------------- \n")
         print(" ------------------- Criar arquivo baseFiltrado ------------------- ")
     
-   
-    
     contNode = 0
-    lastLine = where_stop("final.csv")
-    print("lastLine: " + str(lastLine) + "\n")
     
-    if os.path.exists("baseFiltrada.csv"):
+    if os.path.exists("baseFiltrada.csv") and not os.path.exists("finalFiltrado.csv"):
         # Insert table header in final.csv
         if not os.path.exists("final.csv"):
             fileFinal = open("final.csv", 'w', newline='')
@@ -71,15 +67,16 @@ def main():
             final.writerow(('nameWithOwner', 'url', 'releases', 'updateAt', 'totalLoc', 'totalSloc', 'validFiles', 'invalidFiles', 'filesNotRead', 'filesNoMetric', 'cc', 'ccRank',
                     'miMultiFalse', 'miMultiFalseRank', 'miMultiTrue', 'miMultiTrueRank', 'difficulty', 'effort', 'timeHas', 'bugs'))
             fileFinal.close()
+        lastLine = where_stop("final.csv")
+        print("lastLine: " + str(lastLine) + "\n")
         fileBase = open("baseFiltrada.csv", 'r')
         base = csv.reader(fileBase)
         for node in base:
+            print("\n----------------INÍCIO REPO--------------------\n")
+            print("Reposiótio: " + node[0])
             if ((contNode >= lastLine) and contNode != 0):
                 calculateMetrics1 = findMetrics.cloneTofindMetrics()
-                #tagSize = 0
                 gitURL = node[1] + ".git"
-                print("Começa o git clone")
-                print(gitURL)
                 t = threadTemp.thread_with_trace(target=calculateMetrics1.cloneAndReadFileAndGetMetrics, args=(gitURL, None)) 
                 t.daemon = True
                 t.start() 
@@ -91,29 +88,25 @@ def main():
                     t.join()
                     time.sleep(TIMESLEEP)
                     print("\nis still alive? " + str(t.is_alive()))
-                    #tagSize = -1
                     writeInFinalFile(node, gitURL, -1, -1, -1, -1, -1, -1, -1, "Z",-1, "Z", -1, "Z", -1, -1, -1, -1)
                 else:
-                    print("pegando as metricas: " + str(calculateMetrics1.getMetrics()))
                     m = calculateMetrics1.getMetrics()
-                    print(m)
-                    print("Valid files em m: " + str(m['validFiles']))
                     if int(m['cc']) != -1:
                         ccRank = cc_rank(int(m['cc']))
                         miMultiFalseRank = mi_rank(float(m['miMultiFalse']))
                         miMultiTrueRank = mi_rank(float(m['miMultiTrue']))
-                        #tagSize = len(tags) #original repo has the number of tags in "tag" column
+                        print("--------------")
+                        print("Gravando: ")
+                        print("Total loc: " + str(m['totalLoc']) + " - Files validos: " + str(m['validFiles']) + " - Files invalidos: " + str(m['invalidFiles']) + "\nFiles sem metricas: " + str(m['filesNoMetric']) + " - Files não lidos: " + str(m['filesNotRead']))
+                        print("cc: " + str(m['cc']) + " - miMultiFalse: " + str(m['miMultiFalse']) + "\ndifficulty: " + str(m['difficulty']) + " - bugs: " + str(m['bugs']))
                         writeInFinalFile(node, gitURL, m['totalLoc'], m['totalSloc'], m['validFiles'], m['invalidFiles'], m['filesNotRead'], m['filesNoMetric'], m['cc'], ccRank, m['miMultiFalse'], miMultiFalseRank, m['miMultiTrue'], miMultiTrueRank, m['difficulty'], m['effort'], m['timeHas'], m['bugs'])
                     else:
                         writeInFinalFile(node, gitURL, -1, -1, -1, -1, -1, -1, -1, "Z",-1, "Z", -1, "Z", -1, -1, -1, -1)
-                print("\n ------ Fim ------- \n")
-            else:
-                contNode += 1
+            contNode += 1
         fileBase.close()
         print("\n ------------------- Fim arquivo final ------------------- \n")
         print(" ------------------- Criar arquivo finalFiltrado ------------------- ")
 
-        print("\n ------ Fim arquivo final------- \n")
 
     path = "RepoTags"
 
@@ -129,22 +122,24 @@ def main():
         contNode = 0
         print(contNode)
         print(lastline)
-        firstRow = []
-        if(contRepo != lastline-1):        
+        owner=""
+        name=""
+        if(contRepo <= lastline-1):        
             for node in finalFiltrado:
-                print("contNode: " + str(contNode))
-                print("contRepo: " + str(contRepo))
-                print("lastline: " + str(lastline))
-                if ((contNode >= contRepo) and contNode!=0):
-                    firstRow = node
-                    print("\n--->>> Novo repositório: "+node[0])
+                if contNode > 0:
                     splitOwnerName = node[0].split('/')
                     owner = splitOwnerName[0]
                     name = splitOwnerName[1]
+                checkFile = path + "/" + owner + "-" + name + ".csv"
+                print(checkFile)
+                print("contNode: " + str(contNode) + " >= conteRepo: " + str(contRepo) + " ?")
+                if ((not os.path.exists(checkFile) or (contNode > contRepo)) and contNode!=0):
+                    print("\n--->>> Novo repositório: "+ node[0])
+                    if not os.path.exists(checkFile):
+                        contRepo +=1
                     createRepoTag = searchGraphQL.searchAttributes()
-                    createRepoTag.createBaseOrTagFile("tag", path, owner, name, node, firstRow)
-                else:
-                    contNode += 1
+                    createRepoTag.createBaseOrTagFile("tag", path, owner, name, node)
+                contNode += 1
 
         print("\n ------ Fim geração dos arquivos .csv com tags------- \n")
 
@@ -234,7 +229,6 @@ def main():
                             print("\nis still alive? " + str(t1.is_alive()))
                             writeInFinalTagFile(fileNamePath, node, -1, -1, -1, -1, -1, -1, -1, "Z",-1, "Z", -1, "Z", -1, -1, -1, -1)
                         else:
-                            #print("pegando as metricas: " + str(calculateMetrics2.getMetrics()))
                             m = calculateMetrics2.getMetrics()
                             if int(m['cc']) != -1:
                                 ccRank = cc_rank(int(m['cc']))

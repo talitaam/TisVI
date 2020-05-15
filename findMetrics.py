@@ -85,8 +85,15 @@ class cloneTofindMetrics():
             try:
                 self.clean_repository(repo_path)
                 send2trash(repo_path)
-            except OSError as ose:
-                print(repo_path + " não foi excluído - " + ose)
+            except OSError:
+                print(repo_path + " não foi excluído OS ERROR")
+                time.sleep(60)
+                numRepo += 1
+                repo_path = 'Repository/' + str(numRepo)
+                while os.path.exists(repo_path):
+                    numRepo += 1
+                    repo_path = 'Repository/' + str(numRepo)
+                break
             except Exception:
                 print("Repositório não excluído")
                 pass
@@ -94,6 +101,7 @@ class cloneTofindMetrics():
             repo_path = 'Repository/' + str(numRepo)
         if (tagToClone is None): #Clone original repository
             try:
+                print("Começando o clone...")
                 reposit = Repo.clone_from(gitURL, repo_path) #clone repo and checkout the tag
             except:
                 print("Não foi possível clonar o repositório")
@@ -104,6 +112,7 @@ class cloneTofindMetrics():
         else: #clone repo by tag
             toTag = "--branch " + str(tagToClone)
             try:
+                print("Começando o clone...")
                 reposit = Repo.clone_from(gitURL, repo_path, multi_options=[toTag, '--single-branch']) #clone repo and checkout the tag
             except:
                 print("Não foi possível clonar a tag")

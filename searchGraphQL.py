@@ -23,7 +23,7 @@ NUMPAGESREPO = 50
 
 class searchAttributes():
 
-    headers = {"Authorization": "Bearer YOUR KEY HERE"}
+    headers = {"Authorization": "Bearer 0b2361714de61867d8c7b9ab3020989fc31d618b"}
 
     query = ""
 
@@ -40,13 +40,13 @@ class searchAttributes():
             raise Exception("Query failed to run by returning code of {}. {}".format(request.status_code, self.query))
 
 
-    def createBaseOrTagFile(self, typeSearch, path, owner, name, nodeFinal, firstRow):
+    def createBaseOrTagFile(self, typeSearch, path, owner, name, nodeFinal):
         if typeSearch == "base":#create base.cvs with repositories with all its releases/tags
             print("\n -------------- Iniciando processo pesquisa base.csv GraphQl -------------- \n")
             # Query GraphQL to look for first 1000 repositories in Python over 100 stars
             self.query = """
             query example{
-                search (query:"stars:>100 and language:Python and created:>2014-01-01", type: REPOSITORY, first:20{AFTER}) {
+                search (query:"stars:>100 and language:Python and created:>2014-01-01", type: REPOSITORY, first:30{AFTER}) {
                     pageInfo{
                         hasNextPage
                         endCursor
@@ -151,13 +151,11 @@ class searchAttributes():
             fileTag.close()
             fileTag = open(fullFilePath, 'a', newline='')
             repoTag = csv.writer(fileTag)
-
             print("Salvando Tags:\n[", end='')
             repoTag.writerow(('nameWithOwner', 'url', 'tagName', 'publishedAt', 'totalLoc', 'totalSloc', 'validFiles', 'invalidFiles', 'filesNotRead', 'filesNoMetric', 'cc', 'ccRank',
                     'miMultiFalse', 'miMultiFalseRank', 'miMultiTrue', 'miMultiTrueRank', 'difficulty', 'effort', 'timeHas', 'bugs'))
-            repoTag.writerow(firstRow)
+            repoTag.writerow(nodeFinal)
             num = 0
-            url = nodeFinal[1]
             for node in nodes:
                 publishedAtSplit = node['publishedAt'].split('T')
                 publishedAt = publishedAtSplit[0]
