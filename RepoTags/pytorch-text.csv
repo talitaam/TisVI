@@ -1,0 +1,10 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+pytorch/text,https://github.com/pytorch/text.git,8,2020-05-13,10147,5949,49,0,4,16,3,A,54.034981724413385,A,65.59216074134957,A,2.25,392.2149746110282,21.78972081172379,0.04857121042079129
+pytorch/text,https://github.com/pytorch/text.git,v0.1.1,2017-08-15
+pytorch/text,https://github.com/pytorch/text.git,v0.2.0,2017-10-20
+pytorch/text,https://github.com/pytorch/text.git,v0.2.1,2017-12-28
+pytorch/text,https://github.com/pytorch/text.git,v0.2.3,2018-04-09
+pytorch/text,https://github.com/pytorch/text.git,0.3.1,2018-10-12
+pytorch/text,https://github.com/pytorch/text.git,0.4.0,2019-11-27
+pytorch/text,https://github.com/pytorch/text.git,0.5.0,2020-01-14
+pytorch/text,https://github.com/pytorch/text.git,0.6.0,2020-04-21

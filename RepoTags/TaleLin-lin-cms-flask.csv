@@ -1,0 +1,6 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+TaleLin/lin-cms-flask,https://github.com/TaleLin/lin-cms-flask.git,4,2020-05-12,2259,1562,34,0,0,12,2,A,77.44593326325273,A,87.66056470949486,A,0.5,2.3774437510817346,0.1320802083934297,0.0015849625007211565
+TaleLin/lin-cms-flask,https://github.com/TaleLin/lin-cms-flask.git,0.1.0-beta.1,2019-05-05
+TaleLin/lin-cms-flask,https://github.com/TaleLin/lin-cms-flask.git,0.1.0-beta.2,2019-06-03
+TaleLin/lin-cms-flask,https://github.com/TaleLin/lin-cms-flask.git,0.1.0-beta.3,2019-06-18
+TaleLin/lin-cms-flask,https://github.com/TaleLin/lin-cms-flask.git,0.2.0-beta.1,2019-07-19

@@ -1,0 +1,9 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+farrokhi/dnsdiag,https://github.com/farrokhi/dnsdiag.git,7,2020-05-12,1072,825,3,0,0,1,2,A,39.0707825104976,A,39.0707825104976,A,8.987654320987655,9329.51940114394,518.3066333968856,0.3460123953720966
+farrokhi/dnsdiag,https://github.com/farrokhi/dnsdiag.git,v1.3.4,2016-05-09
+farrokhi/dnsdiag,https://github.com/farrokhi/dnsdiag.git,v1.4.0,2016-06-14
+farrokhi/dnsdiag,https://github.com/farrokhi/dnsdiag.git,v1.6.0,2017-04-24
+farrokhi/dnsdiag,https://github.com/farrokhi/dnsdiag.git,v1.6.2,2017-04-30
+farrokhi/dnsdiag,https://github.com/farrokhi/dnsdiag.git,v1.6.3,2017-05-02
+farrokhi/dnsdiag,https://github.com/farrokhi/dnsdiag.git,v1.6.4,2018-04-03
+farrokhi/dnsdiag,https://github.com/farrokhi/dnsdiag.git,v1.7.0,2020-01-19

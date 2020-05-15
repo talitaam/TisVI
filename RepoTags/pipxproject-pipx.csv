@@ -1,0 +1,10 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+pipxproject/pipx,https://github.com/pipxproject/pipx.git,8,2020-05-13,3955,3103,42,0,0,5,3,A,70.05601953054158,A,70.05601953054158,A,1.7008928571428572,72.22215106670886,4.01234172592827,0.013512027026233069
+pipxproject/pipx,https://github.com/pipxproject/pipx.git,0.13.2.1,2019-08-01
+pipxproject/pipx,https://github.com/pipxproject/pipx.git,0.13.2.2,2019-08-03
+pipxproject/pipx,https://github.com/pipxproject/pipx.git,0.14.0.0,2019-08-11
+pipxproject/pipx,https://github.com/pipxproject/pipx.git,0.15.0.0,2020-01-05
+pipxproject/pipx,https://github.com/pipxproject/pipx.git,0.15.1.0,2020-01-07
+pipxproject/pipx,https://github.com/pipxproject/pipx.git,0.15.1.1,2020-01-08
+pipxproject/pipx,https://github.com/pipxproject/pipx.git,0.15.1.2,2020-01-08
+pipxproject/pipx,https://github.com/pipxproject/pipx.git,0.15.1.3,2020-01-21

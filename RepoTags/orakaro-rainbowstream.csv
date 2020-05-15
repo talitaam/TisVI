@@ -1,0 +1,5 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+orakaro/rainbowstream,https://github.com/orakaro/rainbowstream.git,3,2020-05-13,2938,2369,8,0,1,4,3,A,50.99596187861303,A,68.04613981418547,A,2.6474201474201475,498.22283450591755,27.679046361439866,0.0638936821830649
+orakaro/rainbowstream,https://github.com/orakaro/rainbowstream.git,v1.3.5,2016-08-17
+orakaro/rainbowstream,https://github.com/orakaro/rainbowstream.git,v1.3.6,2016-10-07
+orakaro/rainbowstream,https://github.com/orakaro/rainbowstream.git,v1.3.7,2016-12-11

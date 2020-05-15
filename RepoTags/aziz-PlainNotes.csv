@@ -1,0 +1,15 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+aziz/PlainNotes,https://github.com/aziz/PlainNotes.git,13,2020-05-11,1833,1138,10,0,0,0,4,A,48.24815810899915,A,54.49966626090723,A,5.963737623762376,4077.4505621685653,226.52503123158695,0.18539235519164995
+aziz/PlainNotes,https://github.com/aziz/PlainNotes.git,0.0.7,2014-09-30
+aziz/PlainNotes,https://github.com/aziz/PlainNotes.git,0.0.8,2014-10-02
+aziz/PlainNotes,https://github.com/aziz/PlainNotes.git,0.0.91,2014-10-02
+aziz/PlainNotes,https://github.com/aziz/PlainNotes.git,0.0.92,2014-10-05
+aziz/PlainNotes,https://github.com/aziz/PlainNotes.git,0.0.93,2014-12-20
+aziz/PlainNotes,https://github.com/aziz/PlainNotes.git,0.1.2,2015-02-21
+aziz/PlainNotes,https://github.com/aziz/PlainNotes.git,0.1.4,2015-04-08
+aziz/PlainNotes,https://github.com/aziz/PlainNotes.git,0.1.5,2015-04-12
+aziz/PlainNotes,https://github.com/aziz/PlainNotes.git,0.1.6,2015-06-04
+aziz/PlainNotes,https://github.com/aziz/PlainNotes.git,0.1.7,2015-07-24
+aziz/PlainNotes,https://github.com/aziz/PlainNotes.git,0.2.0,2015-07-25
+aziz/PlainNotes,https://github.com/aziz/PlainNotes.git,0.2.1,2015-10-20
+aziz/PlainNotes,https://github.com/aziz/PlainNotes.git,0.2.4,2016-05-25

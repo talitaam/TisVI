@@ -1,0 +1,8 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+LegoStormtroopr/django-spaghetti-and-meatballs,https://github.com/LegoStormtroopr/django-spaghetti-and-meatballs.git,6,2020-05-08,311,217,4,0,1,6,2,A,56.816000822618435,A,74.38901814794129,A,1.5238095238095237,209.05571908629122,11.614206615905067,0.050365685145922885
+LegoStormtroopr/django-spaghetti-and-meatballs,https://github.com/LegoStormtroopr/django-spaghetti-and-meatballs.git,0.1.0,2015-08-21
+LegoStormtroopr/django-spaghetti-and-meatballs,https://github.com/LegoStormtroopr/django-spaghetti-and-meatballs.git,0.1.1,2015-08-22
+LegoStormtroopr/django-spaghetti-and-meatballs,https://github.com/LegoStormtroopr/django-spaghetti-and-meatballs.git,0.1.2,2015-09-22
+LegoStormtroopr/django-spaghetti-and-meatballs,https://github.com/LegoStormtroopr/django-spaghetti-and-meatballs.git,0.2.0,2015-12-14
+LegoStormtroopr/django-spaghetti-and-meatballs,https://github.com/LegoStormtroopr/django-spaghetti-and-meatballs.git,0.2.0-zenodo,2016-06-16
+LegoStormtroopr/django-spaghetti-and-meatballs,https://github.com/LegoStormtroopr/django-spaghetti-and-meatballs.git,0.2.1,2016-07-06

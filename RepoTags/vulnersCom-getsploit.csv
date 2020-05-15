@@ -1,0 +1,6 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+vulnersCom/getsploit,https://github.com/vulnersCom/getsploit.git,4,2020-05-13,267,209,1,0,0,2,8,B,39.55064678099484,A,40.95082238168837,A,5.045454545454546,3676.984924248637,204.2769402360354,0.24292392892933937
+vulnersCom/getsploit,https://github.com/vulnersCom/getsploit.git,0.2,2017-06-25
+vulnersCom/getsploit,https://github.com/vulnersCom/getsploit.git,0.2.1,2018-01-30
+vulnersCom/getsploit,https://github.com/vulnersCom/getsploit.git,0.2.2,2018-03-16
+vulnersCom/getsploit,https://github.com/vulnersCom/getsploit.git,0.3.0,2019-03-22

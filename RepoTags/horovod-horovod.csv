@@ -1,0 +1,5 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+horovod/horovod,https://github.com/horovod/horovod.git,3,2020-05-13,24629,15391,112,0,10,17,2,A,67.55929273863555,A,68.39758197592721,A,2.70979020979021,291.9373359563657,16.21874088646476,0.03871777562007653
+horovod/horovod,https://github.com/horovod/horovod.git,v0.19.0,2020-01-14
+horovod/horovod,https://github.com/horovod/horovod.git,v0.19.1,2020-05-13
+horovod/horovod,https://github.com/horovod/horovod.git,v0.19.2,2020-05-13

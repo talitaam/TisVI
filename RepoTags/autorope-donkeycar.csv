@@ -1,0 +1,9 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+autorope/donkeycar,https://github.com/autorope/donkeycar.git,7,2020-05-13,15982,10433,82,0,2,16,2,A,56.13181340892916,A,64.52162529890747,A,2.9006410256410255,504.09117808545557,28.005065449191974,0.04584962500721157
+autorope/donkeycar,https://github.com/autorope/donkeycar.git,V0.1,2017-02-09
+autorope/donkeycar,https://github.com/autorope/donkeycar.git,V0.2,2017-02-09
+autorope/donkeycar,https://github.com/autorope/donkeycar.git,V0.11,2017-03-24
+autorope/donkeycar,https://github.com/autorope/donkeycar.git,V1.0,2017-06-25
+autorope/donkeycar,https://github.com/autorope/donkeycar.git,2.2.4,2018-06-21
+autorope/donkeycar,https://github.com/autorope/donkeycar.git,2.5.1,2018-06-21
+autorope/donkeycar,https://github.com/autorope/donkeycar.git,2.5.8,2018-11-06

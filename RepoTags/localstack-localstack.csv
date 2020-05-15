@@ -1,0 +1,16 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+localstack/localstack,https://github.com/localstack/localstack.git,14,2020-05-13,24484,18259,112,0,38,7,2,A,59.334155954651244,A,60.50493365863111,A,2.0,143.08229141070296,7.949016189483498,0.02723308333814104
+localstack/localstack,https://github.com/localstack/localstack.git,v0.1.16,2016-12-11
+localstack/localstack,https://github.com/localstack/localstack.git,v0.2.0,2016-12-19
+localstack/localstack,https://github.com/localstack/localstack.git,v0.3.0,2017-02-10
+localstack/localstack,https://github.com/localstack/localstack.git,v0.3.10,2017-04-22
+localstack/localstack,https://github.com/localstack/localstack.git,v0.10.0,2019-08-03
+localstack/localstack,https://github.com/localstack/localstack.git,v0.10.2,2019-08-13
+localstack/localstack,https://github.com/localstack/localstack.git,v0.10.3,2019-09-15
+localstack/localstack,https://github.com/localstack/localstack.git,v0.10.4,2019-11-07
+localstack/localstack,https://github.com/localstack/localstack.git,v0.10.5,2019-11-07
+localstack/localstack,https://github.com/localstack/localstack.git,v0.10.6,2020-01-02
+localstack/localstack,https://github.com/localstack/localstack.git,v0.10.8,2020-03-02
+localstack/localstack,https://github.com/localstack/localstack.git,v0.10.9,2020-04-04
+localstack/localstack,https://github.com/localstack/localstack.git,v0.11.0,2020-04-04
+localstack/localstack,https://github.com/localstack/localstack.git,v0.11.1,2020-05-04

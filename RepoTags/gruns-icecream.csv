@@ -1,0 +1,5 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+gruns/icecream,https://github.com/gruns/icecream.git,3,2020-05-11,1137,780,7,0,0,2,2,A,96.14429487525429,A,96.14429487525429,A,0.5,2.3774437510817346,0.1320802083934297,0.0015849625007211565
+gruns/icecream,https://github.com/gruns/icecream.git,v1.3.1,2018-06-06
+gruns/icecream,https://github.com/gruns/icecream.git,v1.3,2018-06-06
+gruns/icecream,https://github.com/gruns/icecream.git,v2.0.0,2019-10-26

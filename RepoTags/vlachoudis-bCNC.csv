@@ -1,0 +1,14 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+vlachoudis/bCNC,https://github.com/vlachoudis/bCNC.git,12,2020-05-13,24972,16704,80,0,5,20,3,A,54.07496045949618,A,54.07496045949618,A,7.202755905511811,6417.091561943891,356.50508677466064,0.24926945387173138
+vlachoudis/bCNC,https://github.com/vlachoudis/bCNC.git,0.7.7,2016-01-22
+vlachoudis/bCNC,https://github.com/vlachoudis/bCNC.git,0.8.0,2016-01-25
+vlachoudis/bCNC,https://github.com/vlachoudis/bCNC.git,0.9.0,2016-02-10
+vlachoudis/bCNC,https://github.com/vlachoudis/bCNC.git,0.9.1,2016-02-25
+vlachoudis/bCNC,https://github.com/vlachoudis/bCNC.git,0.9.3,2016-05-05
+vlachoudis/bCNC,https://github.com/vlachoudis/bCNC.git,0.9.4,2016-06-19
+vlachoudis/bCNC,https://github.com/vlachoudis/bCNC.git,0.9.7,2017-01-15
+vlachoudis/bCNC,https://github.com/vlachoudis/bCNC.git,0.9.8,2017-03-18
+vlachoudis/bCNC,https://github.com/vlachoudis/bCNC.git,0.9.9,2017-03-24
+vlachoudis/bCNC,https://github.com/vlachoudis/bCNC.git,0.9.10,2017-08-03
+vlachoudis/bCNC,https://github.com/vlachoudis/bCNC.git,0.9.11,2017-10-02
+vlachoudis/bCNC,https://github.com/vlachoudis/bCNC.git,0.9.14.52.beta.exe,2018-11-21

@@ -1,0 +1,6 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+stampery/mongoaudit,https://github.com/stampery/mongoaudit.git,4,2020-05-12,1631,1046,13,0,2,3,2,A,60.93894530093194,A,69.65323539492891,A,2.4,275.2657028711443,15.292539048396906,0.03823134762099227
+stampery/mongoaudit,https://github.com/stampery/mongoaudit.git,0.0.1,2017-01-17
+stampery/mongoaudit,https://github.com/stampery/mongoaudit.git,0.0.2,2017-02-15
+stampery/mongoaudit,https://github.com/stampery/mongoaudit.git,0.0.3,2017-02-16
+stampery/mongoaudit,https://github.com/stampery/mongoaudit.git,0.1.0,2018-04-02

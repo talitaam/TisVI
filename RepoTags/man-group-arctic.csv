@@ -1,0 +1,6 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+man-group/arctic,https://github.com/man-group/arctic.git,4,2020-05-12,21196,14170,127,1,21,9,2,A,54.81768802412667,A,58.40055788565439,A,1.8670212765957446,253.823744779619,14.101319154423278,0.04975918151662715
+man-group/arctic,https://github.com/man-group/arctic.git,v1.2.0,2015-07-29
+man-group/arctic,https://github.com/man-group/arctic.git,v1.4.0,2015-08-19
+man-group/arctic,https://github.com/man-group/arctic.git,v1.5.0,2015-09-11
+man-group/arctic,https://github.com/man-group/arctic.git,v1.74.0,2019-02-28

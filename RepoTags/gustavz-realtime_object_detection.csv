@@ -1,0 +1,5 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+gustavz/realtime_object_detection,https://github.com/gustavz/realtime_object_detection.git,3,2020-05-07,2058,1388,12,0,2,3,1,A,69.79586673411512,A,71.15777728650431,A,2.5247252747252746,282.46704109650875,15.692613394250486,0.03777077063216534
+gustavz/realtime_object_detection,https://github.com/gustavz/realtime_object_detection.git,v1.0,2018-05-24
+gustavz/realtime_object_detection,https://github.com/gustavz/realtime_object_detection.git,v2.0,2018-05-29
+gustavz/realtime_object_detection,https://github.com/gustavz/realtime_object_detection.git,v2.1,2018-06-20

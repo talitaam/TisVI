@@ -1,0 +1,11 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+IDSIA/sacred,https://github.com/IDSIA/sacred.git,9,2020-05-13,17803,12220,97,0,2,16,2,A,52.941272034210996,A,61.544859401009845,A,2.0,416.91453522105803,23.16191862339211,0.06243204266092216
+IDSIA/sacred,https://github.com/IDSIA/sacred.git,0.6.8,2016-01-13
+IDSIA/sacred,https://github.com/IDSIA/sacred.git,0.6.10,2016-08-08
+IDSIA/sacred,https://github.com/IDSIA/sacred.git,0.7.0,2017-05-07
+IDSIA/sacred,https://github.com/IDSIA/sacred.git,0.7.1,2018-05-06
+IDSIA/sacred,https://github.com/IDSIA/sacred.git,0.7.2,2018-05-06
+IDSIA/sacred,https://github.com/IDSIA/sacred.git,0.7.3,2018-05-06
+IDSIA/sacred,https://github.com/IDSIA/sacred.git,0.7.4,2018-06-12
+IDSIA/sacred,https://github.com/IDSIA/sacred.git,0.7.5,2019-06-20
+IDSIA/sacred,https://github.com/IDSIA/sacred.git,0.8.0,2019-10-14

@@ -1,0 +1,4 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+LandGrey/pydictor,https://github.com/LandGrey/pydictor.git,2,2020-05-12,4575,3358,58,0,4,6,4,A,79.65582460615377,A,84.03128919697724,A,1.7083333333333335,65.16052813888226,3.620029341049014,0.01729715809318649
+LandGrey/pydictor,https://github.com/LandGrey/pydictor.git,v1.0,2016-08-18
+LandGrey/pydictor,https://github.com/LandGrey/pydictor.git,v2.0.5,2017-12-19

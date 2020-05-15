@@ -1,0 +1,16 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+bwall/bamfdetect,https://github.com/bwall/bamfdetect.git,14,2020-04-23,2881,2369,38,2,0,5,3,A,52.7126658534146,A,52.7126658534146,A,3.5357142857142856,457.52556916411254,25.41808717578403,0.038648407361523245
+bwall/bamfdetect,https://github.com/bwall/bamfdetect.git,v1.2.0,2014-08-17
+bwall/bamfdetect,https://github.com/bwall/bamfdetect.git,v1.3.0,2014-08-21
+bwall/bamfdetect,https://github.com/bwall/bamfdetect.git,v1.4.0,2014-08-26
+bwall/bamfdetect,https://github.com/bwall/bamfdetect.git,v1.4.1,2014-09-01
+bwall/bamfdetect,https://github.com/bwall/bamfdetect.git,v1.5.1,2014-12-24
+bwall/bamfdetect,https://github.com/bwall/bamfdetect.git,v1.5.3,2015-03-15
+bwall/bamfdetect,https://github.com/bwall/bamfdetect.git,v1.6.2,2015-03-26
+bwall/bamfdetect,https://github.com/bwall/bamfdetect.git,v1.6.3,2015-03-30
+bwall/bamfdetect,https://github.com/bwall/bamfdetect.git,v1.6.4,2015-04-12
+bwall/bamfdetect,https://github.com/bwall/bamfdetect.git,v1.6.7,2015-05-26
+bwall/bamfdetect,https://github.com/bwall/bamfdetect.git,v1.6.8,2015-05-28
+bwall/bamfdetect,https://github.com/bwall/bamfdetect.git,v1.6.9,2015-08-30
+bwall/bamfdetect,https://github.com/bwall/bamfdetect.git,v1.6.11,2015-09-17
+bwall/bamfdetect,https://github.com/bwall/bamfdetect.git,v1.6.12,2015-09-17

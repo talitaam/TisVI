@@ -1,0 +1,8 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+tensorflow/cleverhans,https://github.com/tensorflow/cleverhans.git,6,2020-05-13,40826,25382,193,0,10,18,2,A,58.234436855946775,A,64.79875276536636,A,3.9375,770.2737001211543,42.792983340064126,0.06801173393178601
+tensorflow/cleverhans,https://github.com/tensorflow/cleverhans.git,v0.1.0,2016-09-19
+tensorflow/cleverhans,https://github.com/tensorflow/cleverhans.git,v1.0.0,2016-11-23
+tensorflow/cleverhans,https://github.com/tensorflow/cleverhans.git,2.0.0,2017-08-23
+tensorflow/cleverhans,https://github.com/tensorflow/cleverhans.git,v.2.1.0,2018-06-18
+tensorflow/cleverhans,https://github.com/tensorflow/cleverhans.git,v.3.0.0,2018-11-21
+tensorflow/cleverhans,https://github.com/tensorflow/cleverhans.git,v.3.0.1,2018-11-27

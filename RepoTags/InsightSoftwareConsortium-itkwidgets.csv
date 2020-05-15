@@ -1,0 +1,7 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+InsightSoftwareConsortium/itkwidgets,https://github.com/InsightSoftwareConsortium/itkwidgets.git,5,2020-05-11,3003,2344,10,0,0,3,7,B,37.9262788043354,A,44.586649520428566,A,4.314401622718052,1951.4455133902134,108.41363963278963,0.20276557747984336
+InsightSoftwareConsortium/itkwidgets,https://github.com/InsightSoftwareConsortium/itkwidgets.git,v0.24.2,2020-01-09
+InsightSoftwareConsortium/itkwidgets,https://github.com/InsightSoftwareConsortium/itkwidgets.git,v0.25.0,2020-01-16
+InsightSoftwareConsortium/itkwidgets,https://github.com/InsightSoftwareConsortium/itkwidgets.git,v0.25.1,2020-01-19
+InsightSoftwareConsortium/itkwidgets,https://github.com/InsightSoftwareConsortium/itkwidgets.git,v0.25.2,2020-01-29
+InsightSoftwareConsortium/itkwidgets,https://github.com/InsightSoftwareConsortium/itkwidgets.git,v0.26.0,2020-02-27

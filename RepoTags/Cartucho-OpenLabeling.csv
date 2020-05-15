@@ -1,0 +1,6 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+Cartucho/OpenLabeling,https://github.com/Cartucho/OpenLabeling.git,4,2020-05-13,2209,1508,5,0,0,0,2,A,60.37135589288662,A,64.8269197509202,A,3.0,446.9711582658173,24.831731014767627,0.054178322214038455
+Cartucho/OpenLabeling,https://github.com/Cartucho/OpenLabeling.git,v1.0,2018-02-04
+Cartucho/OpenLabeling,https://github.com/Cartucho/OpenLabeling.git,v1.1,2018-03-08
+Cartucho/OpenLabeling,https://github.com/Cartucho/OpenLabeling.git,v1.2,2018-03-31
+Cartucho/OpenLabeling,https://github.com/Cartucho/OpenLabeling.git,v1.3,2018-09-06

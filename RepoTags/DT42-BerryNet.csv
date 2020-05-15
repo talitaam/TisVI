@@ -1,0 +1,9 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+DT42/BerryNet,https://github.com/DT42/BerryNet.git,7,2020-05-13,7520,4858,45,1,2,2,1,A,66.86780676113501,A,68.67468976587315,A,2.2222222222222223,359.8988547075411,19.994380817085617,0.04126466250649041
+DT42/BerryNet,https://github.com/DT42/BerryNet.git,v2.1.0,2017-10-09
+DT42/BerryNet,https://github.com/DT42/BerryNet.git,v2.2.0,2017-12-09
+DT42/BerryNet,https://github.com/DT42/BerryNet.git,v2.3.0,2018-07-09
+DT42/BerryNet,https://github.com/DT42/BerryNet.git,v3.4.1,2019-05-12
+DT42/BerryNet,https://github.com/DT42/BerryNet.git,v3.5.0,2019-05-19
+DT42/BerryNet,https://github.com/DT42/BerryNet.git,v3.5.1,2019-05-19
+DT42/BerryNet,https://github.com/DT42/BerryNet.git,v3.7.0,2019-07-19

@@ -1,0 +1,8 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+google/trax,https://github.com/google/trax.git,6,2020-05-14,39689,24095,162,0,0,13,2,A,69.19261063266987,A,68.19232992739134,A,2.8267045454545454,412.8813967862254,22.937855377012525,0.04796821747615625
+google/trax,https://github.com/google/trax.git,v1.1.2,2019-11-23
+google/trax,https://github.com/google/trax.git,v1.2.0,2020-01-15
+google/trax,https://github.com/google/trax.git,v1.2.1,2020-01-16
+google/trax,https://github.com/google/trax.git,v1.2.2,2020-01-17
+google/trax,https://github.com/google/trax.git,v1.2.3,2020-02-25
+google/trax,https://github.com/google/trax.git,v1.2.4,2020-04-18

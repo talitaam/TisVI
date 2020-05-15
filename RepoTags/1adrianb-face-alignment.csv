@@ -1,0 +1,5 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+1adrianb/face-alignment,https://github.com/1adrianb/face-alignment.git,3,2020-05-13,1536,1035,13,0,0,7,2,A,53.22587135727187,A,63.59642049191304,A,3.103448275862069,716.3309040905901,39.79616133836612,0.048315491650566374
+1adrianb/face-alignment,https://github.com/1adrianb/face-alignment.git,v0.1.0,2018-01-09
+1adrianb/face-alignment,https://github.com/1adrianb/face-alignment.git,v1.0.0,2018-10-12
+1adrianb/face-alignment,https://github.com/1adrianb/face-alignment.git,v1.0.1,2018-12-19

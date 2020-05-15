@@ -1,0 +1,4 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+pytorch/tnt,https://github.com/pytorch/tnt.git,2,2020-05-11,2947,1833,34,0,0,7,2,A,57.89737536513676,A,69.5834538110306,A,2.196428571428571,109.85128948276225,6.102849415709014,0.01726871868465843
+pytorch/tnt,https://github.com/pytorch/tnt.git,v0.0.5,2019-11-12
+pytorch/tnt,https://github.com/pytorch/tnt.git,0.0.5.1,2019-11-15

@@ -1,0 +1,8 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+microsoft/cascadia-code,https://github.com/microsoft/cascadia-code.git,5,2020-05-13,196,147,1,0,0,1,1,A,47.350479925402794,A,47.350479925402794,A,4.551724137931035,1634.2956922955686,90.7942051275316,0.11968327039538254
+microsoft/cascadia-code,https://github.com/microsoft/cascadia-code.git,v1909.16,2019-09-18
+microsoft/cascadia-code,https://github.com/microsoft/cascadia-code.git,v1910.04,2019-10-04
+microsoft/cascadia-code,https://github.com/microsoft/cascadia-code.git,v1911.20,2019-11-21
+microsoft/cascadia-code,https://github.com/microsoft/cascadia-code.git,v1911.21,2019-11-22
+microsoft/cascadia-code,https://github.com/microsoft/cascadia-code.git,v2004.30,2020-05-12
+microsoft/cascadia-code,https://github.com/microsoft/cascadia-code.git,v2005.15,2020-05-15

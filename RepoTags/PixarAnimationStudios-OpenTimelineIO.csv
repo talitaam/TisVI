@@ -1,0 +1,17 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+PixarAnimationStudios/OpenTimelineIO,https://github.com/PixarAnimationStudios/OpenTimelineIO.git,15,2020-05-13,32898,22242,113,0,5,13,1,A,72.5271450861073,A,75.28967674449181,A,1.5,42.793987519471216,2.377443751081734,0.009509775004326938
+PixarAnimationStudios/OpenTimelineIO,https://github.com/PixarAnimationStudios/OpenTimelineIO.git,v0.1,2016-10-25
+PixarAnimationStudios/OpenTimelineIO,https://github.com/PixarAnimationStudios/OpenTimelineIO.git,v0.2,2016-11-10
+PixarAnimationStudios/OpenTimelineIO,https://github.com/PixarAnimationStudios/OpenTimelineIO.git,v0.3,2017-01-20
+PixarAnimationStudios/OpenTimelineIO,https://github.com/PixarAnimationStudios/OpenTimelineIO.git,v0.4,2017-04-27
+PixarAnimationStudios/OpenTimelineIO,https://github.com/PixarAnimationStudios/OpenTimelineIO.git,v0.5,2017-07-28
+PixarAnimationStudios/OpenTimelineIO,https://github.com/PixarAnimationStudios/OpenTimelineIO.git,v0.6,2017-11-17
+PixarAnimationStudios/OpenTimelineIO,https://github.com/PixarAnimationStudios/OpenTimelineIO.git,v0.7,2018-02-22
+PixarAnimationStudios/OpenTimelineIO,https://github.com/PixarAnimationStudios/OpenTimelineIO.git,v0.7.1,2018-04-13
+PixarAnimationStudios/OpenTimelineIO,https://github.com/PixarAnimationStudios/OpenTimelineIO.git,v0.8,2018-07-24
+PixarAnimationStudios/OpenTimelineIO,https://github.com/PixarAnimationStudios/OpenTimelineIO.git,v0.8.1,2018-09-17
+PixarAnimationStudios/OpenTimelineIO,https://github.com/PixarAnimationStudios/OpenTimelineIO.git,v0.9,2018-11-06
+PixarAnimationStudios/OpenTimelineIO,https://github.com/PixarAnimationStudios/OpenTimelineIO.git,v0.10,2019-04-23
+PixarAnimationStudios/OpenTimelineIO,https://github.com/PixarAnimationStudios/OpenTimelineIO.git,v0.11,2019-07-22
+PixarAnimationStudios/OpenTimelineIO,https://github.com/PixarAnimationStudios/OpenTimelineIO.git,v0.12,2020-03-17
+PixarAnimationStudios/OpenTimelineIO,https://github.com/PixarAnimationStudios/OpenTimelineIO.git,v0.12.1,2020-03-27

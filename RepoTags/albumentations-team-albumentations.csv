@@ -1,0 +1,6 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+albumentations-team/albumentations,https://github.com/albumentations-team/albumentations.git,4,2020-05-14,5963,4466,25,0,4,5,2,A,39.166330952265554,A,42.89132092303014,A,2.58,376.96349633808444,20.942416463226913,0.08139940546000544
+albumentations-team/albumentations,https://github.com/albumentations-team/albumentations.git,v0.1.1,2018-09-26
+albumentations-team/albumentations,https://github.com/albumentations-team/albumentations.git,0.2.0,2019-03-04
+albumentations-team/albumentations,https://github.com/albumentations-team/albumentations.git,0.3.0,2019-06-26
+albumentations-team/albumentations,https://github.com/albumentations-team/albumentations.git,0.4.0,2019-10-14

@@ -1,0 +1,4 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+blueset/ehForwarderBot,https://github.com/blueset/ehForwarderBot.git,2,2020-05-14,5216,2994,26,0,2,4,2,A,54.32475224699338,A,57.98913974268683,A,2.071428571428571,258.16447874960284,14.3424710416446,0.0404373142062517
+blueset/ehForwarderBot,https://github.com/blueset/ehForwarderBot.git,v1.6.6,2020-01-31
+blueset/ehForwarderBot,https://github.com/blueset/ehForwarderBot.git,v2.0.0,2020-01-31

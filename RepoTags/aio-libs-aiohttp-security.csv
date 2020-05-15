@@ -1,0 +1,4 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+aio-libs/aiohttp-security,https://github.com/aio-libs/aiohttp-security.git,2,2020-05-13,1572,1117,20,0,0,5,1,A,63.82559624361131,A,71.93094719856649,A,1.0714285714285714,31.380065449191978,1.7433369693995542,0.009143856189774724
+aio-libs/aiohttp-security,https://github.com/aio-libs/aiohttp-security.git,v0.1.2,2017-10-17
+aio-libs/aiohttp-security,https://github.com/aio-libs/aiohttp-security.git,v0.2.0,2018-05-20

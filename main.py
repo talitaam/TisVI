@@ -120,10 +120,11 @@ def main():
         fileFinalFiltrado = open("finalFiltrado.csv", 'r')
         finalFiltrado = csv.reader(fileFinalFiltrado)
         contNode = 0
-        print(contNode)
-        print(lastline)
+        print("\nQuant total repos para analisar: " + str(lastline - 1))
+        print("Quant files em RepoTags: " + str(contRepo) + "\n")
         owner=""
         name=""
+        print("Checking: \n")
         if(contRepo <= lastline-1):        
             for node in finalFiltrado:
                 if contNode > 0:
@@ -131,14 +132,14 @@ def main():
                     owner = splitOwnerName[0]
                     name = splitOwnerName[1]
                 checkFile = path + "/" + owner + "-" + name + ".csv"
-                print(checkFile)
-                print("contNode: " + str(contNode) + " >= conteRepo: " + str(contRepo) + " ?")
+                #print("contNode: " + str(contNode) + " >= conteRepo: " + str(contRepo) + " ?")
                 if ((not os.path.exists(checkFile) or (contNode > contRepo)) and contNode!=0):
                     print("\n--->>> Novo repositório: "+ node[0])
                     if not os.path.exists(checkFile):
                         contRepo +=1
                     createRepoTag = searchGraphQL.searchAttributes()
                     createRepoTag.createBaseOrTagFile("tag", path, owner, name, node)
+                print("OK - " + checkFile)
                 contNode += 1
 
         print("\n ------ Fim geração dos arquivos .csv com tags------- \n")

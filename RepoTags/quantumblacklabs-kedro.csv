@@ -1,0 +1,16 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+quantumblacklabs/kedro,https://github.com/quantumblacklabs/kedro.git,14,2020-05-13,38535,22399,149,4,36,42,2,A,65.41473103375895,A,63.49140293164267,A,2.2,330.8194695191899,18.378859417732773,0.05263037015078021
+quantumblacklabs/kedro,https://github.com/quantumblacklabs/kedro.git,0.14.0,2019-06-03
+quantumblacklabs/kedro,https://github.com/quantumblacklabs/kedro.git,0.14.1,2019-06-03
+quantumblacklabs/kedro,https://github.com/quantumblacklabs/kedro.git,0.14.2,2019-06-11
+quantumblacklabs/kedro,https://github.com/quantumblacklabs/kedro.git,0.14.3,2019-06-26
+quantumblacklabs/kedro,https://github.com/quantumblacklabs/kedro.git,0.15.0,2019-08-13
+quantumblacklabs/kedro,https://github.com/quantumblacklabs/kedro.git,0.15.1,2019-09-12
+quantumblacklabs/kedro,https://github.com/quantumblacklabs/kedro.git,0.15.2,2019-10-08
+quantumblacklabs/kedro,https://github.com/quantumblacklabs/kedro.git,0.15.3,2019-10-17
+quantumblacklabs/kedro,https://github.com/quantumblacklabs/kedro.git,0.15.4,2019-10-30
+quantumblacklabs/kedro,https://github.com/quantumblacklabs/kedro.git,0.15.5,2019-12-12
+quantumblacklabs/kedro,https://github.com/quantumblacklabs/kedro.git,0.15.6,2020-02-26
+quantumblacklabs/kedro,https://github.com/quantumblacklabs/kedro.git,0.15.7,2020-02-26
+quantumblacklabs/kedro,https://github.com/quantumblacklabs/kedro.git,0.15.8,2020-03-05
+quantumblacklabs/kedro,https://github.com/quantumblacklabs/kedro.git,0.15.9,2020-04-06
