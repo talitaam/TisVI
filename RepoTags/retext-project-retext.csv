@@ -1,7 +1,0 @@
-nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
-retext-project/retext,https://github.com/retext-project/retext.git,5,2020-05-13,5061,3523,24,0,0,3,2,A,62.01335513093278,A,62.01335513093278,A,3.640837104072398,806.4230819179558,44.80128232877532,0.07114409216884252
-retext-project/retext,https://github.com/retext-project/retext.git,7.0.0,2017-02-13
-retext-project/retext,https://github.com/retext-project/retext.git,7.0.1,2019-05-14
-retext-project/retext,https://github.com/retext-project/retext.git,7.0.2,2019-05-14
-retext-project/retext,https://github.com/retext-project/retext.git,7.0.4,2019-05-14
-retext-project/retext,https://github.com/retext-project/retext.git,7.1.0,2020-04-04

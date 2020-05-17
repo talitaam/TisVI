@@ -1,9 +1,0 @@
-nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
-quantopian/empyrical,https://github.com/quantopian/empyrical.git,7,2020-05-12,7173,3910,8,0,1,5,3,A,37.15789396558413,A,42.32047956048874,A,6.556901240863505,6939.335139854739,385.51861888081885,0.34550359797280394
-quantopian/empyrical,https://github.com/quantopian/empyrical.git,0.4.0,2018-02-23
-quantopian/empyrical,https://github.com/quantopian/empyrical.git,0.4.1,2018-03-12
-quantopian/empyrical,https://github.com/quantopian/empyrical.git,0.4.2,2018-03-12
-quantopian/empyrical,https://github.com/quantopian/empyrical.git,0.4.3,2018-05-02
-quantopian/empyrical,https://github.com/quantopian/empyrical.git,0.5.0,2019-08-15
-quantopian/empyrical,https://github.com/quantopian/empyrical.git,0.5.2,2019-08-15
-quantopian/empyrical,https://github.com/quantopian/empyrical.git,0.5.3,2019-08-27

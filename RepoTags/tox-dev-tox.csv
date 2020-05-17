@@ -1,0 +1,9 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+tox-dev/tox,https://github.com/tox-dev/tox.git,7,2020-05-13,10469,8378,75,0,6,13,2,A,54.478961410300705,A,60.516115660422166,A,1.8,164.4777326328885,9.13765181293825,0.026409525009134644
+tox-dev/tox,https://github.com/tox-dev/tox.git,3.5.0,2018-10-08
+tox-dev/tox,https://github.com/tox-dev/tox.git,3.7.0,2019-02-28
+tox-dev/tox,https://github.com/tox-dev/tox.git,3.8.6,2019-04-12
+tox-dev/tox,https://github.com/tox-dev/tox.git,3.12.1,2019-06-24
+tox-dev/tox,https://github.com/tox-dev/tox.git,3.13.0,2019-06-25
+tox-dev/tox,https://github.com/tox-dev/tox.git,3.13.2,2019-07-04
+tox-dev/tox,https://github.com/tox-dev/tox.git,3.13.1,2019-07-04

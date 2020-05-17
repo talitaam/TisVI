@@ -1,0 +1,8 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+tiangolo/full-stack-fastapi-postgresql,https://github.com/tiangolo/full-stack-fastapi-postgresql.git,6,2020-05-14,1767,1288,36,0,11,10,1,A,72.0809454748464,A,77.28577533341095,A,0.5,2.6887218755408675,0.14937343753004817,0.0015849625007211565
+tiangolo/full-stack-fastapi-postgresql,https://github.com/tiangolo/full-stack-fastapi-postgresql.git,0.2.0,2019-03-11
+tiangolo/full-stack-fastapi-postgresql,https://github.com/tiangolo/full-stack-fastapi-postgresql.git,0.2.1,2019-03-29
+tiangolo/full-stack-fastapi-postgresql,https://github.com/tiangolo/full-stack-fastapi-postgresql.git,0.2.2,2019-04-11
+tiangolo/full-stack-fastapi-postgresql,https://github.com/tiangolo/full-stack-fastapi-postgresql.git,0.3.0,2019-04-19
+tiangolo/full-stack-fastapi-postgresql,https://github.com/tiangolo/full-stack-fastapi-postgresql.git,0.4.0,2019-05-29
+tiangolo/full-stack-fastapi-postgresql,https://github.com/tiangolo/full-stack-fastapi-postgresql.git,0.5.0,2020-04-19
