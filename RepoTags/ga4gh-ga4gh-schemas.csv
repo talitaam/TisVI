@@ -1,0 +1,14 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+ga4gh/ga4gh-schemas,https://github.com/ga4gh/ga4gh-schemas.git,12,2020-04-11,1223,780,11,4,5,27,2,A,68.65302482945017,A,89.53169437900502,A,0.5,2.3774437510817346,0.1320802083934297,0.0015849625007211565
+ga4gh/ga4gh-schemas,https://github.com/ga4gh/ga4gh-schemas.git,v0.5,2014-07-28
+ga4gh/ga4gh-schemas,https://github.com/ga4gh/ga4gh-schemas.git,v0.5.1,2014-10-02
+ga4gh/ga4gh-schemas,https://github.com/ga4gh/ga4gh-schemas.git,v0.6.0a1,2015-12-15
+ga4gh/ga4gh-schemas,https://github.com/ga4gh/ga4gh-schemas.git,v0.6.0a2,2016-02-26
+ga4gh/ga4gh-schemas,https://github.com/ga4gh/ga4gh-schemas.git,v0.6.0a3,2016-03-02
+ga4gh/ga4gh-schemas,https://github.com/ga4gh/ga4gh-schemas.git,v0.6.0a4,2016-04-08
+ga4gh/ga4gh-schemas,https://github.com/ga4gh/ga4gh-schemas.git,v0.6.0a5,2016-06-24
+ga4gh/ga4gh-schemas,https://github.com/ga4gh/ga4gh-schemas.git,v0.6.0a6,2016-07-27
+ga4gh/ga4gh-schemas,https://github.com/ga4gh/ga4gh-schemas.git,v0.6.0a7,2016-08-30
+ga4gh/ga4gh-schemas,https://github.com/ga4gh/ga4gh-schemas.git,v0.6.0a8,2016-10-27
+ga4gh/ga4gh-schemas,https://github.com/ga4gh/ga4gh-schemas.git,v0.6.0a9,2017-01-24
+ga4gh/ga4gh-schemas,https://github.com/ga4gh/ga4gh-schemas.git,v0.6.0a10,2017-03-14

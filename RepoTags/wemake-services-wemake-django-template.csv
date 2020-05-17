@@ -1,4 +1,0 @@
-nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
-wemake-services/wemake-django-template,https://github.com/wemake-services/wemake-django-template.git,2,2020-05-13,691,364,15,0,4,14,2,A,88.06012917978572,A,91.78326913990742,A,0.5,3.1699250014423126,0.17610694452457293,0.002113283334294875
-wemake-services/wemake-django-template,https://github.com/wemake-services/wemake-django-template.git,goodbye-pipenv,2018-11-16
-wemake-services/wemake-django-template,https://github.com/wemake-services/wemake-django-template.git,django-one,2019-06-05

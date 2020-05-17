@@ -1,0 +1,4 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+ageitgey/face_recognition,https://github.com/ageitgey/face_recognition.git,2,2020-05-13,2078,1037,12,0,0,18,3,A,64.30778406864911,A,63.12982989756584,A,3.2505060728744937,970.8585332068282,53.93658517815712,0.08608318675784331
+ageitgey/face_recognition,https://github.com/ageitgey/face_recognition.git,v0.1.12,2017-04-13
+ageitgey/face_recognition,https://github.com/ageitgey/face_recognition.git,v1.2.2,2018-04-02

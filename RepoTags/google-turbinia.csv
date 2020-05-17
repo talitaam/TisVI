@@ -1,8 +1,0 @@
-nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
-google/turbinia,https://github.com/google/turbinia.git,6,2020-05-13,13952,7468,89,0,3,5,3,A,83.00248762461352,A,83.56818648357594,A,0.5,2.3774437510817346,0.1320802083934297,0.0015849625007211565
-google/turbinia,https://github.com/google/turbinia.git,20181004.2,2019-03-22
-google/turbinia,https://github.com/google/turbinia.git,20190819,2019-08-20
-google/turbinia,https://github.com/google/turbinia.git,20190819.1,2019-09-25
-google/turbinia,https://github.com/google/turbinia.git,20190819.2,2019-12-09
-google/turbinia,https://github.com/google/turbinia.git,20190819.3,2019-12-11
-google/turbinia,https://github.com/google/turbinia.git,20190819.5,2020-02-08

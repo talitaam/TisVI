@@ -1,9 +1,0 @@
-nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
-qubvel/efficientnet,https://github.com/qubvel/efficientnet.git,7,2020-05-14,1146,787,6,0,0,5,2,A,73.36090618171735,A,75.59457464562371,A,1.75,90.80482023721841,5.044712235401023,0.013655261428220697
-qubvel/efficientnet,https://github.com/qubvel/efficientnet.git,v0.0.1,2019-05-31
-qubvel/efficientnet,https://github.com/qubvel/efficientnet.git,v0.0.4,2019-07-16
-qubvel/efficientnet,https://github.com/qubvel/efficientnet.git,v1.0.0b1,2019-08-02
-qubvel/efficientnet,https://github.com/qubvel/efficientnet.git,v1.0.0b2,2019-08-05
-qubvel/efficientnet,https://github.com/qubvel/efficientnet.git,v1.0.0b3,2019-08-08
-qubvel/efficientnet,https://github.com/qubvel/efficientnet.git,v1.0.0,2019-10-04
-qubvel/efficientnet,https://github.com/qubvel/efficientnet.git,v1.1.0,2020-02-28

@@ -1,9 +1,0 @@
-nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
-IBM/AIF360,https://github.com/IBM/AIF360.git,7,2020-05-13,14882,7828,91,0,4,19,3,A,63.78870170482947,A,68.77409010866167,A,3.1666666666666665,384.59309460855474,21.366283033808596,0.04392317422778761
-IBM/AIF360,https://github.com/IBM/AIF360.git,v0.1.0,2018-09-18
-IBM/AIF360,https://github.com/IBM/AIF360.git,v0.1.1,2018-09-18
-IBM/AIF360,https://github.com/IBM/AIF360.git,v0.2.0,2019-01-23
-IBM/AIF360,https://github.com/IBM/AIF360.git,v0.2.1,2019-08-13
-IBM/AIF360,https://github.com/IBM/AIF360.git,v0.2.2,2019-09-16
-IBM/AIF360,https://github.com/IBM/AIF360.git,v0.2.3,2020-03-09
-IBM/AIF360,https://github.com/IBM/AIF360.git,v0.3.0rc0,2020-04-03

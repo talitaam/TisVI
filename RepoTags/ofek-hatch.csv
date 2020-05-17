@@ -1,4 +1,0 @@
-nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
-ofek/hatch,https://github.com/ofek/hatch.git,2,2020-05-13,10948,8243,81,0,8,12,3,A,54.71263685380501,A,59.432872975758926,A,1.4,111.4694169837047,6.192745387983595,0.020836749843245433
-ofek/hatch,https://github.com/ofek/hatch.git,0.11.0,2017-09-13
-ofek/hatch,https://github.com/ofek/hatch.git,0.23.0,2019-10-21

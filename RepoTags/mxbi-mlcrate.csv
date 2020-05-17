@@ -1,4 +1,0 @@
-nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
-mxbi/mlcrate,https://github.com/mxbi/mlcrate.git,2,2020-05-11,731,397,8,0,0,1,3,A,62.85215887768939,A,72.61202333264647,A,3.498076923076923,477.47475803136757,26.52637544618709,0.04591863683729739
-mxbi/mlcrate,https://github.com/mxbi/mlcrate.git,v0.1.0,2018-01-30
-mxbi/mlcrate,https://github.com/mxbi/mlcrate.git,v0.2.0,2018-09-23

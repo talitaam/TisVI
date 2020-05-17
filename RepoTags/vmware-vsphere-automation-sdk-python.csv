@@ -1,0 +1,11 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+vmware/vsphere-automation-sdk-python,https://github.com/vmware/vsphere-automation-sdk-python.git,9,2020-05-04,18746,11297,134,0,1,63,2,A,65.38219554066288,A,77.75176230273053,A,1.0931677018633539,36.0,2.0,0.008
+vmware/vsphere-automation-sdk-python,https://github.com/vmware/vsphere-automation-sdk-python.git,v6.6.1,2017-08-29
+vmware/vsphere-automation-sdk-python,https://github.com/vmware/vsphere-automation-sdk-python.git,v6.6.2,2017-12-06
+vmware/vsphere-automation-sdk-python,https://github.com/vmware/vsphere-automation-sdk-python.git,v6.7.0,2018-04-17
+vmware/vsphere-automation-sdk-python,https://github.com/vmware/vsphere-automation-sdk-python.git,6.8.0,2018-05-16
+vmware/vsphere-automation-sdk-python,https://github.com/vmware/vsphere-automation-sdk-python.git,v6.8.1,2018-09-21
+vmware/vsphere-automation-sdk-python,https://github.com/vmware/vsphere-automation-sdk-python.git,v6.8.7,2019-05-31
+vmware/vsphere-automation-sdk-python,https://github.com/vmware/vsphere-automation-sdk-python.git,v6.9.1,2019-09-17
+vmware/vsphere-automation-sdk-python,https://github.com/vmware/vsphere-automation-sdk-python.git,7.0.0.0,2020-02-05
+vmware/vsphere-automation-sdk-python,https://github.com/vmware/vsphere-automation-sdk-python.git,7.0.0.1,2020-04-14

@@ -1,6 +1,0 @@
-nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
-Berkeley-Reject/Encrypted-DNS,https://github.com/Berkeley-Reject/Encrypted-DNS.git,3,2020-05-12,797,616,11,0,0,5,3,A,60.229853451221764,A,60.229853451221764,A,1.5,83.25989365817458,4.625549647676365,0.01729715809318649
-Berkeley-Reject/Encrypted-DNS,https://github.com/Berkeley-Reject/Encrypted-DNS.git,1.0.0,2019-11-29
-Berkeley-Reject/Encrypted-DNS,https://github.com/Berkeley-Reject/Encrypted-DNS.git,1.1.0,2019-12-08
-Berkeley-Reject/Encrypted-DNS,https://github.com/Berkeley-Reject/Encrypted-DNS.git,1.1.3,2019-12-09
-Berkeley-Reject/Encrypted-DNS,https://github.com/Berkeley-Reject/Encrypted-DNS.git,1.2.0,2020-05-14

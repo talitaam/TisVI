@@ -1,6 +1,0 @@
-nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
-pywren/pywren,https://github.com/pywren/pywren.git,4,2020-05-04,8250,4888,43,1,1,10,2,A,70.73007080116673,A,74.44938052505789,A,1.5,48.0,2.6666666666666665,0.013287712379549451
-pywren/pywren,https://github.com/pywren/pywren.git,v0.3.0,2017-09-07
-pywren/pywren,https://github.com/pywren/pywren.git,v0.2,2017-09-07
-pywren/pywren,https://github.com/pywren/pywren.git,v0.1,2017-09-07
-pywren/pywren,https://github.com/pywren/pywren.git,v0.4,2018-11-14

@@ -1,0 +1,4 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+nucypher/nucypher,https://github.com/nucypher/nucypher.git,2,2020-05-13,50743,32964,213,0,6,38,2,A,58.54006497729394,A,64.87983077928851,A,2.4,387.40946836672924,21.52274824259607,0.05142907501778852
+nucypher/nucypher,https://github.com/nucypher/nucypher.git,v0.1.0-alpha.21,2019-03-27
+nucypher/nucypher,https://github.com/nucypher/nucypher.git,v0.1.0-alpha.22,2019-04-07

@@ -1,0 +1,13 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+opencv/cvat,https://github.com/opencv/cvat.git,11,2020-05-13,30509,24221,192,0,12,71,2,A,68.99665210268593,A,68.99665210268593,A,1.7142857142857142,74.6578764577456,4.147659803208089,0.01556242337393865
+opencv/cvat,https://github.com/opencv/cvat.git,v0.3.0,2018-12-29
+opencv/cvat,https://github.com/opencv/cvat.git,v0.4.0,2019-05-04
+opencv/cvat,https://github.com/opencv/cvat.git,v0.4.1,2019-05-14
+opencv/cvat,https://github.com/opencv/cvat.git,v0.5.0,2019-09-12
+opencv/cvat,https://github.com/opencv/cvat.git,v0.5.1,2019-10-17
+opencv/cvat,https://github.com/opencv/cvat.git,v0.5.2,2019-12-16
+opencv/cvat,https://github.com/opencv/cvat.git,v0.6.0,2020-03-15
+opencv/cvat,https://github.com/opencv/cvat.git,v0.6.1,2020-03-21
+opencv/cvat,https://github.com/opencv/cvat.git,v1.0.0-alpha,2020-03-31
+opencv/cvat,https://github.com/opencv/cvat.git,v1.0.0-beta.1,2020-04-15
+opencv/cvat,https://github.com/opencv/cvat.git,v1.0.0-beta.2,2020-04-30

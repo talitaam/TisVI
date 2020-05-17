@@ -22,7 +22,7 @@ import searchGraphQL
 
 
 TIME_LIMIT_TO_FIND_LOC = 1200  # seconds
-TIMESLEEP = 10  # seconds
+TIMESLEEP = 60  # seconds
 
 
 # How many rows are already written in final.csv

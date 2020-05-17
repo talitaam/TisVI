@@ -1,5 +1,0 @@
-nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
-openshift/openshift-ansible-contrib,https://github.com/openshift/openshift-ansible-contrib.git,3,2020-05-13,6916,5119,22,15,0,3,3,A,48.78626384810037,A,49.07927102139892,A,5.861538461538462,2694.9748198743137,149.72082332635077,0.12767712947736704
-openshift/openshift-ansible-contrib,https://github.com/openshift/openshift-ansible-contrib.git,v3.5.0,2017-08-02
-openshift/openshift-ansible-contrib,https://github.com/openshift/openshift-ansible-contrib.git,v3.6.0,2017-10-04
-openshift/openshift-ansible-contrib,https://github.com/openshift/openshift-ansible-contrib.git,v3.7.0,2018-01-02

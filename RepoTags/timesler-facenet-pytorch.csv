@@ -1,4 +1,0 @@
-nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
-timesler/facenet-pytorch,https://github.com/timesler/facenet-pytorch.git,2,2020-05-13,1890,1259,7,0,0,2,2,A,34.98071716392973,A,52.56675232708598,A,5.365853658536586,1982.5,110.13888888888889,0.10166666666666667
-timesler/facenet-pytorch,https://github.com/timesler/facenet-pytorch.git,v0.5.0,2019-11-14
-timesler/facenet-pytorch,https://github.com/timesler/facenet-pytorch.git,v1.0.1,2019-12-15

@@ -1,0 +1,10 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+NVIDIA/OpenSeq2Seq,https://github.com/NVIDIA/OpenSeq2Seq.git,8,2020-05-13,32683,20700,137,1,10,83,2,A,52.154459375694316,A,61.12224446741484,A,4.078947368421052,1014.520693239985,56.36226073555472,0.084929936956351
+NVIDIA/OpenSeq2Seq,https://github.com/NVIDIA/OpenSeq2Seq.git,v0.2,2018-04-26
+NVIDIA/OpenSeq2Seq,https://github.com/NVIDIA/OpenSeq2Seq.git,v0.3,2018-05-31
+NVIDIA/OpenSeq2Seq,https://github.com/NVIDIA/OpenSeq2Seq.git,v0.4,2018-06-29
+NVIDIA/OpenSeq2Seq,https://github.com/NVIDIA/OpenSeq2Seq.git,v0.5,2018-07-27
+NVIDIA/OpenSeq2Seq,https://github.com/NVIDIA/OpenSeq2Seq.git,v18.09,2018-08-30
+NVIDIA/OpenSeq2Seq,https://github.com/NVIDIA/OpenSeq2Seq.git,v18.10,2018-09-24
+NVIDIA/OpenSeq2Seq,https://github.com/NVIDIA/OpenSeq2Seq.git,18.11,2018-10-31
+NVIDIA/OpenSeq2Seq,https://github.com/NVIDIA/OpenSeq2Seq.git,18.12,2018-11-30

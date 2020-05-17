@@ -1,0 +1,14 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+commonmark/commonmark-spec,https://github.com/commonmark/commonmark-spec.git,12,2020-05-13,377,294,3,0,0,0,3,A,44.60409947952425,A,54.08664494741089,A,4.5,3882.8410383055457,215.71339101697475,0.2311214903753301
+commonmark/commonmark-spec,https://github.com/commonmark/commonmark-spec.git,0.16,2015-01-15
+commonmark/commonmark-spec,https://github.com/commonmark/commonmark-spec.git,0.17,2015-01-25
+commonmark/commonmark-spec,https://github.com/commonmark/commonmark-spec.git,0.18,2015-03-04
+commonmark/commonmark-spec,https://github.com/commonmark/commonmark-spec.git,0.19,2015-04-29
+commonmark/commonmark-spec,https://github.com/commonmark/commonmark-spec.git,0.20,2015-06-08
+commonmark/commonmark-spec,https://github.com/commonmark/commonmark-spec.git,0.21,2015-07-15
+commonmark/commonmark-spec,https://github.com/commonmark/commonmark-spec.git,0.23,2015-12-29
+commonmark/commonmark-spec,https://github.com/commonmark/commonmark-spec.git,0.24,2016-01-13
+commonmark/commonmark-spec,https://github.com/commonmark/commonmark-spec.git,0.25,2016-07-15
+commonmark/commonmark-spec,https://github.com/commonmark/commonmark-spec.git,0.26,2016-07-15
+commonmark/commonmark-spec,https://github.com/commonmark/commonmark-spec.git,0.28,2017-08-02
+commonmark/commonmark-spec,https://github.com/commonmark/commonmark-spec.git,0.29,2019-04-08
