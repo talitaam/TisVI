@@ -1,9 +1,0 @@
-nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
-zentralopensource/zentral,https://github.com/zentralopensource/zentral.git,6,2020-05-11,44017,35576,521,2,55,55,1,A,100.0,A,100.0,A,0,0,0.0,0.0
-zentralopensource/zentral,https://github.com/zentralopensource/zentral.git,v0.3.0,2017-03-02
-zentralopensource/zentral,https://github.com/zentralopensource/zentral.git,v0.4.0,2017-04-10
-zentralopensource/zentral,https://github.com/zentralopensource/zentral.git,v0.5.0-beta.0,2019-06-11
-zentralopensource/zentral,https://github.com/zentralopensource/zentral.git,v0.5.0-beta.1,2019-09-18
-zentralopensource/zentral,https://github.com/zentralopensource/zentral.git,v0.6.0-beta0,2019-09-18
-zentralopensource/zentral,https://github.com/zentralopensource/zentral.git,v0.6.0-beta.1,2019-09-29
-zentralopensource/zentral,https://github.com/zentralopensource/zentral.git,v0.7.0-beta.0,2020-05-14

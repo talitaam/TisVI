@@ -1,0 +1,10 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+seperman/deepdiff,https://github.com/seperman/deepdiff.git,8,2020-05-12,4016,2778,14,0,0,4,2,A,37.60082475811446,A,44.95549811531798,A,4.060498883097543,1567.3179225423073,87.07321791901707,0.17085251703107407
+seperman/deepdiff,https://github.com/seperman/deepdiff.git,4.0.0,2019-03-20
+seperman/deepdiff,https://github.com/seperman/deepdiff.git,4.0.4,2019-04-05
+seperman/deepdiff,https://github.com/seperman/deepdiff.git,4.0.5,2019-04-07
+seperman/deepdiff,https://github.com/seperman/deepdiff.git,4.0.6,2019-04-13
+seperman/deepdiff,https://github.com/seperman/deepdiff.git,4.0.7,2019-07-12
+seperman/deepdiff,https://github.com/seperman/deepdiff.git,4.2.0,2020-01-30
+seperman/deepdiff,https://github.com/seperman/deepdiff.git,4.3.1,2020-03-11
+seperman/deepdiff,https://github.com/seperman/deepdiff.git,4.3.2,2020-03-19

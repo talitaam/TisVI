@@ -1,0 +1,8 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+shirosaidev/stocksight,https://github.com/shirosaidev/stocksight.git,6,2020-05-13,1294,1004,2,0,0,0,10,B,29.049580091019628,A,31.146083581375827,A,9.850305833586088,34228.952043705234,1901.608446872513,0.9898579508174775
+shirosaidev/stocksight,https://github.com/shirosaidev/stocksight.git,v0.1-b.5,2019-01-11
+shirosaidev/stocksight,https://github.com/shirosaidev/stocksight.git,v0.1-b.6,2019-07-16
+shirosaidev/stocksight,https://github.com/shirosaidev/stocksight.git,v0.1-b.7,2019-10-25
+shirosaidev/stocksight,https://github.com/shirosaidev/stocksight.git,v0.1-b.8,2019-10-26
+shirosaidev/stocksight,https://github.com/shirosaidev/stocksight.git,v0.1-b.9,2019-10-27
+shirosaidev/stocksight,https://github.com/shirosaidev/stocksight.git,v0.1-b.10,2020-03-29
