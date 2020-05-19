@@ -1,0 +1,5 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+RiotGames/cloud-inquisitor,https://github.com/RiotGames/cloud-inquisitor.git,3,2020-04-22,15710,10701,96,0,3,22,2,A,52.70459465371046,A,63.45025802574422,A,1.5,87.86557928963327,4.881421071646293,0.015995435173714146
+RiotGames/cloud-inquisitor,https://github.com/RiotGames/cloud-inquisitor.git,1.0.0,2017-11-28,7422,4519,45,0,5,5,2,A,50.373701609844815,A,64.63310800346487,A,1.5,97.08755051246888,5.393752806248271,0.01850219859070546
+RiotGames/cloud-inquisitor,https://github.com/RiotGames/cloud-inquisitor.git,1.0.1,2017-12-05,7422,4519,45,0,5,5,2,A,50.373701609844815,A,64.63310800346487,A,1.5,97.08755051246888,5.393752806248271,0.01850219859070546
+RiotGames/cloud-inquisitor,https://github.com/RiotGames/cloud-inquisitor.git,2.2.0,2018-09-24,10380,6324,69,0,2,7,2,A,57.707549158240575,A,68.46297628651273,A,1.3333333333333333,42.793987519471216,2.377443751081734,0.010293634714211216

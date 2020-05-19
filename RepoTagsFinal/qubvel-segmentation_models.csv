@@ -1,0 +1,6 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+qubvel/segmentation_models,https://github.com/qubvel/segmentation_models.git,4,2020-05-13,3743,2180,19,0,2,4,2,A,57.0813245601452,A,67.70659304195331,A,2.8947368421052633,380.3632851190636,21.131293617725756,0.04905374780501027
+qubvel/segmentation_models,https://github.com/qubvel/segmentation_models.git,v0.2.1,2019-05-23,4101,2335,27,0,0,9,3,A,61.18287476537426,A,71.46027640683874,A,3.0,297.2954412424865,16.51641340236036,0.044594316186372975
+qubvel/segmentation_models,https://github.com/qubvel/segmentation_models.git,v1.0.0b1,2019-08-09,3733,2173,19,0,2,4,2,A,57.417627921469254,A,68.01713881831984,A,2.8947368421052633,380.3632851190636,21.131293617725756,0.04905374780501027
+qubvel/segmentation_models,https://github.com/qubvel/segmentation_models.git,v1.0.0,2019-10-15,3733,2173,19,0,2,4,2,A,57.225504945778056,A,68.01713881831984,A,2.8947368421052633,380.3632851190636,21.131293617725756,0.04905374780501027
+qubvel/segmentation_models,https://github.com/qubvel/segmentation_models.git,1.0.1,2020-01-10,3733,2173,19,0,2,4,2,A,57.225504945778056,A,68.01713881831984,A,2.8947368421052633,380.3632851190636,21.131293617725756,0.04905374780501027
