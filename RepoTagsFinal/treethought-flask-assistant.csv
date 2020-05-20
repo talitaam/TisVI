@@ -1,0 +1,5 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+treethought/flask-assistant,https://github.com/treethought/flask-assistant.git,3,2020-05-04,3266,2218,22,0,4,4,1,A,60.58150815397687,A,60.58150815397687,A,1.0,23.00977500432694,1.2783208335737188,0.010839850002884625
+treethought/flask-assistant,https://github.com/treethought/flask-assistant.git,v0.2.8,2017-06-02,2271,1514,15,0,3,4,1,A,59.07945025375009,A,60.3900582983012,A,1.0,27.0,1.5,0.009
+treethought/flask-assistant,https://github.com/treethought/flask-assistant.git,v0.2.6,2017-06-02,1913,1302,14,0,2,4,1,A,58.670399296917125,A,60.00681360415419,A,1.0,21.25488750216347,1.180827083453526,0.008711032383086407
+treethought/flask-assistant,https://github.com/treethought/flask-assistant.git,v0.3.1,2018-12-17,3183,2114,22,0,4,4,1,A,61.72896307018123,A,62.82126736637674,A,1.0,29.441343573651118,1.6356301985361732,0.012983706192659351

@@ -1,0 +1,4 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+splunk/splunk-ansible,https://github.com/splunk/splunk-ansible.git,2,2020-05-13,3059,2451,14,0,0,0,4,A,44.368788354521556,A,44.368788354521556,A,1.7543103448275863,1003.8240629872034,55.76800349928908,0.19119971418365653
+splunk/splunk-ansible,https://github.com/splunk/splunk-ansible.git,8.0.3,2020-04-15,2409,1890,13,0,0,0,3,A,56.92308554727223,A,56.92308554727223,A,1.8409090909090908,283.4086147107651,15.74492303948695,0.05202670221743513
+splunk/splunk-ansible,https://github.com/splunk/splunk-ansible.git,7.2.10.1,2020-04-28,2409,1890,13,0,0,0,3,A,56.92308554727223,A,56.92308554727223,A,1.8409090909090908,283.4086147107651,15.74492303948695,0.05202670221743513
