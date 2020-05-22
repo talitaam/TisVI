@@ -1,0 +1,9 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+google/aiyprojects-raspbian,https://github.com/google/aiyprojects-raspbian.git,7,2020-05-13,10162,5716,67,0,7,10,2,A,76.4443890261197,A,75.820463557332,A,2.0,131.57118997834996,7.309510554352776,0.019735678496752493
+google/aiyprojects-raspbian,https://github.com/google/aiyprojects-raspbian.git,voicekit,2018-01-03,2687,1377,24,0,4,0,2,A,77.0546454355869,A,75.8290542140484,A,2.0657894736842106,132.34279717602536,7.352377620890298,0.024634208743177996
+google/aiyprojects-raspbian,https://github.com/google/aiyprojects-raspbian.git,v0.9,2018-01-03,-1,-1,-1,-1,-1,-1,-1,Z,-1,Z,-1,Z,-1,-1,-1,-1
+google/aiyprojects-raspbian,https://github.com/google/aiyprojects-raspbian.git,v20180221,2018-05-05,-1,-1,-1,-1,-1,-1,-1,Z,-1,Z,-1,Z,-1,-1,-1,-1
+google/aiyprojects-raspbian,https://github.com/google/aiyprojects-raspbian.git,v20180413,2018-05-05,-1,-1,-1,-1,-1,-1,-1,Z,-1,Z,-1,Z,-1,-1,-1,-1
+google/aiyprojects-raspbian,https://github.com/google/aiyprojects-raspbian.git,v20180803,2018-08-07,-1,-1,-1,-1,-1,-1,-1,Z,-1,Z,-1,Z,-1,-1,-1,-1
+google/aiyprojects-raspbian,https://github.com/google/aiyprojects-raspbian.git,v20181116,2018-11-16,9451,5836,69,0,7,10,2,A,75.70029218130877,A,75.70029218130877,A,2.0625,171.67343933251428,9.537413296250794,0.022202638308846556
+google/aiyprojects-raspbian,https://github.com/google/aiyprojects-raspbian.git,v20191113,2019-11-14,10162,5716,67,0,7,10,2,A,76.4443890261197,A,75.820463557332,A,2.0,131.57118997834996,7.309510554352776,0.019735678496752493
