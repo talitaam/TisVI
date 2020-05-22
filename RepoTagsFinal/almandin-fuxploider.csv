@@ -1,0 +1,5 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+almandin/fuxploider,https://github.com/almandin/fuxploider.git,3,2020-05-12,469,380,2,0,0,1,5,A,34.74231788755816,A,37.17390767967162,A,5.825892857142858,2902.625514064041,161.25697300355785,0.1357571726384808
+almandin/fuxploider,https://github.com/almandin/fuxploider.git,v0.1.2,2017-07-20,275,229,2,0,0,0,2,A,40.87083569400577,A,40.87083569400577,A,4.726734449760765,5608.4208794145525,311.5789377452529,0.33006423470902896
+almandin/fuxploider,https://github.com/almandin/fuxploider.git,v0.1.3,2017-07-23,282,234,2,0,0,0,2,A,41.03680935150558,A,41.03680935150558,A,5.340144927536232,5347.977851205238,297.1098806225132,0.29029489057395813
+almandin/fuxploider,https://github.com/almandin/fuxploider.git,v1.0,2018-03-01,402,350,2,0,0,1,5,A,34.487352394163025,A,34.487352394163025,A,5.551725420199316,5291.208830252648,293.9560461251471,0.3149783105846088

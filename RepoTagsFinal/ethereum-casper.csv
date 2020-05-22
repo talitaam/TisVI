@@ -1,0 +1,4 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+ethereum/casper,https://github.com/ethereum/casper.git,2,2020-05-13,4579,3500,20,2,0,4,3,A,46.282661728844225,A,46.282661728844225,A,3.3731442205726405,1167.85705509218,64.88094750512113,0.1425868967006914
+ethereum/casper,https://github.com/ethereum/casper.git,v0.1.0,2018-05-08,2657,1897,16,2,0,4,3,A,50.822601563849545,A,50.822601563849545,A,4.136363636363637,1977.8434060218992,109.88018922343885,0.15926170322102667
+ethereum/casper,https://github.com/ethereum/casper.git,v0.2.0,2018-05-16,3373,2447,17,2,0,4,3,A,48.243498010508716,A,48.243498010508716,A,4.245562130177515,2267.7368583968923,125.98538102204958,0.18330325098733077

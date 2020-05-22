@@ -1,0 +1,11 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+pandas-ml/pandas-ml,https://github.com/pandas-ml/pandas-ml.git,9,2020-05-13,10559,7098,79,0,0,21,1,A,100.0,A,100.0,A,0,0,0.0,0.0
+pandas-ml/pandas-ml,https://github.com/pandas-ml/pandas-ml.git,v0.0.1,2015-03-01,4291,3008,51,0,0,8,1,A,73.48511293673646,A,73.99306029244136,A,0.5,2.3774437510817346,0.1320802083934297,0.0015849625007211565
+pandas-ml/pandas-ml,https://github.com/pandas-ml/pandas-ml.git,v0.1.0,2015-03-07,5530,3708,52,0,0,9,1,A,72.72472011778908,A,73.92361724711346,A,0.5,2.3774437510817346,0.1320802083934297,0.0015849625007211565
+pandas-ml/pandas-ml,https://github.com/pandas-ml/pandas-ml.git,v0.1.1,2015-03-13,5902,3965,60,0,0,10,1,A,73.48511293673646,A,74.5219226906282,A,0.5,2.3774437510817346,0.1320802083934297,0.0015849625007211565
+pandas-ml/pandas-ml,https://github.com/pandas-ml/pandas-ml.git,v0.2.0,2015-09-12,7688,5302,68,0,0,13,1,A,69.0574748143753,A,72.6824607913987,A,0.5,2.3774437510817346,0.1320802083934297,0.0015849625007211565
+pandas-ml/pandas-ml,https://github.com/pandas-ml/pandas-ml.git,v0.3.0,2015-10-22,8093,5524,71,0,0,14,1,A,69.53971606366491,A,73.15792524199827,A,0.5,2.3774437510817346,0.1320802083934297,0.0015849625007211565
+pandas-ml/pandas-ml,https://github.com/pandas-ml/pandas-ml.git,v0.4.0,2016-10-15,11416,7640,85,0,0,21,1,A,68.45630846084075,A,69.6995726992794,A,0.5,6.0,0.3333333333333333,0.003169925001442313
+pandas-ml/pandas-ml,https://github.com/pandas-ml/pandas-ml.git,v0.5.0,2017-11-16,11452,7684,85,0,0,21,2,A,68.45630846084075,A,69.53971606366491,A,0.5,6.0,0.3333333333333333,0.003169925001442313
+pandas-ml/pandas-ml,https://github.com/pandas-ml/pandas-ml.git,v0.6.0,2019-01-15,10565,7099,79,0,0,21,1,A,100.0,A,100.0,A,0,0,0.0,0.0
+pandas-ml/pandas-ml,https://github.com/pandas-ml/pandas-ml.git,v0.6.1,2019-03-05,10559,7098,79,0,0,21,1,A,100.0,A,100.0,A,0,0,0.0,0.0

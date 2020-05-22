@@ -1,0 +1,5 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+Neo23x0/yarAnalyzer,https://github.com/Neo23x0/yarAnalyzer.git,3,2020-04-18,598,410,1,0,0,0,4,A,31.347919728200125,A,31.976926487578666,A,6.923076923076923,9902.010185351612,550.1116769639784,0.47676345336878123
+Neo23x0/yarAnalyzer,https://github.com/Neo23x0/yarAnalyzer.git,v0.3.4,2015-10-05,-1,-1,-1,-1,-1,-1,-1,Z,-1,Z,-1,Z,-1,-1,-1,-1
+Neo23x0/yarAnalyzer,https://github.com/Neo23x0/yarAnalyzer.git,v0.5,2019-11-14,-1,-1,-1,-1,-1,-1,-1,Z,-1,Z,-1,Z,-1,-1,-1,-1
+Neo23x0/yarAnalyzer,https://github.com/Neo23x0/yarAnalyzer.git,v0.6,2019-11-14,598,410,1,0,0,0,4,A,31.347919728200125,A,31.976926487578666,A,6.923076923076923,9902.010185351612,550.1116769639784,0.47676345336878123

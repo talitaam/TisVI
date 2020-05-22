@@ -1,0 +1,6 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+iskandr/fancyimpute,https://github.com/iskandr/fancyimpute.git,4,2020-05-10,2674,1768,23,0,0,3,2,A,69.4458918400094,A,70.14519475690511,A,2.5454545454545454,208.4962500721156,11.583125004006423,0.02734823416925963
+iskandr/fancyimpute,https://github.com/iskandr/fancyimpute.git,v0.0.9,2016-03-07,3820,2420,29,0,0,4,2,A,64.58543436765058,A,69.4458918400094,A,4.0,417.9470570797252,23.21928094887362,0.03806675099741593
+iskandr/fancyimpute,https://github.com/iskandr/fancyimpute.git,v0.0.16,2016-05-20,3844,2429,29,0,0,4,2,A,64.42461536813715,A,69.4458918400094,A,4.0,417.9470570797252,23.21928094887362,0.03806675099741593
+iskandr/fancyimpute,https://github.com/iskandr/fancyimpute.git,v0.2.0,2017-09-06,2960,1879,23,0,0,4,2,A,65.86599463440236,A,70.35336431474494,A,4.0,414.0,23.0,0.0333594000115385
+iskandr/fancyimpute,https://github.com/iskandr/fancyimpute.git,v0.5.4,2019-10-15,2674,1768,23,0,0,3,2,A,69.4458918400094,A,70.14519475690511,A,2.5454545454545454,208.4962500721156,11.583125004006423,0.02734823416925963

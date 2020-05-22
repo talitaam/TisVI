@@ -1,29 +1,12 @@
 import csv
-import os
-import shutil
-import stat
 import time
-import requests
-from radon.raw import analyze
-from radon.metrics import mi_visit, h_visit, mi_rank
-from radon.complexity import cc_visit, average_complexity, sorted_results, cc_rank
-from radon.visitors import ComplexityVisitor, HalsteadVisitor, GET_COMPLEXITY, GET_REAL_COMPLEXITY
-from pygit2 import clone_repository
-import threading
-from statistics import median
 from math import ceil
-from git import Repo, Git
-from send2trash import send2trash
-import signal
-import threadTemp
-import findMetrics
-from json import load, loads
+import requests
 
 NUMPAGESREPO = 50
 
 class searchAttributes():
-
-    headers = {"Authorization": "Bearer YOUR KEY HERE"}
+    headers = {"Authorization": "Bearer 979ab3fa175e8a35669e835126b77f7933a6630a"}
 
     query = ""
 
@@ -39,9 +22,8 @@ class searchAttributes():
         else:
             raise Exception("Query failed to run by returning code of {}. {}".format(request.status_code, self.query))
 
-
     def createBaseOrTagFile(self, typeSearch, path, owner, name, nodeFinal):
-        if typeSearch == "base":#create base.cvs with repositories with all its releases/tags
+        if typeSearch == "base":  # create base.cvs with repositories with all its releases/tags
             print("\n -------------- Iniciando processo pesquisa base.csv GraphQl -------------- \n")
             # Query GraphQL to look for first 1000 repositories in Python over 100 stars
             self.query = """
@@ -71,9 +53,9 @@ class searchAttributes():
                 }
             }
             """
-        elif typeSearch == "tag": #create .cvs files for each repository with all its releases/tags
+        elif typeSearch == "tag":  # create .cvs files for each repository with all its releases/tags
             print("\n -------------- Iniciando processo pesquisa tags GraphQl -------------- \n")
-            self.query = "query example { repository(owner:"+ '"' + owner + '"' + ", name:" + '"' + name + '"' + "){releases(first:50 {AFTER} ){pageInfo{hasNextPage endCursor} nodes{tagName publishedAt}}}}"
+            self.query = "query example { repository(owner:" + '"' + owner + '"' + ", name:" + '"' + name + '"' + "){releases(first:50 {AFTER} ){pageInfo{hasNextPage endCursor} nodes{tagName publishedAt}}}}"
         else:
             print("erro em typeSearch -> precisa ser base ou tag: " + typeSearch)
             exit()
@@ -83,7 +65,7 @@ class searchAttributes():
         result = self.run_query(json, self.headers)  # Run Query
 
         print("Executando Query\n[", end='')
-        
+
         # split string to show only the nodes
         if typeSearch == "base":
             nodes = result["data"]["search"]["nodes"]
@@ -93,13 +75,13 @@ class searchAttributes():
             next_page = result["data"]["repository"]["releases"]["pageInfo"]["hasNextPage"]
 
         if typeSearch == "base":
-            numPages = NUMPAGESREPO #define number of pages to search for repositories for base.csv
-        elif typeSearch == "tag":            
+            numPages = NUMPAGESREPO  # define number of pages to search for repositories for base.csv
+        elif typeSearch == "tag":
             releases = int(nodeFinal[2])
             print("\nnum releases: " + str(releases))
-            numPages = ceil(releases/30) #define numger of pages to search for releases/tags (specific repositoy)
+            numPages = ceil(releases / 30)  # define numger of pages to search for releases/tags (specific repositoy)
             print("num pages: " + str(numPages))
-        
+
         total_pages = 1
         while next_page and total_pages < numPages:
             if typeSearch == "base":
@@ -118,13 +100,14 @@ class searchAttributes():
             print(".", end='')
             total_pages += 1
         print("]")
-    
+
         if typeSearch == "base":
             print("Criando arquivo base CSV")
             file = open("base.csv", 'w', newline='')
             repository = csv.writer(file)
             print("Salvando Repositorios:\n[", end='')
-            repository.writerow(('nameWithOwner', 'url', 'stars', 'releases', 'primaryLanguage', 'createdAt', 'updatedAt'))
+            repository.writerow(
+                ('nameWithOwner', 'url', 'stars', 'releases', 'primaryLanguage', 'createdAt', 'updatedAt'))
             num = 0
             for node in nodes:
                 splitCreatedAt = node['createdAt'].split('T')
@@ -132,9 +115,9 @@ class searchAttributes():
                 splitUpdatedAt = node['updatedAt'].split('T')
                 updatedAt = splitUpdatedAt[0]
                 repository.writerow((node['nameWithOwner'], str(node['url']),
-                             str(node['stargazers']['totalCount']), str(
-                                 node['releases']['totalCount']),
-                             node['primaryLanguage']['name'], str(createdAt), str(updatedAt)))
+                                     str(node['stargazers']['totalCount']), str(
+                    node['releases']['totalCount']),
+                                     node['primaryLanguage']['name'], str(createdAt), str(updatedAt)))
                 num = num + 1
                 if (num % 10) == 0:
                     print(".", end='')
@@ -152,8 +135,10 @@ class searchAttributes():
             fileTag = open(fullFilePath, 'a', newline='')
             repoTag = csv.writer(fileTag)
             print("Salvando Tags:\n[", end='')
-            repoTag.writerow(('nameWithOwner', 'url', 'tagName', 'publishedAt', 'totalLoc', 'totalSloc', 'validFiles', 'invalidFiles', 'filesNotRead', 'filesNoMetric', 'cc', 'ccRank',
-                    'miMultiFalse', 'miMultiFalseRank', 'miMultiTrue', 'miMultiTrueRank', 'difficulty', 'effort', 'timeHas', 'bugs'))
+            repoTag.writerow(('nameWithOwner', 'url', 'tagName', 'publishedAt', 'totalLoc', 'totalSloc', 'validFiles',
+                              'invalidFiles', 'filesNotRead', 'filesNoMetric', 'cc', 'ccRank',
+                              'miMultiFalse', 'miMultiFalseRank', 'miMultiTrue', 'miMultiTrueRank', 'difficulty',
+                              'effort', 'timeHas', 'bugs'))
             repoTag.writerow(nodeFinal)
             num = 0
             for node in nodes:
@@ -165,6 +150,3 @@ class searchAttributes():
                     print(".", end='')
             print("]\nProcesso concluido")
             fileTag.close()
-        
-
-

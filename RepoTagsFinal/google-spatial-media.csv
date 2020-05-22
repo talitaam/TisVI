@@ -1,0 +1,4 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+google/spatial-media,https://github.com/google/spatial-media.git,2,2020-05-10,1830,1225,7,0,0,4,3,A,55.69842215160437,A,59.371341786117455,A,5.384615384615385,1830.7432646412528,101.70795914673627,0.1525619387201044
+google/spatial-media,https://github.com/google/spatial-media.git,v2.0,2016-06-28,111,74,1,6,0,4,4,A,76.59139289986278,A,78.0467088233189,A,1.5,42.793987519471216,2.377443751081734,0.009509775004326938
+google/spatial-media,https://github.com/google/spatial-media.git,v2.1,2018-08-27,1828,1224,7,0,0,4,3,A,55.69842215160437,A,59.371341786117455,A,5.384615384615385,1830.7432646412528,101.70795914673627,0.1525619387201044
