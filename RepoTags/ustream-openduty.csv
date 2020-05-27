@@ -1,0 +1,4 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+ustream/openduty,https://github.com/ustream/openduty.git,2,2020-04-21,3800,3270,44,7,3,13,2,A,72.80834007191027,A,75.52147213284458,A,0.5,2.3774437510817346,0.1320802083934297,0.0015849625007211565
+ustream/openduty,https://github.com/ustream/openduty.git,1.0.0,2014-06-03,1583,1285,21,6,2,9,2,A,67.47267703530788,A,68.14868072197874,A,0.5,2.3774437510817346,0.1320802083934297,0.0015849625007211565
+ustream/openduty,https://github.com/ustream/openduty.git,1.1.0,2015-11-10,3789,3259,44,6,3,13,2,A,72.80834007191027,A,75.52147213284458,A,0.5,2.3774437510817346,0.1320802083934297,0.0015849625007211565

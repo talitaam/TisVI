@@ -1,0 +1,5 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+facebookresearch/detectron2,https://github.com/facebookresearch/detectron2.git,3,2020-05-14,39668,24563,183,0,4,34,3,A,55.95393298454305,A,63.50835577194861,A,3.7333333333333334,762.2515499358677,42.34730832977043,0.06965784284662087
+facebookresearch/detectron2,https://github.com/facebookresearch/detectron2.git,v0.1,2020-02-07,35130,21692,164,0,0,30,3,A,55.867283583299205,A,63.55090588842421,A,3.804924242424242,858.4659917594629,47.692555097747935,0.06969809643917588
+facebookresearch/detectron2,https://github.com/facebookresearch/detectron2.git,v0.1.1,2020-03-05,35903,22210,167,0,0,30,3,A,55.0676531758888,A,63.46999188440577,A,3.9,833.2748531566513,46.293047397591735,0.06965784284662087
+facebookresearch/detectron2,https://github.com/facebookresearch/detectron2.git,v0.1.2,2020-05-04,39572,24516,184,0,4,34,3,A,55.88638537830393,A,63.50676035828951,A,3.775757575757576,744.8517129254185,41.38065071807881,0.06917715559257007

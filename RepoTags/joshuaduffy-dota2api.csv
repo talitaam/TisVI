@@ -1,0 +1,4 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+joshuaduffy/dota2api,https://github.com/joshuaduffy/dota2api.git,2,2020-05-13,991,640,9,0,0,7,2,A,51.925994941674524,A,64.5913836316471,A,1.25,204.7334859318074,11.374082551767078,0.05640527661769311
+joshuaduffy/dota2api,https://github.com/joshuaduffy/dota2api.git,v1.2.X,2015-02-25,756,477,8,1,0,7,2,A,65.51205829095663,A,72.42343655212713,A,0.5,59.33302171598369,3.296278984221316,0.02331524571325991
+joshuaduffy/dota2api,https://github.com/joshuaduffy/dota2api.git,v1.3.1,2016-04-01,946,606,9,0,0,7,2,A,51.925994941674524,A,65.41583028049546,A,1.0,151.30376252379818,8.405764584655454,0.05043458750793273

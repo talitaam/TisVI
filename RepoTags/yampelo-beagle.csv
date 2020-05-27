@@ -1,0 +1,4 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+yampelo/beagle,https://github.com/yampelo/beagle.git,2,2020-05-07,14010,9225,80,0,11,12,2,A,60.965280281922745,A,62.87020311095719,A,1.5,91.45054179035444,5.080585655019691,0.017899678341945974
+yampelo/beagle,https://github.com/yampelo/beagle.git,v1.0.3,2019-05-01,10297,6557,56,0,10,11,2,A,59.48733165644793,A,62.501412967005095,A,1.55,114.41798358764592,6.356554643758107,0.02183696045368342
+yampelo/beagle,https://github.com/yampelo/beagle.git,v1.0.5,2019-05-28,10376,6613,56,0,10,11,2,A,59.580240419886785,A,63.00934467683585,A,1.55,110.92909716380939,6.162727620211633,0.02183696045368342

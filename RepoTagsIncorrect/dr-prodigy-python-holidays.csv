@@ -1,0 +1,13 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+dr-prodigy/python-holidays,https://github.com/dr-prodigy/python-holidays.git,11,2020-05-13,7939,4618,62,0,1,5,1,A,74.68867669088064,A,71.91480601000245,A,3.488416988416988,874.0726551623975,48.55959195346652,0.06504319006478623
+dr-prodigy/python-holidays,https://github.com/dr-prodigy/python-holidays.git,v0.2,2014-08-28,953,772,2,0,1,1,2,A,17.250715587913195,B,17.250715587913195,B,10.284049855491329,68789.45265409492,3821.6362585608285,2.4170207046143304
+dr-prodigy/python-holidays,https://github.com/dr-prodigy/python-holidays.git,v0.1,2014-08-28,884,720,2,0,1,1,3,A,19.050424570153655,A,19.050424570153655,A,9.501040218117314,61345.78184585038,3408.098991436132,2.3269870073256085
+dr-prodigy/python-holidays,https://github.com/dr-prodigy/python-holidays.git,v0.3,2014-09-04,1228,997,2,0,1,1,2,A,9.677553648883961,B,9.677553648883961,B,12.371890726096334,114649.35583647338,6369.408657581855,3.365404902528806
+dr-prodigy/python-holidays,https://github.com/dr-prodigy/python-holidays.git,v0.3.1,2014-10-09,1228,997,2,0,1,1,2,A,9.677553648883961,B,9.677553648883961,B,12.371890726096334,114649.35583647338,6369.408657581855,3.365404902528806
+dr-prodigy/python-holidays,https://github.com/dr-prodigy/python-holidays.git,v0.4,2015-10-04,-1,-1,-1,-1,-1,-1,-1,Z,-1,Z,-1,Z,-1,-1,-1,-1
+dr-prodigy/python-holidays,https://github.com/dr-prodigy/python-holidays.git,v0.4.1,2016-01-05,-1,-1,-1,-1,-1,-1,-1,Z,-1,Z,-1,Z,-1,-1,-1,-1
+dr-prodigy/python-holidays,https://github.com/dr-prodigy/python-holidays.git,v0.5,2016-09-05,-1,-1,-1,-1,-1,-1,-1,Z,-1,Z,-1,Z,-1,-1,-1,-1
+dr-prodigy/python-holidays,https://github.com/dr-prodigy/python-holidays.git,v0.6,2016-11-18,-1,-1,-1,-1,-1,-1,-1,Z,-1,Z,-1,Z,-1,-1,-1,-1
+dr-prodigy/python-holidays,https://github.com/dr-prodigy/python-holidays.git,v0.7,2017-01-12,-1,-1,-1,-1,-1,-1,-1,Z,-1,Z,-1,Z,-1,-1,-1,-1
+dr-prodigy/python-holidays,https://github.com/dr-prodigy/python-holidays.git,v0.8,2017-02-03,-1,-1,-1,-1,-1,-1,-1,Z,-1,Z,-1,Z,-1,-1,-1,-1
+dr-prodigy/python-holidays,https://github.com/dr-prodigy/python-holidays.git,v0.8.1,2017-02-12,-1,-1,-1,-1,-1,-1,-1,Z,-1,Z,-1,Z,-1,-1,-1,-1

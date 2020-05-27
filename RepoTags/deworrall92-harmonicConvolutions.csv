@@ -1,0 +1,4 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+deworrall92/harmonicConvolutions,https://github.com/deworrall92/harmonicConvolutions.git,2,2020-04-13,1990,1352,10,5,0,2,2,A,51.25992074614159,A,52.38175530253724,A,3.7626441299790354,2259.4396117445303,125.52442287469613,0.19992945264179213
+deworrall92/harmonicConvolutions,https://github.com/deworrall92/harmonicConvolutions.git,v0.1,2017-02-16,2005,1478,10,5,0,0,4,A,51.37279612798453,A,51.482428258882734,A,3.5818014705882355,634.9008155685892,35.27226753158829,0.07496819138361249
+deworrall92/harmonicConvolutions,https://github.com/deworrall92/harmonicConvolutions.git,v1.0,2017-02-16,2263,1582,10,4,0,1,2,A,50.69829849531098,A,53.828056153467,A,3.84344806763285,2259.4396117445303,125.52442287469613,0.19992945264179213

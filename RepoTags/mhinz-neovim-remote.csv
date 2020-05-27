@@ -1,0 +1,4 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+mhinz/neovim-remote,https://github.com/mhinz/neovim-remote.git,2,2020-05-13,640,504,2,0,0,2,3,A,40.7676036089004,A,44.3994730230419,A,4.256172839506172,4713.722785538773,261.8734880854874,0.202046708684595
+mhinz/neovim-remote,https://github.com/mhinz/neovim-remote.git,v1.4.0,2016-12-06,-1,-1,-1,-1,-1,-1,-1,Z,-1,Z,-1,Z,-1,-1,-1,-1
+mhinz/neovim-remote,https://github.com/mhinz/neovim-remote.git,v1.7.0,2017-06-23,443,337,2,0,0,2,3,A,51.17751497665799,A,56.552356039960344,A,3.3259493670886076,3279.5546807269643,182.1974822626091,0.17842685076288625

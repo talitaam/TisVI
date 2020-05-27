@@ -1,0 +1,6 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+kundajelab/atac_dnase_pipelines,https://github.com/kundajelab/atac_dnase_pipelines.git,4,2020-04-29,515,369,5,10,0,1,1,A,63.50906613401265,A,63.50906613401265,A,5.0476190476190474,852.8030251341352,47.37794584078529,0.047377945840785286
+kundajelab/atac_dnase_pipelines,https://github.com/kundajelab/atac_dnase_pipelines.git,0.3.0,2016-09-27,318,211,3,8,0,0,1,A,64.74600384512159,A,64.74600384512159,A,6.0,852.8030251341352,47.37794584078529,0.047377945840785286
+kundajelab/atac_dnase_pipelines,https://github.com/kundajelab/atac_dnase_pipelines.git,0.3.1,2016-09-28,318,211,3,8,0,0,1,A,64.74600384512159,A,64.74600384512159,A,6.0,852.8030251341352,47.37794584078529,0.047377945840785286
+kundajelab/atac_dnase_pipelines,https://github.com/kundajelab/atac_dnase_pipelines.git,0.3.2,2016-12-19,455,320,4,9,0,1,1,A,61.419390603110855,A,61.419390603110855,A,5.1875,1043.518375543259,57.973243085736605,0.0707074005757215
+kundajelab/atac_dnase_pipelines,https://github.com/kundajelab/atac_dnase_pipelines.git,0.3.3,2016-12-20,455,320,4,9,0,1,1,A,61.419390603110855,A,61.419390603110855,A,5.1875,1043.518375543259,57.973243085736605,0.0707074005757215
