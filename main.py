@@ -22,7 +22,7 @@ for fileName in os.listdir("RepoTags"):
     for line in repo:
         if numLine == 1:
             nameWithOwner = line[0]
-        if numLine > 2:
+        if numLine > 1:
             if line[10] == "-1":
                 numFail += 1
             if line[6] != -1 and line[7] != -1 and line[8] != -1 and line[9] != -1:
