@@ -105,8 +105,6 @@ for fileName in os.listdir("RepoTags"):
                     #print(median(bugsFile))
                     print("")
                     writeInFinalCSV(fileNamePath, nameWithOwner, median(totalLocFile), median(totalSlocFile), median(ccFile), median(miMultiFalseFile), median(miMultiTrueFile), median(difficultyFile), median(effortFile), median(timeHasFile), median(bugsFile))
-                else:
-                    writeInFinalCSV(fileNamePath, nameWithOwner, -1, -1, -1, -1, -1, -1, -1, -1, -1)
                 #time.sleep(5)
                 totalLocFile = []
                 totalSlocFile = []
@@ -160,8 +158,6 @@ for fileName in os.listdir("RepoTags"):
                     #print(median(timeHasFile))
                     #print(median(bugsFile))
                     writeInFinalCSV(fileNamePath, nameWithOwner, median(totalLocFile), median(totalSlocFile), median(ccFile), median(miMultiFalseFile), median(miMultiTrueFile), median(difficultyFile), median(effortFile), median(timeHasFile), median(bugsFile))
-                else:
-                    writeInFinalCSV(fileNamePath, nameWithOwner, -1, -1, -1, -1, -1, -1, -1, -1, -1)
                 time.sleep(5)
         numLine += 1
     fileToRead.close()

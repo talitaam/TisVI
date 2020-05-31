@@ -5,10 +5,10 @@ from statistics import median
 from math import ceil
 
 
-def writeInFinalCSV(fileNamePath, ano, valor):
+def writeInFinalCSV(fileNamePath, ano, valor, qtd):
     fileFinalTag = open(fileNamePath, 'a', newline='')
     finalTag = csv.writer(fileFinalTag)
-    finalTag.writerow((str(ano), str(valor)))
+    finalTag.writerow((str(ano), str(valor), str(qtd)))
     fileFinalTag.close()
 
 def where_stop(filePath):
@@ -72,6 +72,15 @@ for fileName in os.listdir("FinalCSV"):
                     "7": str(median(effortFile)), 
                     "8": str(median(timeHasFile)), 
                     "9": str(median(bugsFile))}
+            quantidade = {"1": str(len(totalLocFile)), 
+                    "2": str(len(totalSlocFile)), 
+                    "3": str(len(ccFile)), 
+                    "4": str(len(miMultiFalseFile)), 
+                    "5": str(len(miMultiTrueFile)), 
+                    "6": str(len(difficultyFile)), 
+                    "7": str(len(effortFile)), 
+                    "8": str(len(timeHasFile)), 
+                    "9": str(len(bugsFile))}
             print("\n---Entrou numline - " + "numlines: " + str(numLine) + " total rows: " + str(totalRows))
             yearSplit = fileName.split('.')
             year = yearSplit[0]
@@ -101,13 +110,15 @@ for fileName in os.listdir("FinalCSV"):
                 print("metric: " + metric)
                 value = values[idx]
                 print("value: " + value)
+                qtd = quantidade[idx]
+                print("qtd: " + qtd)
                 fileNamePath = os.path.join(path, metric)
                 if not os.path.exists(fileNamePath):
                     fileFinal = open(fileNamePath, 'w', newline='')
                     final = csv.writer(fileFinal)
-                    final.writerow(('Ano', 'Valor'))
+                    final.writerow(('Ano', 'Valor', 'QuantidadeRepo'))
                     fileFinal.close()
-                writeInFinalCSV(fileNamePath, year, value)     
+                writeInFinalCSV(fileNamePath, year, value, qtd)     
         numLine += 1
     fileToRead.close()
    
