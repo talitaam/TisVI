@@ -1,5 +1,6 @@
 import csv
 import os
+from statistics import median
 
 print("Iniciando processo")
 
@@ -32,7 +33,7 @@ for fileName in os.listdir("RepoTags"):
                 filesNotRead.append((int(line[8])/total)*100)
                 filesNoMetrics.append((int(line[9])/total)*100)
         numLine += 1
-    repoPercent.writerow((nameWithOwner, validFiles, invalidFiles, filesNotRead, filesNoMetrics))
+    repoPercent.writerow((nameWithOwner, median(validFiles), median(invalidFiles), median(filesNotRead), median(filesNoMetrics)))
     file.close()
     print("Fim\nfails =  ", numFail, "\ttotal = ", numLine - 2)
     if 0.5 < numFail / (numLine - 2):
