@@ -1,46 +1,170 @@
 import csv
 import os
+import time
 from statistics import median
+from math import ceil
 
-print("Iniciando processo")
 
-higherNumFail = 0
-filePercent = open("RepoPercent.csv", 'w', newline='', encoding='utf-8')
-repoPercent = csv.writer(filePercent)
-repoPercent.writerow(("nameWithOwner", "validFiles", "invalidFiles", "filesNotRead", "filesNoMetrics"))
+def writeInFinalCSV(fileNamePath, nameWithOwner, totalLoc, totalSloc, cc, miMultiFalse, miMultiTrue, difficulty, effort, timeHas, bugs):
+    fileFinalTag = open(fileNamePath, 'a', newline='')
+    finalTag = csv.writer(fileFinalTag)
+    finalTag.writerow((nameWithOwner, str(totalLoc), str(totalSloc), str(cc), str(
+        miMultiFalse), str(miMultiTrue), str(difficulty), str(effort), str(timeHas), str(bugs)))
+    fileFinalTag.close()
+
+def where_stop(filePath):
+    row = 0
+    if os.path.exists(filePath):
+        fileFinal = open(filePath, 'r')
+        row = sum(1 for line in csv.reader(fileFinal))
+        fileFinal.close()
+    return row
+
+
+totalRepo = 0
+
+path = "FinalCSV"
+
+"""
+nameWithOwner, 0
+totalLoc, 4
+totalSloc, 5
+cc, 10
+miMultiFalse, 12
+miMultiTrue, 14
+difficulty, 16
+effort, 17
+timeHas, 18
+bugs 19
+"""
+
 
 for fileName in os.listdir("RepoTags"):
+    if not os.path.exists(path):
+        os.mkdir(path)
+    totalRepo += 1
+    fileRepo = "RepoTags/" + fileName
+    totalRows = where_stop(fileRepo)
+    print("\n\n----------- Novo Repo -------------")
     print("Lendo " + fileName)
-    file = open("RepoTags/" + fileName, encoding='utf-8')
-    repo = csv.reader(file)
-    validFiles = []
-    invalidFiles = []
-    filesNotRead = []
-    filesNoMetrics = []
+    fileToRead = open(fileRepo, encoding='utf-8')
+    repo = csv.reader(fileToRead)
+    totalLocFile = []
+    totalSlocFile = []
+    ccFile = []
+    miMultiFalseFile = []
+    miMultiTrueFile = []
+    difficultyFile = []
+    effortFile = []
+    timeHasFile = []
+    bugsFile = []
     nameWithOwner = ""
     numLine = 0
-    numFail = 0
-    for line in repo:
-        if numLine == 1:
-            nameWithOwner = line[0]
+    equivYear = 0
+    actualYear = 0
+    for node in repo:
         if numLine > 1:
-            if line[10] == "-1":
-                numFail += 1
-            if line[6] != -1 and line[7] != -1 and line[8] != -1 and line[9] != -1:
-                total = int(line[6]) + int(line[7]) + int(line[8]) + int(line[9])
-                validFiles.append((int(line[6])/total)*100)
-                invalidFiles.append((int(line[7])/total)*100)
-                filesNotRead.append((int(line[8])/total)*100)
-                filesNoMetrics.append((int(line[9])/total)*100)
+            if (node[3].find('/') != -1):
+                splitDate = node[3].split('/')
+                year = int(splitDate[2])
+                print("")
+                print(year)
+            else:
+                splitDate = node[3].split('-')
+                year = int(splitDate[0])
+                print("")
+                print(year)
+            if numLine == 2:
+                nameWithOwner = node[0]
+                actualYear = year
+                equivYear = 1
+                fileYear = str(equivYear) + '.csv'
+                fileNamePath = os.path.join(path, fileYear)
+                if not os.path.exists(fileNamePath):
+                    fileFinal = open(fileNamePath, 'w', newline='')
+                    final = csv.writer(fileFinal)
+                    final.writerow(('nameWithOwner', 'totalLoc', 'totalSloc','cc', 
+                    'miMultiFalse', 'miMultiTrue', 'difficulty', 'effort', 'timeHas', 'bugs'))
+                    fileFinal.close()
+            elif (year > actualYear) or numLine == totalRows:
+                print("\n---Entrou no year - " + "year: " + str(year) + " actual year: " + str(actualYear))
+                print("Ano " + str(equivYear) + " - Repo: " + nameWithOwner)
+                #print("quantidade linhas: " + str(len(totalLocFile)))
+                #time.sleep(2)
+                if(totalLocFile):
+                    print(totalLocFile)
+                    #time.sleep(10)
+                    print(median(totalLocFile))
+                    #print(median(totalSlocFile))
+                    #print(median(ccFile))
+                    #print(median(miMultiFalseFile))
+                    #print(median(miMultiTrueFile))
+                    #print(median(difficultyFile))
+                    #print(median(effortFile))
+                    #print(median(timeHasFile))
+                    #print(median(bugsFile))
+                    print("")
+                    writeInFinalCSV(fileNamePath, nameWithOwner, median(totalLocFile), median(totalSlocFile), median(ccFile), median(miMultiFalseFile), median(miMultiTrueFile), median(difficultyFile), median(effortFile), median(timeHasFile), median(bugsFile))
+                else:
+                    writeInFinalCSV(fileNamePath, nameWithOwner, -1, -1, -1, -1, -1, -1, -1, -1, -1)
+                #time.sleep(5)
+                totalLocFile = []
+                totalSlocFile = []
+                ccFile = []
+                miMultiFalseFile = []
+                miMultiTrueFile = []
+                difficultyFile = []
+                effortFile = []
+                timeHasFile = []
+                bugsFile = []
+                actualYear = year
+                equivYear += 1
+                fileYear = str(equivYear) + '.csv'
+                fileNamePath = os.path.join(path, fileYear)
+                if not os.path.exists(fileNamePath):
+                    fileFinal = open(fileNamePath, 'w', newline='')
+                    final = csv.writer(fileFinal)
+                    final.writerow(('nameWithOwner', 'totalLoc', 'totalSloc','cc', 
+                    'miMultiFalse', 'miMultiTrue', 'difficulty', 'effort', 'timeHas', 'bugs'))
+                    fileFinal.close()
+            if str(node[10]) != "-1":
+                print("loc: " + str(node[4]) + " sloc: " + str(node[5]) + " cc: " + str(node[10]) + " miF: " + str(node[12]) + 
+                " miT: " + str(node[14]) + "\ndif: " + str(node[16]) + " eff: " + str(node[17]) + " time: " + str(node[18]) + " bug: " + str(node[19]))
+                #time.sleep(2)
+                totalLocFile.append(float(node[4]))
+                totalSlocFile.append(float(node[5]))
+                ccFile.append(float(node[10]))
+                miMultiFalseFile.append(float(node[12]))
+                miMultiTrueFile.append(float(node[14]))
+                difficultyFile.append(float(node[16]))
+                effortFile.append(float(node[17]))
+                timeHasFile.append(float(node[18]))
+                bugsFile.append(float(node[19]))
+            else:
+                print("Not valid.")
+            if numLine == totalRows-1:
+                print("\n---Entrou numline - " + "numlines: " + str(numLine) + " total rows: " + str(totalRows))
+                print("Ano " + str(equivYear) + " - Repo: " + nameWithOwner)
+                #print("quantidade linhas: " + str(len(totalLocFile)))
+                #time.sleep(2)
+                if(totalLocFile):
+                    print(totalLocFile)
+                    #time.sleep(10)
+                    print(median(totalLocFile))
+                    #print(median(totalSlocFile))
+                    #print(median(ccFile))
+                    #print(median(miMultiFalseFile))
+                    #print(median(miMultiTrueFile))
+                    #print(median(difficultyFile))
+                    #print(median(effortFile))
+                    #print(median(timeHasFile))
+                    #print(median(bugsFile))
+                    writeInFinalCSV(fileNamePath, nameWithOwner, median(totalLocFile), median(totalSlocFile), median(ccFile), median(miMultiFalseFile), median(miMultiTrueFile), median(difficultyFile), median(effortFile), median(timeHasFile), median(bugsFile))
+                else:
+                    writeInFinalCSV(fileNamePath, nameWithOwner, -1, -1, -1, -1, -1, -1, -1, -1, -1)
+                time.sleep(5)
         numLine += 1
-    repoPercent.writerow((nameWithOwner, median(validFiles), median(invalidFiles), median(filesNotRead), median(filesNoMetrics)))
-    file.close()
-    print("Fim\nfails =  ", numFail, "\ttotal = ", numLine - 2)
-    if 0.5 < numFail / (numLine - 2):
-        os.rename("RepoTags/" + fileName, "RepoTagsIncorrect/" + fileName)
-    if higherNumFail < numFail:
-        higherNumFail = numFail
-    print("\n ------ Fim de um repositorio ------ \n")
-filePercent.close()
-print("Maior numero de erros em um arquivo = ", higherNumFail)
+    fileToRead.close()
+   
+print("Total repos = ", totalRepo)
 print("\n ------------- Fim da execução ------------- \n")
