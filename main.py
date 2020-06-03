@@ -3,6 +3,8 @@ import os
 import time
 from statistics import median
 from math import ceil
+from datetime import date, datetime
+from datetime import timedelta
 
 
 def writeInFinalCSV(fileNamePath, nameWithOwner, totalLoc, totalSloc, cc, miMultiFalse, miMultiTrue, difficulty, effort, timeHas, bugs):
@@ -38,6 +40,7 @@ timeHas, 18
 bugs 19
 """
 
+daysInOneYear = timedelta(days=365)
 
 for fileName in os.listdir("RepoTags"):
     if not os.path.exists(path):
@@ -61,22 +64,23 @@ for fileName in os.listdir("RepoTags"):
     nameWithOwner = ""
     numLine = 0
     equivYear = 0
-    actualYear = 0
+    actualDate = 0
+    newDate = ""
     for node in repo:
         if numLine > 1:
             if (node[3].find('/') != -1):
                 splitDate = node[3].split('/')
-                year = int(splitDate[2])
+                formatedDate = str(splitDate[2]) + "-" + str(splitDate[1]) + "-" +str(splitDate[0])
+                newDate = date.fromisoformat(formatedDate)
                 print("")
-                print(year)
+                print(newDate)
             else:
-                splitDate = node[3].split('-')
-                year = int(splitDate[0])
+                newDate = date.fromisoformat(str(node[3]))
                 print("")
-                print(year)
+                print(newDate)
             if numLine == 2:
                 nameWithOwner = node[0]
-                actualYear = year
+                actualDate = newDate
                 equivYear = 1
                 fileYear = str(equivYear) + '.csv'
                 fileNamePath = os.path.join(path, fileYear)
@@ -86,8 +90,8 @@ for fileName in os.listdir("RepoTags"):
                     final.writerow(('nameWithOwner', 'totalLoc', 'totalSloc','cc', 
                     'miMultiFalse', 'miMultiTrue', 'difficulty', 'effort', 'timeHas', 'bugs'))
                     fileFinal.close()
-            elif (year > actualYear) or numLine == totalRows:
-                print("\n---Entrou no year - " + "year: " + str(year) + " actual year: " + str(actualYear))
+            elif (newDate > actualDate) or numLine == totalRows:
+                print("\n---Entrou no year - " + "year: " + str(newDate) + " actual year: " + str(actualDate))
                 print("Ano " + str(equivYear) + " - Repo: " + nameWithOwner)
                 #print("quantidade linhas: " + str(len(totalLocFile)))
                 #time.sleep(2)
@@ -115,7 +119,7 @@ for fileName in os.listdir("RepoTags"):
                 effortFile = []
                 timeHasFile = []
                 bugsFile = []
-                actualYear = year
+                actualDate = newDate
                 equivYear += 1
                 fileYear = str(equivYear) + '.csv'
                 fileNamePath = os.path.join(path, fileYear)
