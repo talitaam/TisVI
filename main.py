@@ -1,27 +1,14 @@
-import git
 import csv
 import os
-import shutil
 import stat
-import threading
-import time
-import git
 import requests
-from radon.raw import analyze
-from send2trash import send2trash
-
-global totalLoc
-
-TIME_LIMIT_TO_FIND_LOC = 600 #seconds
-TIMESLEEP = 60 #seconds
 
 headers = {"Authorization": "Bearer YOUR KEY HERE "}
 
 
 def run_query(json, headers):  # Função que executa uma request pela api graphql
     request = requests.post('https://api.github.com/graphql', json=json, headers=headers)
-    while (request.status_code == 502):
-        time.sleep(2)
+    while request.status_code == 502:
         request = requests.post('https://api.github.com/graphql', json=json, headers=headers)
     if request.status_code == 200:
         return request.json()  # json que retorna da requisição
@@ -36,135 +23,123 @@ def on_rm_error(func, path, exc_info):
     os.unlink(path)
 
 
-#clean local repository folder
-def clean_repository(folder):
-    for filename in os.listdir(folder):
-        file_path = os.path.join(folder, filename)
-        try:
-            if not ".git" in filename: #to avoid error
-                if os.path.isfile(file_path) or os.path.islink(file_path):
-                    os.unlink(file_path)
-                elif os.path.isdir(file_path):
-                    shutil.rmtree(file_path, onerror=on_rm_error)
-        except Exception as e:
-            print('Failed to delete %s. Reason: %s' % (file_path, e))
+def writeFirstLine(file):
+    file.writerow(('nameWithOwner', 'url', 'stargazers/totalCount', 'releases/totalCount', 'primaryLanguage/name',
+                   'createdAt', 'updatedAt'))
 
 
-def cloneAndReadFileAndGetLoc(repo_path, tag):
-    g.checkout(tag)
-    print("Lendo arquivos do Repositório e calculando LOC.....")
-    global totalLoc
-    loc = 0
-    for root, dirs, files in os.walk(repo_path):
-        for file in files:
-            if file.endswith('.py'):
-                fullpath = os.path.join(root, file)
-                with open(fullpath, encoding="utf8") as f:
-                    content = f.read()
-                    b = analyze(content)
-                    i = 0
-                    for item in b:
-                        if i == 0:
-                            loc += item
-                            i += 1
-    totalLoc.append(loc)
+def writeNodeLine(file, node):
+    file.writerow((node['nameWithOwner'], node['url'], str(node['stargazers']['totalCount']),
+                   str(node['releases']['totalCount']), node['primaryLanguage']['name'], node['createdAt'],
+                   node['updatedAt']))
 
 
 print("Iniciando processo")
-
-    # Query do GraphQL que procura os primeiros 1000 repositorios com mais de 100 estrelas.
 query = """
 query example{
-  search (query:"language: Python",type: REPOSITORY, first:2{AFTER}) {
-      pageInfo{
-       hasNextPage
-        endCursor
-      }
-    edges {
-      node {
-        ... on  Repository{
-          name
-          updatedAt
-          url
-          primaryLanguage{
-            name
-          }
+    search (query:"stars:100..{STARS} language:Python", type: REPOSITORY, first:50{AFTER}) {
+        pageInfo{
+            hasNextPage
+            endCursor
         }
-      }
+        nodes {
+            ... on Repository {
+                nameWithOwner
+                url
+                stargazers {
+                    totalCount
+                }
+                releases {
+                    totalCount
+                }
+                primaryLanguage {
+                    name
+                }
+                createdAt
+                updatedAt                
+            }
+        }
     }
-  }
+    rateLimit{
+        remaining
+        resetAt
+    }
 }
 """
 
-finalQuery = query.replace("{AFTER}", "")
+first_query = query.replace("{STARS}", "*")
+final_query = first_query.replace("{AFTER}", "")
 
 json = {
-    "query": finalQuery, "variables": {}
+    "query": final_query, "variables": {}
 }
 
 total_pages = 1
 print("Executando Query\n[", end='')
 result = run_query(json, headers)  # Executar a Query
-nodes = result["data"]["search"]["edges"]  # separar a string para exibir apenas os nodes
+nodes = result["data"]["search"]["nodes"]  # separar a string para exibir apenas os nodes
 next_page = result["data"]["search"]["pageInfo"]["hasNextPage"]
 
-page = 0
-while next_page and total_pages < 1:
+while next_page and total_pages < 200:
+    if result['data']['rateLimit']['remaining'] == 0:
+        print("[REPORT]: CHANGING TOKEN")
+        headers = {"Authorization": "Bearer YOUR KEY HERE "}  # due to query limits
+
     total_pages += 1
+
+    print("[REPORT]: QUERYING PAGE:" + str(total_pages))
+
     cursor = result["data"]["search"]["pageInfo"]["endCursor"]
-    next_query = query.replace("{AFTER}", ", after: \"%s\"" % cursor)
+
+    next_query = first_query.replace("{AFTER}", ", after: \"%s\"" % cursor)
+
     json["query"] = next_query
     result = run_query(json, headers)
     nodes += result['data']['search']['nodes']
     next_page = result["data"]["search"]["pageInfo"]["hasNextPage"]
-    print(".", end='')
-print("]")
 
-fileFinal = open("final.csv", 'w', newline='')
-final = csv.writer(fileFinal)
-final.writerow(('nameWithOwner', 'updateAt', 'url', 'primary language/name', 'release 1',
-                'release 2', 'release 3'))
+    # for each block of 100 pages, qe have to make a new query (based on the number of stars)
+    if total_pages % 10 == 0:
+        if total_pages == 200:  # some workaround
+            continue
 
+        total_pages += 1
+        print("[REPORT]: QUERYING PAGE:" + str(total_pages))
+
+        first_query = query.replace("{STARS}", str(nodes[-1]['stargazers']['totalCount']))
+        final_query = first_query.replace("{AFTER}", "")
+        json["query"] = final_query
+
+        result = run_query(json, headers)
+        nodes += result['data']['search']['nodes']
+        next_page = result["data"]["search"]["pageInfo"]["hasNextPage"]
+
+fileFinal1000 = open("final1000.csv", 'w', newline='')
+final1000 = csv.writer(fileFinal1000)
+writeFirstLine(final1000)
+
+fileFinal5000 = open("final5000.csv", 'w', newline='')
+final5000 = csv.writer(fileFinal5000)
+writeFirstLine(final5000)
+
+fileFinal10000 = open("final10000.csv", 'w', newline='')
+final10000 = csv.writer(fileFinal10000)
+writeFirstLine(final10000)
+
+numRepo = 0
 for node in nodes:
-    print("\n ------ Começo leitura repositorios ------ \n")
-
-    numRepo = 0
-    time.sleep(1)
-    totalLoc = 0
-    name = node['node']['name']
-    repo_path = "path/to/" + name
-    gitURL = node['node']['url']
-
-    if os.path.exists(repo_path):
-        send2trash(repo_path)
-    print("\n" + "Começa o git clone")
-    print(gitURL)
-    repo = git.Repo.clone_from(gitURL, repo_path)
-    tags = repo.tags
-    repo.close()
-    print("Termina o git clone \n")
-
-    g = git.Git(repo_path)
-    x = 0
-    totalLoc = []
-    for tag in tags:
-        clrd = threading.Thread(target=cloneAndReadFileAndGetLoc, args=(repo_path, tag.name))
-        clrd.daemon = True
-        clrd.start()
-        clrd.join(TIME_LIMIT_TO_FIND_LOC)  # Wait for x seconds or until process finishes
-        if clrd.is_alive():  # If thread is still active
-            print("\n--> Excedeu limite de tempo. Interrompendo análise do repositório.....")
-            th = threading.currentThread()
-            th._stop
-            time.sleep(TIMESLEEP)
-            totalLoc[x] = -1  # Define a negative value for LOC
-        print("Total loc final é " + str(totalLoc[-1]))
-        x += 1
-    print("\n ------ Fim de um repositorio ------ \n")
-    final.writerow((name, node['node']['updatedAt'], gitURL, node['node']['primaryLanguage']['name'], totalLoc))
-    clean_repository(repo_path)
-    numRepo = numRepo + 1
-    print("Total repositórios " + str(numRepo))
-fileFinal.close()
+    if numRepo < 1000:
+        writeNodeLine(final1000, node)
+        writeNodeLine(final5000, node)
+        writeNodeLine(final10000, node)
+    elif numRepo < 5000:
+        writeNodeLine(final5000, node)
+        writeNodeLine(final10000, node)
+    else:
+        writeNodeLine(final10000, node)
+    numRepo += 1
+print("Total repositórios " + str(numRepo))
+fileFinal1000.close()
+fileFinal5000.close()
+fileFinal10000.close()
 print("\n ------------- Fim da execução ------------- \n")
-
