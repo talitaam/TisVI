@@ -4,7 +4,8 @@ import time
 from statistics import median
 from math import ceil
 from datetime import date, datetime
-from datetime import timedelta
+from datetime import time, timedelta
+from numpy import quantile, median, max, min
 
 
 def writeInFinalCSV(fileNamePath, nameWithOwner, totalLoc, totalSloc, cc, miMultiFalse, miMultiTrue, difficulty, effort, timeHas, bugs):
@@ -23,8 +24,6 @@ def where_stop(filePath):
     return row
 
 
-totalRepo = 0
-
 path = "FinalCSV"
 
 """
@@ -40,7 +39,252 @@ timeHas, 18
 bugs 19
 """
 
+"""
+higherNumFail = 0
 daysInOneYear = timedelta(days=365)
+
+for fileName in os.listdir("RepoTags"):
+    #print("Lendo " + fileName)
+    fileRepo = "RepoTags/" + fileName
+    totalRows = where_stop(fileRepo)
+    fileRead = open("RepoTags/" + fileName, encoding='utf-8')
+    repo = csv.reader(fileRead)
+    totalLocFile = []
+    ccFile = []
+    miMultiFalseFile = []
+    nameWithOwner = ""
+    numLine = 0
+    newDate = ""
+    actualDate = ""
+    pastDate = ""
+    faltaAno = False
+    for node in repo:
+        if numLine>1:
+            if (node[3].find('/') != -1):
+                pastDate = newDate
+                changeFormart = datetime.strptime(str(node[3]), "%m/%d/%Y")
+                #print("changeFormart: " + str(changeFormart))
+                newDate = date(changeFormart.year, changeFormart.month, changeFormart.day)
+                #print("")
+                #print("newDate " + str(newDate))
+            else:
+                pastDate = newDate
+                newDate = date.fromisoformat(str(node[3]))
+                #print("")
+                #print("newDate: " + str(newDate))
+            if numLine == 2:
+                nameWithOwner = node[0]
+                actualDate = newDate
+                pastDate = newDate
+            if ((newDate - actualDate) > daysInOneYear):
+                print("\n---Entrou no year")
+                print("actualDate: " + str(actualDate))
+                print("pastDate: " + str(pastDate))
+                print("newDate: " + str(newDate))
+                print("actualDate: " + str(actualDate))
+                print("newDate - actualDate: " + str(newDate - actualDate))
+                if not totalLocFile or ((newDate - pastDate) > daysInOneYear):
+                    print("newDate - pastDate: " + str(newDate - pastDate))
+                    print("\n" + nameWithOwner + " - NÃO HÁ METRICA PARA UM INTERVALO DE ANO")
+                    faltaAno = True
+                actualDate = newDate
+                totalLocFile = []
+                ccFile = []
+                miMultiFalseFile = []
+            if str(node[10]) != "-1":
+                totalLocFile.append(float(node[4]))
+                ccFile.append(float(node[10]))
+                miMultiFalseFile.append(float(node[12]))
+        numLine += 1
+    fileRead.close()
+    if faltaAno == True:
+        higherNumFail += 1
+        os.rename("RepoTags/" + fileName, "RepoTagsIncorrect2/" + fileName)
+print("Quantidade excluída: " + str(higherNumFail))
+print("\n ------ Fim de um repositorio ------ \n")
+"""
+#------------------------------------------------------------
+"""
+totalRepo = 0
+
+for fileName in os.listdir("RepoTags"):
+    if not os.path.exists(path):
+        os.mkdir(path)
+    fileRepo = "RepoTags/" + fileName
+    totalRows = where_stop(fileRepo)
+    fileToRead = open(fileRepo, encoding='utf-8')
+    repo = csv.reader(fileToRead)
+    desconsideraRepo = False
+    numLine = 0
+    for node in repo:
+        if numLine == 2:
+            nameWithOwner = node[0]
+            #print("nameWithOwner: " + nameWithOwner)
+            if os.path.exists("RepoPercent.csv"):
+                fileBase = open("RepoPercent.csv", 'r')
+                base = csv.reader(fileBase)
+                for item in base:
+                    if item[0] == nameWithOwner:
+                        validFiles = float(item[1])
+                        if validFiles < 63:
+                            print("item[0]: " + item[0])
+                            desconsideraRepo = True
+                        break
+                fileBase.close()
+        if desconsideraRepo == True:
+            break
+        numLine += 1
+    fileToRead.close()
+    if not os.path.exists("RepoTagsIncorrect3"):
+        os.mkdir("RepoTagsIncorrect3")
+    if desconsideraRepo == True:
+        totalRepo += 1
+        os.rename("RepoTags/" + fileName, "RepoTagsIncorrect3/" + fileName)
+print("Quantidade excluída: " + str(totalRepo))
+print("\n ------ Fim de um repositorio ------ \n")
+"""
+#----------------------------------------------------------------------------
+
+"""
+if os.path.exists("RepoPercent.csv"):
+    validFiles =[]
+    fileBase = open("RepoPercent.csv", 'r')
+    base = csv.reader(fileBase)
+    numLine = 0
+    for item in base:
+        if numLine > 0:
+            validFiles.append(float(item[1]))
+        numLine += 1
+    fileBase.close()
+    minimo = min(validFiles)
+    q1 = quantile(validFiles,.25)
+    q2 = quantile(validFiles,.50)
+    med = median(validFiles)
+    q3 = quantile(validFiles,.75)
+    maximo = max(validFiles)
+    print("min: " + str(minimo))
+    print("Q1: " + str(q1))
+    print("Q2: " + str(q2))
+    print("median: " + str(med))
+    print("Q3: " + str(q3))
+    print("max: " + str(maximo))
+
+"""
+
+
+
+#----------------------------------------------------------------------------
+
+
+
+#higherNumFail = 0
+daysInOneYear = timedelta(days=365)
+
+for fileName in os.listdir("RepoTags"):
+    #print("Lendo " + fileName)
+    fileRepo = "RepoTags/" + fileName
+    totalRows = where_stop(fileRepo)
+    fileRead = open("RepoTags/" + fileName, encoding='utf-8')
+    repo = csv.reader(fileRead)
+    totalLocFile = []
+    ccFile = []
+    miMultiFalseFile = []
+    nameWithOwner = ""
+    numLine = 0
+    newDate = ""
+    actualDate = ""
+    pastDate = ""
+    qtdYearsTotal = 0
+    qtdYearsSemTag = 0
+    print("\n\n-----------------Novo Repo------------------")
+    for node in repo:
+        if numLine>1:
+            if (node[3].find('/') != -1):
+                pastDate = newDate
+                changeFormart = datetime.strptime(str(node[3]), "%m/%d/%Y")
+                #print("changeFormart: " + str(changeFormart))
+                newDate = date(changeFormart.year, changeFormart.month, changeFormart.day)
+                #print("")
+                #print("newDate " + str(newDate))
+            else:
+                pastDate = newDate
+                newDate = date.fromisoformat(str(node[3]))
+                #print("")
+                #print("newDate: " + str(newDate))
+            if numLine == 2:
+                nameWithOwner = node[0]
+                actualDate = newDate
+                pastDate = newDate
+            if ((newDate - actualDate) > daysInOneYear):
+                print("\n---Entrou no year")
+                print("actualDate: " + str(actualDate))
+                print("pastDate: " + str(pastDate))
+                print("newDate: " + str(newDate))
+                print("actualDate: " + str(actualDate))
+                print("newDate - actualDate: " + str(newDate - actualDate))
+                print("newDate - pastDate: " + str(newDate - pastDate))
+                if ((newDate - pastDate) > daysInOneYear):
+                    years = ceil((newDate - pastDate) / daysInOneYear)
+                    print("years: " + str(ceil((newDate - pastDate) / daysInOneYear)))
+                    if not totalLocFile:
+                        qtdYearsSemTag += int(years)
+                        print("Sem loc qtdYearsSemTag: " + str(qtdYearsSemTag))
+                    else:
+                        qtdYearsSemTag += int(years-1)
+                        print("Com loc qtdYearsSemTag: " + str(qtdYearsSemTag))
+                else:
+                    years = 1
+                    if not totalLocFile:
+                        qtdYearsSemTag += int(years)
+                qtdYearsTotal += int(years)
+                if not totalLocFile:
+                    print("newDate - pastDate: " + str(newDate - pastDate))
+                    print("\n" + nameWithOwner + " - NÃO HÁ METRICA PARA UM INTERVALO DE ANO")
+                    faltaAno = True
+                actualDate = newDate
+                totalLocFile = []
+                ccFile = []
+                miMultiFalseFile = []
+            if str(node[10]) != "-1":
+                totalLocFile.append(float(node[4]))
+                ccFile.append(float(node[10]))
+                miMultiFalseFile.append(float(node[12]))
+            if numLine == totalRows-1:
+                qtdYearsTotal += 1
+                if not totalLocFile:
+                    qtdYearsSemTag += 1
+        numLine += 1
+    fileRead.close()
+    print("")
+    print(nameWithOwner)
+    print("qtdYearsTotal: " + str(qtdYearsTotal))
+    print("qtdYearsSemTag: " + str(qtdYearsSemTag))
+    #time.sleep(5)
+    #if not os.path.exists("RepoTags4AnosTodosAnos"):
+    #    os.mkdir("RepoTags4AnosTodosAnos")
+    #if not os.path.exists("RepoTags4AnosSem1Year"):
+    #    os.mkdir("RepoTags4AnosSem1Year")
+    #if not os.path.exists("RepoTags4AnosSemYears"):
+     #   os.mkdir("RepoTags4AnosSemYears")
+    if not os.path.exists("RepoTagsRestante"):
+        os.mkdir("RepoTagsRestante")
+    if qtdYearsTotal >= 4 and qtdYearsSemTag == 0:
+        pass
+        #os.rename("RepoTags/" + fileName, "RepoTags4AnosTodosAnos/" + fileName)
+    #elif qtdYearsTotal >= 4 and qtdYearsSemTag == 1:
+     #   os.rename("RepoTags/" + fileName, "RepoTags4AnosSem1Year/" + fileName)
+    #elif qtdYearsTotal >= 4 and qtdYearsSemTag > 0:
+     #   os.rename("RepoTags/" + fileName, "RepoTags4AnosSemYears/" + fileName)
+    else:
+        os.rename("RepoTags/" + fileName, "RepoTagsRestante/" + fileName)
+
+print("\n ------ Fim de um repositorio ------ \n")
+
+#----------------------------------------------------------------------------
+
+daysInOneYear = timedelta(days=365)
+path = "FinalCSV"
+totalRepo = 0
 
 for fileName in os.listdir("RepoTags"):
     if not os.path.exists(path):
@@ -64,24 +308,30 @@ for fileName in os.listdir("RepoTags"):
     nameWithOwner = ""
     numLine = 0
     equivYear = 0
-    actualDate = 0
+    actualDate = ""
     newDate = ""
+    pastDate = ""
     for node in repo:
         if numLine > 1:
             if (node[3].find('/') != -1):
-                splitDate = node[3].split('/')
-                formatedDate = str(splitDate[2]) + "-" + str(splitDate[1]) + "-" +str(splitDate[0])
-                newDate = date.fromisoformat(formatedDate)
+                pastDate = newDate
+                changeFormart = datetime.strptime(str(node[3]), "%m/%d/%Y")
+                print("changeFormart: " + str(changeFormart))
+                newDate = date(changeFormart.year, changeFormart.month, changeFormart.day)
                 print("")
-                print(newDate)
+                print("newYear: " + str(newDate))
             else:
+                pastDate = newDate
                 newDate = date.fromisoformat(str(node[3]))
                 print("")
-                print(newDate)
+                print("newYear: " + str(newDate))
             if numLine == 2:
                 nameWithOwner = node[0]
-                actualDate = newDate
                 equivYear = 1
+                actualDate = newDate
+                pastDate = newDate
+                print("newDate - actualDate: " + str(newDate - actualDate))
+                print("")
                 fileYear = str(equivYear) + '.csv'
                 fileNamePath = os.path.join(path, fileYear)
                 if not os.path.exists(fileNamePath):
@@ -90,8 +340,9 @@ for fileName in os.listdir("RepoTags"):
                     final.writerow(('nameWithOwner', 'totalLoc', 'totalSloc','cc', 
                     'miMultiFalse', 'miMultiTrue', 'difficulty', 'effort', 'timeHas', 'bugs'))
                     fileFinal.close()
-            elif (newDate > actualDate) or numLine == totalRows:
-                print("\n---Entrou no year - " + "year: " + str(newDate) + " actual year: " + str(actualDate))
+            if ((newDate - actualDate) > daysInOneYear) or numLine == totalRows:
+                print("\n---Entrou no year")
+                print("newDate - actualDate: " + str(newDate - actualDate))
                 print("Ano " + str(equivYear) + " - Repo: " + nameWithOwner)
                 #print("quantidade linhas: " + str(len(totalLocFile)))
                 #time.sleep(2)
@@ -110,6 +361,7 @@ for fileName in os.listdir("RepoTags"):
                     print("")
                     writeInFinalCSV(fileNamePath, nameWithOwner, median(totalLocFile), median(totalSlocFile), median(ccFile), median(miMultiFalseFile), median(miMultiTrueFile), median(difficultyFile), median(effortFile), median(timeHasFile), median(bugsFile))
                 #time.sleep(5)
+                actualDate = newDate
                 totalLocFile = []
                 totalSlocFile = []
                 ccFile = []
@@ -119,8 +371,11 @@ for fileName in os.listdir("RepoTags"):
                 effortFile = []
                 timeHasFile = []
                 bugsFile = []
-                actualDate = newDate
-                equivYear += 1
+                if ((newDate - pastDate) > daysInOneYear):
+                    years = ceil((newDate - pastDate) / daysInOneYear)
+                else:
+                    years = 1
+                equivYear += int(years)
                 fileYear = str(equivYear) + '.csv'
                 fileNamePath = os.path.join(path, fileYear)
                 if not os.path.exists(fileNamePath):
@@ -162,9 +417,10 @@ for fileName in os.listdir("RepoTags"):
                     #print(median(timeHasFile))
                     #print(median(bugsFile))
                     writeInFinalCSV(fileNamePath, nameWithOwner, median(totalLocFile), median(totalSlocFile), median(ccFile), median(miMultiFalseFile), median(miMultiTrueFile), median(difficultyFile), median(effortFile), median(timeHasFile), median(bugsFile))
-                time.sleep(5)
+                #time.sleep(5)
         numLine += 1
     fileToRead.close()
    
 print("Total repos = ", totalRepo)
+
 print("\n ------------- Fim da execução ------------- \n")

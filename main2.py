@@ -3,12 +3,13 @@ import os
 import time
 from statistics import median
 from math import ceil
+from numpy import quantile, median, max, min
 
 
-def writeInFinalCSV(fileNamePath, ano, valor, qtd):
+def writeInFinalCSV(fileNamePath, ano, q1, valor, q3, qtd):
     fileFinalTag = open(fileNamePath, 'a', newline='')
     finalTag = csv.writer(fileFinalTag)
-    finalTag.writerow((str(ano), str(valor), str(qtd)))
+    finalTag.writerow((str(ano), str(q1), str(valor), str(q3),str(qtd)))
     fileFinalTag.close()
 
 def where_stop(filePath):
@@ -72,6 +73,24 @@ for fileName in os.listdir("FinalCSV"):
                     "7": str(median(effortFile)), 
                     "8": str(median(timeHasFile)), 
                     "9": str(median(bugsFile))}
+            quar1 = {"1": str(quantile(totalLocFile,.25)), 
+                    "2": str(quantile(totalSlocFile,.25)), 
+                    "3": str(quantile(ccFile,.25)), 
+                    "4": str(quantile(miMultiFalseFile,.25)), 
+                    "5": str(quantile(miMultiTrueFile,.25)), 
+                    "6": str(quantile(difficultyFile,.25)), 
+                    "7": str(quantile(effortFile,.25)), 
+                    "8": str(quantile(timeHasFile,.25)), 
+                    "9": str(quantile(bugsFile,.25))} 
+            quar3 = {"1": str(quantile(totalLocFile,.75)), 
+                    "2": str(quantile(totalSlocFile,.75)), 
+                    "3": str(quantile(ccFile,.75)), 
+                    "4": str(quantile(miMultiFalseFile,.75)), 
+                    "5": str(quantile(miMultiTrueFile,.75)), 
+                    "6": str(quantile(difficultyFile,.75)), 
+                    "7": str(quantile(effortFile,.75)), 
+                    "8": str(quantile(timeHasFile,.75)), 
+                    "9": str(quantile(bugsFile,.75))}         
             quantidade = {"1": str(len(totalLocFile)), 
                     "2": str(len(totalSlocFile)), 
                     "3": str(len(ccFile)), 
@@ -108,17 +127,21 @@ for fileName in os.listdir("FinalCSV"):
                 print("idx: " + idx)
                 metric = metrics[idx]
                 print("metric: " + metric)
+                q1 = quar1[idx]
+                print("q1: " + q1)
                 value = values[idx]
                 print("value: " + value)
+                q3 = quar3[idx]
+                print("q3: " + q3)
                 qtd = quantidade[idx]
                 print("qtd: " + qtd)
                 fileNamePath = os.path.join(path, metric)
                 if not os.path.exists(fileNamePath):
                     fileFinal = open(fileNamePath, 'w', newline='')
                     final = csv.writer(fileFinal)
-                    final.writerow(('Ano', 'Valor', 'QuantidadeRepo'))
+                    final.writerow(('Ano', 'Quartil 1', 'Mediana', 'Quartil 3', 'QuantidadeRepo'))
                     fileFinal.close()
-                writeInFinalCSV(fileNamePath, year, value, qtd)     
+                writeInFinalCSV(fileNamePath, year, q1, value, q3, qtd)     
         numLine += 1
     fileToRead.close()
    
