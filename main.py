@@ -33,13 +33,13 @@ def where_stop(filePath):
         row = sum(1 for line in csv.reader(fileFinal))
         fileFinal.close()
     return row
-
+ 
 # Insert row in final.csv
-def writeInFinalFile(node, url, totalLoc, totalSloc, validFiles, invalidFiles, filesNotRead, filesNoMetric, cc, ccRank, miMultiFalse, miMultiFalseRank, miMultiTrue, miMultiTrueRank, difficulty, effort, timeHas, bugs):
+def writeInFinalFile(node, url, totalLoc, totalSloc, validFiles, invalidFiles, filesNotRead, filesNoMetric, cc, ccRank, miMultiFalse, miMultiFalseRank, miMultiTrue, miMultiTrueRank, difficulty, effort, timeHas, bugs, totalFiles):
     fileFinal = open("final.csv", 'a', newline='')
     final = csv.writer(fileFinal)
-    final.writerow((node[0], url, str(node[3]), node[6], str(totalLoc), str(totalSloc), str(validFiles), str(invalidFiles), str(filesNotRead), str(filesNoMetric), str(cc), ccRank, str(
-        miMultiFalse), miMultiFalseRank, str(miMultiTrue), miMultiTrueRank, str(difficulty), str(effort), str(timeHas), str(bugs)))
+    final.writerow((node[0], url, str(node[3]), node[5], str(totalLoc), str(totalSloc), str(validFiles), str(invalidFiles), str(filesNotRead), str(filesNoMetric), str(cc), ccRank, str(
+        miMultiFalse), miMultiFalseRank, str(miMultiTrue), miMultiTrueRank, str(difficulty), str(effort), str(timeHas), str(bugs), str(totalFiles), str(node[2])))
     fileFinal.close()
 
 def writeInFinalTagFile(fileNamePath, node, totalLoc, totalSloc, validFiles, invalidFiles, filesNotRead, filesNoMetric, cc, ccRank, miMultiFalse, miMultiFalseRank, miMultiTrue, miMultiTrueRank, difficulty, effort, timeHas, bugs, ):
@@ -64,8 +64,8 @@ def main():
         if not os.path.exists("final.csv"):
             fileFinal = open("final.csv", 'w', newline='')
             final = csv.writer(fileFinal)
-            final.writerow(('nameWithOwner', 'url', 'releases', 'updateAt', 'totalLoc', 'totalSloc', 'validFiles', 'invalidFiles', 'filesNotRead', 'filesNoMetric', 'cc', 'ccRank',
-                    'miMultiFalse', 'miMultiFalseRank', 'miMultiTrue', 'miMultiTrueRank', 'difficulty', 'effort', 'timeHas', 'bugs'))
+            final.writerow(('nameWithOwner', 'url', 'releases', 'createdAt', 'totalLoc', 'totalSloc', 'validFiles', 'invalidFiles', 'filesNotRead', 'filesNoMetric', 'cc', 'ccRank',
+                    'miMultiFalse', 'miMultiFalseRank', 'miMultiTrue', 'miMultiTrueRank', 'difficulty', 'effort', 'timeHas', 'bugs', 'totalFiles', 'stars'))
             fileFinal.close()
         lastLine = where_stop("final.csv")
         print("lastLine: " + str(lastLine) + "\n")
@@ -88,20 +88,21 @@ def main():
                     t.join()
                     time.sleep(TIMESLEEP)
                     print("\nis still alive? " + str(t.is_alive()))
-                    writeInFinalFile(node, gitURL, -1, -1, -1, -1, -1, -1, -1, "Z",-1, "Z", -1, "Z", -1, -1, -1, -1)
+                    m = calculateMetrics1.getMetrics()
+                    writeInFinalFile(node, gitURL, m['totalLoc'], m['totalSloc'], m['validFiles'], m['invalidFiles'], m['filesNotRead'], m['filesNoMetric'], -1, "Z",-1, "Z", -1, "Z", -1, -1, -1, -1, m['totalFiles'])
                 else:
                     m = calculateMetrics1.getMetrics()
-                    if int(m['cc']) != -1:
-                        ccRank = cc_rank(int(m['cc']))
+                    if float(m['miMultiFalse']) > -1:
+                        ccRank = "X"
                         miMultiFalseRank = mi_rank(float(m['miMultiFalse']))
                         miMultiTrueRank = mi_rank(float(m['miMultiTrue']))
                         print("--------------")
                         print("Gravando: ")
-                        print("Total loc: " + str(m['totalLoc']) + " - Files validos: " + str(m['validFiles']) + " - Files invalidos: " + str(m['invalidFiles']) + "\nFiles sem metricas: " + str(m['filesNoMetric']) + " - Files não lidos: " + str(m['filesNotRead']))
-                        print("cc: " + str(m['cc']) + " - miMultiFalse: " + str(m['miMultiFalse']) + "\ndifficulty: " + str(m['difficulty']) + " - bugs: " + str(m['bugs']))
-                        writeInFinalFile(node, gitURL, m['totalLoc'], m['totalSloc'], m['validFiles'], m['invalidFiles'], m['filesNotRead'], m['filesNoMetric'], m['cc'], ccRank, m['miMultiFalse'], miMultiFalseRank, m['miMultiTrue'], miMultiTrueRank, m['difficulty'], m['effort'], m['timeHas'], m['bugs'])
+                        print("Total loc: " + str(m['totalLoc']) + " - Files validos: " + str(m['validFiles']) + " - Files invalidos: " + str(m['invalidFiles']) + " - Files sem metricas: " + str(m['filesNoMetric']) + " - Files não lidos: " + str(m['filesNotRead']))
+                        print("miMultiFalse: " + str(m['miMultiFalse']) + " - difficulty: " + str(m['difficulty']))
+                        writeInFinalFile(node, gitURL, m['totalLoc'], m['totalSloc'], m['validFiles'], m['invalidFiles'], m['filesNotRead'], m['filesNoMetric'], m['cc'], ccRank, m['miMultiFalse'], miMultiFalseRank, m['miMultiTrue'], miMultiTrueRank, m['difficulty'], m['effort'], m['timeHas'], m['bugs'], m['totalFiles'])
                     else:
-                        writeInFinalFile(node, gitURL, -1, -1, -1, -1, -1, -1, -1, "Z",-1, "Z", -1, "Z", -1, -1, -1, -1)
+                        writeInFinalFile(node, gitURL, m['totalLoc'], m['totalSloc'], m['validFiles'], m['invalidFiles'], m['filesNotRead'], m['filesNoMetric'], m['cc'], "Z", m['miMultiFalse'], "Z", m['miMultiTrue'], "Z", m['difficulty'], m['effort'], m['timeHas'], m['bugs'], m['totalFiles'])
             contNode += 1
         fileBase.close()
         print("\n ------------------- Fim arquivo final ------------------- \n")
@@ -238,7 +239,7 @@ def main():
                                 print("--------------")
                                 print("Gravando: ")
                                 print("Total loc: " + str(m['totalLoc']) + " - Files validos: " + str(m['validFiles']) + " - Files invalidos: " + str(m['invalidFiles']) + "\nFiles sem metricas: " + str(m['filesNoMetric']) + " - Files não lidos: " + str(m['filesNotRead']))
-                                print("cc: " + str(m['cc']) + " - miMultiFalse: " + str(m['miMultiFalse']) + "\ndifficulty: " + str(m['difficulty']) + " - bugs: " + str(m['bugs']))
+                                print("cc: " + str(m['cc']) + " - miMultiFalse: " + str(m['miMultiFalse']) + "difficulty: " + str(m['difficulty']))
                                 writeInFinalTagFile(fileNamePath, node, m['totalLoc'], m['totalSloc'], m['validFiles'], m['invalidFiles'], m['filesNotRead'], m['filesNoMetric'], m['cc'], ccRank, m['miMultiFalse'], miMultiFalseRank, m['miMultiTrue'], miMultiTrueRank, m['difficulty'], m['effort'], m['timeHas'], m['bugs'])
                             else:
                                 writeInFinalTagFile(fileNamePath, node, -1, -1, -1, -1, -1, -1, -1, "Z",-1, "Z", -1, "Z", -1, -1, -1, -1)

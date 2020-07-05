@@ -20,11 +20,12 @@ import threadTemp
 class cloneTofindMetrics():
     totalLoc = 0
     totalSloc = 0
+    totalFiles = 0
     validFiles = 0
     invalidFiles = 0
     filesNotRead = 0
     filesNoMetric = 0
-    cc = -1
+    cc = 0
     miMultiFalse = -1
     miMultiTrue = -1
     difficulty = -1
@@ -56,23 +57,24 @@ class cloneTofindMetrics():
     # Clone repository and read files to count LOC
     def cloneAndReadFileAndGetMetrics(self, gitURL, tagToClone):
         ANALYSE = """analyze(content)"""
-        COMPCICLO = """cc_visit(content)"""
+        #COMPCICLO = """cc_visit(content)"""
         MANUINDEX = """mi_visit(content,multi=True)"""
         HASTMETRICS = """h_visit(content)"""
+        self.totalFiles = 0
         self.totalLoc = 0
         self.totalSloc = 0
         self.validFiles = 0
         self.invalidFiles = 0
         self.filesNotRead = 0
         self.filesNoMetric = 0
-        self.cc = -1
+        self.cc = 0
         self.miMultiFalse = -1
         self.miMultiTrue = -1
         self.difficulty = -1
         self.effort = -1
         self.timeHas = -1
         self.bugs = -1
-        valCC = []
+        #valCC = []
         valMIfalse = []
         valMItrue = []
         valDiff = []
@@ -81,44 +83,63 @@ class cloneTofindMetrics():
         valBugs = []
         numRepo = 0
         repo_path = 'Repository/' + str(numRepo)
-        while os.path.exists(repo_path): #Delete previous repositories and check a valid path
-            try:
-                self.clean_repository(repo_path)
-                send2trash(repo_path)
-            except OSError:
-                print(repo_path + " não foi excluído OS ERROR")
-                time.sleep(60)
-                numRepo += 1
-                repo_path = 'Repository/' + str(numRepo)
-                while os.path.exists(repo_path):
-                    numRepo += 1
-                    repo_path = 'Repository/' + str(numRepo)
-                break
-            except Exception:
-                print("Repositório não excluído")
-                pass
+        countRepo = 0
+        totalRepo = 0
+        if os.path.exists('Repository/'):
+            totalRepo = len([f for f in os.listdir('Repository/') if os.path.isdir(os.path.join('Repository/', f))])
+            #print("repos in Repository: " + str(totalRepo))
+        while countRepo != totalRepo:
+            if os.path.exists(repo_path): #Delete previous repositories and check a valid path
+                try:
+                    self.clean_repository(repo_path)
+                    send2trash(repo_path)
+                except OSError:
+                    print(repo_path + " não foi excluído OS ERROR")
+                    time.sleep(60)
+                    break
+                except Exception:
+                    print("Repositório não excluído")
+                    pass
+                countRepo += 1
+            numRepo += 1
+            repo_path = 'Repository/' + str(numRepo)
+        numRepo = 0
+        repo_path = 'Repository/' + str(numRepo)
+        while os.path.exists(repo_path):
             numRepo += 1
             repo_path = 'Repository/' + str(numRepo)
         if (tagToClone is None): #Clone original repository
             try:
-                print("Começando o clone...")
+                print("Começando o git clone...")
                 reposit = Repo.clone_from(gitURL, repo_path) #clone repo and checkout the tag
             except:
                 print("Não foi possível clonar o repositório")
+                self.miMultiFalse = -2
+                self.miMultiTrue = -2
+                self.difficulty = -2
+                self.effort = -2
+                self.timeHas = -2
+                self.bugs = -2
                 exit()
             reposit.close()
-            print("Git clone do Repo finalizado. \nLendo arquivos do Repositório e calculando métricas.....")
+            print("Clone finalizado. Lendo arquivos do Repositório e calculando métricas...")
             tagToClone = "Main Repo"
         else: #clone repo by tag
             toTag = "--branch " + str(tagToClone)
             try:
-                print("Começando o clone...")
+                print("Começando o git clone...")
                 reposit = Repo.clone_from(gitURL, repo_path, multi_options=[toTag, '--single-branch']) #clone repo and checkout the tag
             except:
                 print("Não foi possível clonar a tag")
                 exit()
             reposit.close()
-            print("Git clone da Tag finalizado. \nLendo arquivos do Repositório e calculando métricas.....")
+            print("Clone finalizado. Lendo arquivos do Repositório e calculando métricas...")
+        for root, _, files in os.walk(repo_path):
+            for file in files:
+                if file.endswith('.py'):
+                    self.totalFiles += 1
+        print("totalFiles: " + str(self.totalFiles))
+        time.sleep(10)
         for root, _, files in os.walk(repo_path):
             for file in files:
                 if file.endswith('.py'):
@@ -137,7 +158,7 @@ class cloneTofindMetrics():
                         if content:
                                 try: #check if radon methos can be run
                                     exec(ANALYSE)
-                                    exec(COMPCICLO)
+                                    #exec(COMPCICLO)
                                     exec(MANUINDEX)
                                     exec(HASTMETRICS)
                                 except SyntaxError:
@@ -148,21 +169,20 @@ class cloneTofindMetrics():
                                     self.invalidFiles += 1 #cannot run one of the methods to get the metrics
                                 else:
                                     b = analyze(content) #radon method to get loc and sloc
-                                    x = cc_visit(content) #get cc metric for each function in file
+                                    #x = cc_visit(content) #get cc metric for each function in file
                                     y = mi_visit(content, multi=False) #get mi metric not considering multistrings
                                     y2 = mi_visit(content, multi=True) #get mi metric  considering multistrings
                                     z = h_visit(content) # get halstead metrics
-                                    valCCintern = []
-                                    for item in x:
-                                        d = GET_COMPLEXITY(item)
-                                        valCCintern.append(d) #get cc metric for each function and add in a list
-                                    valCCintern.sort()
-                                    # print(valCCintern)
-                                    if valCCintern and y and z:
+                                    #valCCintern = []
+                                    #for item in x:
+                                        #d = GET_COMPLEXITY(item)
+                                        #valCCintern.append(d) #get cc metric for each function and add in a list
+                                    #valCCintern.sort()
+                                    if y and z:
                                         self.validFiles += 1
                                         self.totalLoc += b[0]
                                         self.totalSloc += b[2]
-                                        valCC.append(ceil(median(valCCintern))) #get cc metric for file and add in a list
+                                        #valCC.append(ceil(median(valCCintern))) #get cc metric for file and add in a list
                                         valMIfalse.append(y) #add metric in a list
                                         valMItrue.append(y2)
                                         valDiff.append(z[0][8])
@@ -186,24 +206,31 @@ class cloneTofindMetrics():
                         print("-----------")
                         self.filesNotRead += 1 # file could not be openned 
         print("\n------------------------------------")
-        print("Total loc: " + str(self.totalLoc) + " - Files validos: " + str(self.validFiles) + " - Files invalidos: " + str(self.invalidFiles) + "\nFiles sem metricas: " + str(self.filesNoMetric) + " - Files não lidos: " + str(self.filesNotRead))
-        if valCC:
-            valCC.sort()
+        print("Total loc: " + str(self.totalLoc) + " - Files validos: " + str(self.validFiles) + " - Files invalidos: " + str(self.invalidFiles) + " - Files sem metricas: " + str(self.filesNoMetric) + " - Files não lidos: " + str(self.filesNotRead))
+        if valMIfalse and valDiff:
+            #valCC.sort()
             valMIfalse.sort()
             valMItrue.sort()
             valDiff.sort()
             valEffort.sort()
             valTimeHas.sort()
             valBugs.sort()
-            self.cc = ceil(median(valCC)) #get cc metric for the repository
+            #self.cc = ceil(median(valCC)) #get cc metric for the repository
             self.miMultiFalse = median(valMIfalse)
             self.miMultiTrue = median(valMItrue)
             self.difficulty = median(valDiff)
             self.effort = median(valEffort)
             self.timeHas = median(valTimeHas)
             self.bugs = median(valBugs)
+        else:
+            self.miMultiFalse = -3
+            self.miMultiTrue = -3
+            self.difficulty = -3
+            self.effort = -3
+            self.timeHas = -3
+            self.bugs = -3
         #print("tam valCC: " + str(len(valCC)))
-        print("cc: " + str(self.cc) + " - miMultiFalse: " + str(self.miMultiFalse) + "\ndifficulty: " + str(self.difficulty) + " - bugs: " + str(self.bugs))
+        print("miMultiFalse: " + str(self.miMultiFalse) + " - difficulty: " + str(self.difficulty))
     
     def getMetrics(self):
         return {"validFiles": str(self.validFiles), 
@@ -218,5 +245,6 @@ class cloneTofindMetrics():
         "difficulty": str(self.difficulty), 
         "effort": str(self.effort), 
         "timeHas": str(self.timeHas), 
-        "bugs": str(self.bugs)}
+        "bugs": str(self.bugs),
+        "totalFiles": str(self.totalFiles)}
 
