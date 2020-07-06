@@ -1,5 +1,0 @@
-nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
-sloria/TextBlob,https://github.com/sloria/TextBlob.git,3,2013-06-30,5829,3624,42,0,1,1,0,X,80.02175370505435,A,85.08846763291538,A,0.5,2.3774437510817346,0.1320802083934297,0.0015849625007211565,44,7112
-sloria/TextBlob,https://github.com/sloria/TextBlob.git,0.6.3-alpha,2013-09-14
-sloria/TextBlob,https://github.com/sloria/TextBlob.git,0.6.3,2013-09-15
-sloria/TextBlob,https://github.com/sloria/TextBlob.git,0.7.0,2013-09-26

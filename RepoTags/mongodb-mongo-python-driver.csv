@@ -1,8 +1,0 @@
-nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
-mongodb/mongo-python-driver,https://github.com/mongodb/mongo-python-driver.git,6,2009-01-15,64115,40396,171,0,1,4,0,X,59.97198983387416,A,61.073498778189645,A,3.5,667.8359853024107,37.10199918346726,0.0641894750100962,176,3053
-mongodb/mongo-python-driver,https://github.com/mongodb/mongo-python-driver.git,3.9.0b1,2019-06-16
-mongodb/mongo-python-driver,https://github.com/mongodb/mongo-python-driver.git,3.9.0,2020-02-03
-mongodb/mongo-python-driver,https://github.com/mongodb/mongo-python-driver.git,3.10.0,2020-02-03
-mongodb/mongo-python-driver,https://github.com/mongodb/mongo-python-driver.git,3.10.1,2020-02-03
-mongodb/mongo-python-driver,https://github.com/mongodb/mongo-python-driver.git,3.11.0b0,2020-04-10
-mongodb/mongo-python-driver,https://github.com/mongodb/mongo-python-driver.git,3.11.0b1,2020-06-09
