@@ -1,5 +1,0 @@
-nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
-pallets/click,https://github.com/pallets/click.git,3,2014-04-24,11424,7697,56,0,2,1,0,X,53.13262840423559,A,58.34772106997502,A,2.083333333333333,201.39780259789495,11.188766810994164,0.025720671786825557,59,9411
-pallets/click,https://github.com/pallets/click.git,7.1,2020-03-09
-pallets/click,https://github.com/pallets/click.git,7.1.1,2020-03-09
-pallets/click,https://github.com/pallets/click.git,7.1.2,2020-04-27

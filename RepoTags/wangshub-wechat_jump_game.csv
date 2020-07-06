@@ -1,0 +1,4 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+wangshub/wechat_jump_game,https://github.com/wangshub/wechat_jump_game.git,2,2017-12-29,2503,1752,20,0,1,0,0,X,59.0574955069512,A,63.19176043412195,A,2.816742081447964,343.52274477855553,19.084596932141974,0.034425090376825784,21,13907
+wangshub/wechat_jump_game,https://github.com/wangshub/wechat_jump_game.git,v1.1.1,2018-01-03
+wangshub/wechat_jump_game,https://github.com/wangshub/wechat_jump_game.git,v1.1.2,2018-01-08

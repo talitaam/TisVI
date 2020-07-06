@@ -1,6 +1,0 @@
-nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
-mindsdb/mindsdb,https://github.com/mindsdb/mindsdb.git,4,2018-08-02,7822,6071,81,1,19,0,0,X,69.16183150544471,A,83.98349974992855,A,0.6,13.95879750389424,0.7754887502163467,0.005169925001442312,101,2730
-mindsdb/mindsdb,https://github.com/mindsdb/mindsdb.git,v0.8.8,2018-12-13
-mindsdb/mindsdb,https://github.com/mindsdb/mindsdb.git,v0.8.9.1,2018-12-24
-mindsdb/mindsdb,https://github.com/mindsdb/mindsdb.git,v1.0.6,2019-04-29
-mindsdb/mindsdb,https://github.com/mindsdb/mindsdb.git,v.1.2.8,2019-07-05

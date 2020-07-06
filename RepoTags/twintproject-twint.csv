@@ -1,0 +1,11 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+twintproject/twint,https://github.com/twintproject/twint.git,9,2017-06-10,3118,2695,22,0,1,0,0,X,45.551896053579185,A,48.735578844590584,A,1.5769230769230769,176.0708445490831,9.781713586060171,0.03928298198579122,23,5929
+twintproject/twint,https://github.com/twintproject/twint.git,v1.0,2018-03-01
+twintproject/twint,https://github.com/twintproject/twint.git,1.1,2018-04-30
+twintproject/twint,https://github.com/twintproject/twint.git,1.1.2,2018-05-02
+twintproject/twint,https://github.com/twintproject/twint.git,1.1.2.1,2018-05-17
+twintproject/twint,https://github.com/twintproject/twint.git,1.1.3,2018-05-28
+twintproject/twint,https://github.com/twintproject/twint.git,1.1.3.1,2018-05-30
+twintproject/twint,https://github.com/twintproject/twint.git,v2.0.0,2019-08-11
+twintproject/twint,https://github.com/twintproject/twint.git,v2.1.0,2019-08-12
+twintproject/twint,https://github.com/twintproject/twint.git,v2.1.4,2019-10-19
