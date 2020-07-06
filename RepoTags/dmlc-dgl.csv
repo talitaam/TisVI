@@ -1,0 +1,12 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+dmlc/dgl,https://github.com/dmlc/dgl.git,10,2018-04-20,110010,64916,553,0,3,3,0,X,55.71836885551505,A,59.939416168009714,A,3.42,588.4035209258818,32.68908449588233,0.054178322214038455,559,5098
+dmlc/dgl,https://github.com/dmlc/dgl.git,v0.1.2,2018-12-07
+dmlc/dgl,https://github.com/dmlc/dgl.git,v0.1.3,2018-12-11
+dmlc/dgl,https://github.com/dmlc/dgl.git,v0.2,2019-03-08
+dmlc/dgl,https://github.com/dmlc/dgl.git,v0.3,2019-06-13
+dmlc/dgl,https://github.com/dmlc/dgl.git,v0.3.1,2019-08-28
+dmlc/dgl,https://github.com/dmlc/dgl.git,v0.4.0,2019-10-07
+dmlc/dgl,https://github.com/dmlc/dgl.git,0.4.1,2019-11-05
+dmlc/dgl,https://github.com/dmlc/dgl.git,0.4.2,2020-01-23
+dmlc/dgl,https://github.com/dmlc/dgl.git,0.4.3,2020-04-02
+dmlc/dgl,https://github.com/dmlc/dgl.git,0.4.3.post2,2020-04-07

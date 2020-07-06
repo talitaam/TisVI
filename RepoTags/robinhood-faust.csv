@@ -1,0 +1,5 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+robinhood/faust,https://github.com/robinhood/faust.git,3,2017-03-08,56217,40414,337,0,47,5,0,X,64.74726792786996,A,66.43725379558951,A,1.0,30.319433158222125,1.6844129532345624,0.009,389,4681
+robinhood/faust,https://github.com/robinhood/faust.git,1.0.10d1,2018-05-17
+robinhood/faust,https://github.com/robinhood/faust.git,1.0.10d2,2018-05-17
+robinhood/faust,https://github.com/robinhood/faust.git,1.0.10d3,2018-05-24

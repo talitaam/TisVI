@@ -1,0 +1,15 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+SublimeText-Markdown/MarkdownEditing,https://github.com/SublimeText-Markdown/MarkdownEditing.git,13,2012-05-17,3031,2248,23,0,0,0,0,X,59.72116353039275,A,62.90281321783278,A,1.2,116.69205856195879,6.4828921423310435,0.03889735285398626,23,2833
+SublimeText-Markdown/MarkdownEditing,https://github.com/SublimeText-Markdown/MarkdownEditing.git,2.1.5,2016-03-04
+SublimeText-Markdown/MarkdownEditing,https://github.com/SublimeText-Markdown/MarkdownEditing.git,2.1.6,2016-04-06
+SublimeText-Markdown/MarkdownEditing,https://github.com/SublimeText-Markdown/MarkdownEditing.git,2.1.7,2016-07-20
+SublimeText-Markdown/MarkdownEditing,https://github.com/SublimeText-Markdown/MarkdownEditing.git,2.1.8,2016-07-27
+SublimeText-Markdown/MarkdownEditing,https://github.com/SublimeText-Markdown/MarkdownEditing.git,2.1.9,2016-08-24
+SublimeText-Markdown/MarkdownEditing,https://github.com/SublimeText-Markdown/MarkdownEditing.git,2.2.0,2016-10-13
+SublimeText-Markdown/MarkdownEditing,https://github.com/SublimeText-Markdown/MarkdownEditing.git,2.2.1,2017-01-03
+SublimeText-Markdown/MarkdownEditing,https://github.com/SublimeText-Markdown/MarkdownEditing.git,2.2.2,2017-05-05
+SublimeText-Markdown/MarkdownEditing,https://github.com/SublimeText-Markdown/MarkdownEditing.git,2.2.3,2017-07-11
+SublimeText-Markdown/MarkdownEditing,https://github.com/SublimeText-Markdown/MarkdownEditing.git,2.2.4,2017-09-04
+SublimeText-Markdown/MarkdownEditing,https://github.com/SublimeText-Markdown/MarkdownEditing.git,2.2.5,2017-09-15
+SublimeText-Markdown/MarkdownEditing,https://github.com/SublimeText-Markdown/MarkdownEditing.git,2.2.6,2018-02-09
+SublimeText-Markdown/MarkdownEditing,https://github.com/SublimeText-Markdown/MarkdownEditing.git,2.2.7,2018-06-02

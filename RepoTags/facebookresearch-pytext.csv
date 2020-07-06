@@ -1,0 +1,11 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+facebookresearch/pytext,https://github.com/facebookresearch/pytext.git,9,2018-07-31,54060,38191,355,0,5,1,0,X,68.3189889799249,A,73.11234555340442,A,1.5,42.793987519471216,2.377443751081734,0.011,361,5897
+facebookresearch/pytext,https://github.com/facebookresearch/pytext.git,v0.1.0,2018-12-14
+facebookresearch/pytext,https://github.com/facebookresearch/pytext.git,v0.1.4,2019-02-07
+facebookresearch/pytext,https://github.com/facebookresearch/pytext.git,v0.1.5,2019-04-16
+facebookresearch/pytext,https://github.com/facebookresearch/pytext.git,v0.2.0,2019-06-15
+facebookresearch/pytext,https://github.com/facebookresearch/pytext.git,v0.2.2,2019-08-15
+facebookresearch/pytext,https://github.com/facebookresearch/pytext.git,0.3.0,2019-11-28
+facebookresearch/pytext,https://github.com/facebookresearch/pytext.git,0.3.1,2020-01-15
+facebookresearch/pytext,https://github.com/facebookresearch/pytext.git,v0.3.2,2020-04-27
+facebookresearch/pytext,https://github.com/facebookresearch/pytext.git,v0.3.3,2020-06-08

@@ -1,0 +1,9 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+tflearn/tflearn,https://github.com/tflearn/tflearn.git,7,2016-03-31,19641,10113,109,0,2,0,0,X,73.83325870431598,A,78.02874057855243,A,1.0,11.60964047443681,0.6449800263576005,0.004643856189774725,111,9432
+tflearn/tflearn,https://github.com/tflearn/tflearn.git,0.2.0,2016-05-31
+tflearn/tflearn,https://github.com/tflearn/tflearn.git,0.1.0,2016-05-31
+tflearn/tflearn,https://github.com/tflearn/tflearn.git,0.2.1,2016-06-10
+tflearn/tflearn,https://github.com/tflearn/tflearn.git,0.2.2,2016-08-11
+tflearn/tflearn,https://github.com/tflearn/tflearn.git,0.3.0,2017-02-20
+tflearn/tflearn,https://github.com/tflearn/tflearn.git,0.3.1,2017-05-18
+tflearn/tflearn,https://github.com/tflearn/tflearn.git,0.3.2,2017-06-18

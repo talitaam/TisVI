@@ -1,0 +1,6 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+donnemartin/haxor-news,https://github.com/donnemartin/haxor-news.git,4,2015-11-16,4581,2360,46,0,0,1,0,X,92.9657935056104,A,91.75505667374065,A,0.5,2.3774437510817346,0.1320802083934297,0.0015849625007211565,47,3127
+donnemartin/haxor-news,https://github.com/donnemartin/haxor-news.git,0.3.1,2016-05-24
+donnemartin/haxor-news,https://github.com/donnemartin/haxor-news.git,0.4.0,2016-05-30
+donnemartin/haxor-news,https://github.com/donnemartin/haxor-news.git,0.4.1,2016-05-30
+donnemartin/haxor-news,https://github.com/donnemartin/haxor-news.git,0.4.2,2017-04-09

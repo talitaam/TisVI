@@ -1,0 +1,9 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+pallets/jinja,https://github.com/pallets/jinja.git,7,2010-10-17,15611,10078,55,0,1,4,0,X,46.4892895921294,A,53.349318551234404,A,2.0,310.987994130444,17.277110785024668,0.06935874834541626,60,7118
+pallets/jinja,https://github.com/pallets/jinja.git,2.10,2017-11-08
+pallets/jinja,https://github.com/pallets/jinja.git,2.10.1,2019-04-06
+pallets/jinja,https://github.com/pallets/jinja.git,2.10.2,2019-10-04
+pallets/jinja,https://github.com/pallets/jinja.git,2.10.3,2019-10-04
+pallets/jinja,https://github.com/pallets/jinja.git,2.11.0,2020-01-29
+pallets/jinja,https://github.com/pallets/jinja.git,2.11.1,2020-01-30
+pallets/jinja,https://github.com/pallets/jinja.git,2.11.2,2020-04-13

@@ -1,0 +1,8 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+christabor/flask_jsondash,https://github.com/christabor/flask_jsondash.git,6,2016-02-18,4870,3589,35,0,5,0,0,X,56.04668893091997,A,57.66714255884416,A,1.5,135.6923076923077,7.538461538461539,0.03752932501298081,40,3057
+christabor/flask_jsondash,https://github.com/christabor/flask_jsondash.git,1.0.3-pre-pypackage,2016-07-25
+christabor/flask_jsondash,https://github.com/christabor/flask_jsondash.git,3.0.0,2016-08-23
+christabor/flask_jsondash,https://github.com/christabor/flask_jsondash.git,3.2.1,2016-08-24
+christabor/flask_jsondash,https://github.com/christabor/flask_jsondash.git,4.0.0,2016-10-26
+christabor/flask_jsondash,https://github.com/christabor/flask_jsondash.git,5.0.0,2016-12-19
+christabor/flask_jsondash,https://github.com/christabor/flask_jsondash.git,6.2.3,2017-06-13

@@ -1,0 +1,5 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+santinic/pampy,https://github.com/santinic/pampy.git,3,2018-11-08,1262,990,10,0,1,0,0,X,57.77698797618389,A,57.77698797618389,A,1.0714285714285714,29.491516083482182,1.6384175601934545,0.008924812503605783,11,3217
+santinic/pampy,https://github.com/santinic/pampy.git,v0.1.9,2018-12-11
+santinic/pampy,https://github.com/santinic/pampy.git,v0.1.10,2018-12-18
+santinic/pampy,https://github.com/santinic/pampy.git,v0.2.1,2018-12-24

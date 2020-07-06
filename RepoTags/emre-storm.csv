@@ -1,0 +1,8 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+emre/storm,https://github.com/emre/storm.git,6,2013-05-20,1977,1258,12,0,1,0,0,X,58.0784958486038,A,65.59066195634529,A,1.682608695652174,159.4297798850186,8.857209993612145,0.02566405368364625,13,3674
+emre/storm,https://github.com/emre/storm.git,0.5.0,2013-11-14
+emre/storm,https://github.com/emre/storm.git,0.6.0,2014-04-16
+emre/storm,https://github.com/emre/storm.git,0.6.6,2015-10-01
+emre/storm,https://github.com/emre/storm.git,0.6.7,2015-10-20
+emre/storm,https://github.com/emre/storm.git,0.6.9,2016-06-28
+emre/storm,https://github.com/emre/storm.git,0.7.0,2018-08-24

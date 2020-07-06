@@ -1,0 +1,7 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+doccano/doccano,https://github.com/doccano/doccano.git,5,2018-05-09,5723,4387,50,0,14,0,0,X,94.96667951795105,A,100.0,A,0.25,0.5,0.027777777777777776,0.0003333333333333333,64,3166
+doccano/doccano,https://github.com/doccano/doccano.git,v1.0.0,2019-11-15
+doccano/doccano,https://github.com/doccano/doccano.git,v1.0.1,2019-11-22
+doccano/doccano,https://github.com/doccano/doccano.git,v1.0.2,2019-11-29
+doccano/doccano,https://github.com/doccano/doccano.git,v1.0.3,2020-03-31
+doccano/doccano,https://github.com/doccano/doccano.git,v1.0.4,2020-04-06

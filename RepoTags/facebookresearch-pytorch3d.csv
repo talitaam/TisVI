@@ -1,0 +1,5 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+facebookresearch/pytorch3d,https://github.com/facebookresearch/pytorch3d.git,3,2019-10-25,31748,19859,135,0,0,0,0,X,67.83221592918673,A,67.93869245376199,A,3.6363636363636362,548.5714285714286,30.476190476190474,0.06089316234606298,135,3278
+facebookresearch/pytorch3d,https://github.com/facebookresearch/pytorch3d.git,v0.1.0,2020-03-05
+facebookresearch/pytorch3d,https://github.com/facebookresearch/pytorch3d.git,v0.1.1,2020-03-08
+facebookresearch/pytorch3d,https://github.com/facebookresearch/pytorch3d.git,v0.2.0,2020-04-27

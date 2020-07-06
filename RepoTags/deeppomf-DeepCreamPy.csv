@@ -1,0 +1,13 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+deeppomf/DeepCreamPy,https://github.com/deeppomf/DeepCreamPy.git,11,2018-02-09,1473,964,9,0,0,0,0,X,57.03570991951445,A,57.03570991951445,A,4.476744186046512,2122.3524322943554,117.90846846079752,0.15802797331369228,9,9558
+deeppomf/DeepCreamPy,https://github.com/deeppomf/DeepCreamPy.git,v1.0.0-beta,2018-10-20
+deeppomf/DeepCreamPy,https://github.com/deeppomf/DeepCreamPy.git,v1.1.0-beta,2018-10-21
+deeppomf/DeepCreamPy,https://github.com/deeppomf/DeepCreamPy.git,v1.2.0-beta,2018-10-22
+deeppomf/DeepCreamPy,https://github.com/deeppomf/DeepCreamPy.git,v1.2.1-beta,2018-10-27
+deeppomf/DeepCreamPy,https://github.com/deeppomf/DeepCreamPy.git,v1.2.2-beta,2018-11-03
+deeppomf/DeepCreamPy,https://github.com/deeppomf/DeepCreamPy.git,v1.2.3-beta,2018-11-04
+deeppomf/DeepCreamPy,https://github.com/deeppomf/DeepCreamPy.git,v1.3.0-beta,2018-11-11
+deeppomf/DeepCreamPy,https://github.com/deeppomf/DeepCreamPy.git,v2.0.0-beta,2019-08-12
+deeppomf/DeepCreamPy,https://github.com/deeppomf/DeepCreamPy.git,v2.1.0-beta,2019-09-11
+deeppomf/DeepCreamPy,https://github.com/deeppomf/DeepCreamPy.git,v2.2.0-alpha,2019-10-18
+deeppomf/DeepCreamPy,https://github.com/deeppomf/DeepCreamPy.git,v2.2.0-beta,2019-11-01

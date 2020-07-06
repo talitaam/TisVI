@@ -1,0 +1,9 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+frostming/legit,https://github.com/frostming/legit.git,7,2011-06-25,1329,895,9,0,1,0,0,X,67.84060637449255,A,67.84060637449255,A,1.2,33.688259064691245,1.8715699480384025,0.01,10,5637
+frostming/legit,https://github.com/frostming/legit.git,v0.2.0,2015-08-08
+frostming/legit,https://github.com/frostming/legit.git,v0.2.1,2016-09-25
+frostming/legit,https://github.com/frostming/legit.git,v1.0.0,2018-03-14
+frostming/legit,https://github.com/frostming/legit.git,v1.0.1,2018-03-17
+frostming/legit,https://github.com/frostming/legit.git,v1.0.2,2019-09-19
+frostming/legit,https://github.com/frostming/legit.git,v1.1.0,2019-10-01
+frostming/legit,https://github.com/frostming/legit.git,1.2.0,2019-12-10

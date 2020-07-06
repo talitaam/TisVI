@@ -1,0 +1,10 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+pytorch/ignite,https://github.com/pytorch/ignite.git,8,2017-11-23,43435,26998,211,0,13,0,0,X,51.118999857131534,A,57.65937281892303,A,3.04,523.5336820261821,29.085204557010115,0.05420902501875005,224,2877
+pytorch/ignite,https://github.com/pytorch/ignite.git,v0.1.0,2018-06-18
+pytorch/ignite,https://github.com/pytorch/ignite.git,v0.1.1,2018-11-09
+pytorch/ignite,https://github.com/pytorch/ignite.git,v0.1.2,2018-12-14
+pytorch/ignite,https://github.com/pytorch/ignite.git,v0.2.0,2019-04-09
+pytorch/ignite,https://github.com/pytorch/ignite.git,v0.2.1,2019-10-03
+pytorch/ignite,https://github.com/pytorch/ignite.git,v0.3.0,2020-01-21
+pytorch/ignite,https://github.com/pytorch/ignite.git,v0.4rc.0.post1,2020-06-06
+pytorch/ignite,https://github.com/pytorch/ignite.git,v0.4.0.post1,2020-06-26

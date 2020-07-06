@@ -21,7 +21,7 @@ from json import load, loads
 import searchGraphQL
 
 
-TIME_LIMIT_TO_FIND_LOC = 1200  # seconds
+TIME_LIMIT_TO_FIND_LOC = 1800  # seconds
 TIMESLEEP = 60  # seconds
 
 
@@ -42,11 +42,11 @@ def writeInFinalFile(node, url, totalLoc, totalSloc, validFiles, invalidFiles, f
         miMultiFalse), miMultiFalseRank, str(miMultiTrue), miMultiTrueRank, str(difficulty), str(effort), str(timeHas), str(bugs), str(totalFiles), str(node[2])))
     fileFinal.close()
 
-def writeInFinalTagFile(fileNamePath, node, totalLoc, totalSloc, validFiles, invalidFiles, filesNotRead, filesNoMetric, cc, ccRank, miMultiFalse, miMultiFalseRank, miMultiTrue, miMultiTrueRank, difficulty, effort, timeHas, bugs, ):
-    fileFinalTag = open(fileNamePath, 'a', newline='')
+def writeInFinalTagFile(fileNamePath, node, totalLoc, totalSloc, validFiles, invalidFiles, filesNotRead, filesNoMetric, cc, ccRank, miMultiFalse, miMultiFalseRank, miMultiTrue, miMultiTrueRank, difficulty, effort, timeHas, bugs, totalFiles):
+    fileFinalTag = open(fileNamePath, 'a', newline='', encoding="utf-8")
     finalTag = csv.writer(fileFinalTag)
     finalTag.writerow((node[0], node[1], node[2], node[3], str(totalLoc), str(totalSloc), str(validFiles), str(invalidFiles), str(filesNotRead), str(filesNoMetric), str(cc), ccRank, str(
-        miMultiFalse), miMultiFalseRank, str(miMultiTrue), miMultiTrueRank, str(difficulty), str(effort), str(timeHas), str(bugs)))
+        miMultiFalse), miMultiFalseRank, str(miMultiTrue), miMultiTrueRank, str(difficulty), str(effort), str(timeHas), str(bugs),str(totalFiles)))
     fileFinalTag.close()
 
 def main():
@@ -229,20 +229,21 @@ def main():
                             t1.join()
                             time.sleep(TIMESLEEP)
                             print("\nis still alive? " + str(t1.is_alive()))
-                            writeInFinalTagFile(fileNamePath, node, -1, -1, -1, -1, -1, -1, -1, "Z",-1, "Z", -1, "Z", -1, -1, -1, -1)
+                            m = calculateMetrics2.getMetrics()
+                            writeInFinalTagFile(fileNamePath, node, m['totalLoc'], m['totalSloc'], m['validFiles'], m['invalidFiles'], m['filesNotRead'], m['filesNoMetric'], -1, "Z",-1, "Z", -1, "Z", -1, -1, -1, -1, m['totalFiles'])
                         else:
                             m = calculateMetrics2.getMetrics()
-                            if int(m['cc']) != -1:
-                                ccRank = cc_rank(int(m['cc']))
+                            if float(m['miMultiFalse']) > -1:
+                                ccRank = "X"
                                 miMultiFalseRank = mi_rank(float(m['miMultiFalse']))
                                 miMultiTrueRank = mi_rank(float(m['miMultiTrue']))
                                 print("--------------")
                                 print("Gravando: ")
-                                print("Total loc: " + str(m['totalLoc']) + " - Files validos: " + str(m['validFiles']) + " - Files invalidos: " + str(m['invalidFiles']) + "\nFiles sem metricas: " + str(m['filesNoMetric']) + " - Files não lidos: " + str(m['filesNotRead']))
-                                print("cc: " + str(m['cc']) + " - miMultiFalse: " + str(m['miMultiFalse']) + "difficulty: " + str(m['difficulty']))
-                                writeInFinalTagFile(fileNamePath, node, m['totalLoc'], m['totalSloc'], m['validFiles'], m['invalidFiles'], m['filesNotRead'], m['filesNoMetric'], m['cc'], ccRank, m['miMultiFalse'], miMultiFalseRank, m['miMultiTrue'], miMultiTrueRank, m['difficulty'], m['effort'], m['timeHas'], m['bugs'])
+                                print("Total loc: " + str(m['totalLoc']) + " - Files validos: " + str(m['validFiles']) + " - Files invalidos: " + str(m['invalidFiles']) + " - Files sem metricas: " + str(m['filesNoMetric']) + " - Files não lidos: " + str(m['filesNotRead']))
+                                print("miMultiFalse: " + str(m['miMultiFalse']) + " - difficulty: " + str(m['difficulty']))
+                                writeInFinalTagFile(fileNamePath, node, m['totalLoc'], m['totalSloc'], m['validFiles'], m['invalidFiles'], m['filesNotRead'], m['filesNoMetric'], m['cc'], ccRank, m['miMultiFalse'], miMultiFalseRank, m['miMultiTrue'], miMultiTrueRank, m['difficulty'], m['effort'], m['timeHas'], m['bugs'], m['totalFiles'])
                             else:
-                                writeInFinalTagFile(fileNamePath, node, -1, -1, -1, -1, -1, -1, -1, "Z",-1, "Z", -1, "Z", -1, -1, -1, -1)
+                                writeInFinalTagFile(fileNamePath, node, m['totalLoc'], m['totalSloc'], m['validFiles'], m['invalidFiles'], m['filesNotRead'], m['filesNoMetric'], m['cc'], "Z", m['miMultiFalse'], "Z", m['miMultiTrue'], "Z", m['difficulty'], m['effort'], m['timeHas'], m['bugs'], m['totalFiles'])
                     contNode += 1
                 readFileRepoTag.close()
                 print("\n ------ Fim ------- \n")

@@ -1,0 +1,6 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+ReFirmLabs/binwalk,https://github.com/ReFirmLabs/binwalk.git,4,2013-11-15,8121,4892,48,0,1,0,0,X,67.9174814360309,A,73.3709059941302,A,3.4,529.4030407150162,29.411280039723128,0.051403058081598056,49,6222
+ReFirmLabs/binwalk,https://github.com/ReFirmLabs/binwalk.git,v2.0.0,2014-07-26
+ReFirmLabs/binwalk,https://github.com/ReFirmLabs/binwalk.git,v2.0.1,2014-07-27
+ReFirmLabs/binwalk,https://github.com/ReFirmLabs/binwalk.git,v2.1.1,2015-12-23
+ReFirmLabs/binwalk,https://github.com/ReFirmLabs/binwalk.git,v2.2.0,2019-10-14

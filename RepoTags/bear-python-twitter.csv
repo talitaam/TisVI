@@ -1,0 +1,14 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+bear/python-twitter,https://github.com/bear/python-twitter.git,12,2012-09-12,5928,4225,36,0,1,1,0,X,77.07100502300673,A,77.07100502300673,A,0.5,7.9828921423310435,0.4434940079072802,0.0026416041678685937,38,2995
+bear/python-twitter,https://github.com/bear/python-twitter.git,v2.0,2014-07-11
+bear/python-twitter,https://github.com/bear/python-twitter.git,v2.1,2014-12-24
+bear/python-twitter,https://github.com/bear/python-twitter.git,v2.2,2014-12-24
+bear/python-twitter,https://github.com/bear/python-twitter.git,v3.0,2015-12-29
+bear/python-twitter,https://github.com/bear/python-twitter.git,v3.1,2016-05-26
+bear/python-twitter,https://github.com/bear/python-twitter.git,v3.2,2016-11-24
+bear/python-twitter,https://github.com/bear/python-twitter.git,v3.2.1,2017-01-22
+bear/python-twitter,https://github.com/bear/python-twitter.git,v3.3,2017-05-21
+bear/python-twitter,https://github.com/bear/python-twitter.git,v3.4,2018-02-19
+bear/python-twitter,https://github.com/bear/python-twitter.git,v3.4.1,2018-03-10
+bear/python-twitter,https://github.com/bear/python-twitter.git,v3.4.2,2018-06-07
+bear/python-twitter,https://github.com/bear/python-twitter.git,v3.5,2018-09-29

@@ -1,0 +1,6 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+jazzband/tablib,https://github.com/jazzband/tablib.git,4,2011-03-28,5823,3104,30,0,3,0,0,X,64.86356424441416,A,72.2171375013187,A,1.8,68.15963227050307,3.7866462372501704,0.012482880680573552,33,3717
+jazzband/tablib,https://github.com/jazzband/tablib.git,v0.14.0,2019-10-19
+jazzband/tablib,https://github.com/jazzband/tablib.git,v1.0.0,2020-01-13
+jazzband/tablib,https://github.com/jazzband/tablib.git,v1.1.0,2020-02-13
+jazzband/tablib,https://github.com/jazzband/tablib.git,v2.0.0,2020-05-16

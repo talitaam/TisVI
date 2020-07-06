@@ -1,0 +1,8 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+QingdaoU/OnlineJudge,https://github.com/QingdaoU/OnlineJudge.git,6,2015-08-15,9934,7867,131,0,31,0,0,X,100.0,A,100.0,A,0,0,0.0,0.0,162,3212
+QingdaoU/OnlineJudge,https://github.com/QingdaoU/OnlineJudge.git,1.0,2016-02-03
+QingdaoU/OnlineJudge,https://github.com/QingdaoU/OnlineJudge.git,1.1,2016-02-19
+QingdaoU/OnlineJudge,https://github.com/QingdaoU/OnlineJudge.git,1.2,2016-04-02
+QingdaoU/OnlineJudge,https://github.com/QingdaoU/OnlineJudge.git,1.3,2016-04-24
+QingdaoU/OnlineJudge,https://github.com/QingdaoU/OnlineJudge.git,1.3.5,2016-05-30
+QingdaoU/OnlineJudge,https://github.com/QingdaoU/OnlineJudge.git,1.5.0,2017-08-11

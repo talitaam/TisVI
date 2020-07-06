@@ -1,0 +1,7 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+eastlakeside/interpy-zh,https://github.com/eastlakeside/interpy-zh.git,5,2015-09-21,125,77,7,20,0,0,0,X,100.0,A,100.0,A,0,0,0.0,0.0,27,5355
+eastlakeside/interpy-zh,https://github.com/eastlakeside/interpy-zh.git,v0.1-metaphrase,2016-02-02
+eastlakeside/interpy-zh,https://github.com/eastlakeside/interpy-zh.git,v1.0-paraphrase,2016-03-29
+eastlakeside/interpy-zh,https://github.com/eastlakeside/interpy-zh.git,v1.1-GeneralAvailable,2016-03-31
+eastlakeside/interpy-zh,https://github.com/eastlakeside/interpy-zh.git,v1.2-PublicReviewed,2016-04-07
+eastlakeside/interpy-zh,https://github.com/eastlakeside/interpy-zh.git,v1.3-StableEdition,2016-06-15

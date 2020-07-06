@@ -46,7 +46,7 @@ class searchAttributes():
             # Query GraphQL to look for first 1000 repositories in Python over 100 stars
             self.query = """
             query example{
-                search (query:"stars:>100 and language:Python and created:>2014-01-01", type: REPOSITORY, first:30{AFTER}) {
+                search (query:"stars:>100 language:Python", type: REPOSITORY, first:30{AFTER}) {
                     pageInfo{
                         hasNextPage
                         endCursor
@@ -149,11 +149,11 @@ class searchAttributes():
             print("Criando arquivo tag CSV")
             fileTag = open(fullFilePath, 'w')
             fileTag.close()
-            fileTag = open(fullFilePath, 'a', newline='')
+            fileTag = open(fullFilePath, 'a', newline='', encoding="utf-8")
             repoTag = csv.writer(fileTag)
             print("Salvando Tags:\n[", end='')
             repoTag.writerow(('nameWithOwner', 'url', 'tagName', 'publishedAt', 'totalLoc', 'totalSloc', 'validFiles', 'invalidFiles', 'filesNotRead', 'filesNoMetric', 'cc', 'ccRank',
-                    'miMultiFalse', 'miMultiFalseRank', 'miMultiTrue', 'miMultiTrueRank', 'difficulty', 'effort', 'timeHas', 'bugs'))
+                    'miMultiFalse', 'miMultiFalseRank', 'miMultiTrue', 'miMultiTrueRank', 'difficulty', 'effort', 'timeHas', 'bugs', 'totalFiles', 'stars'))
             repoTag.writerow(nodeFinal)
             num = 0
             for node in nodes:

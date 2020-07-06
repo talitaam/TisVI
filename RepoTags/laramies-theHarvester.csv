@@ -1,0 +1,9 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+laramies/theHarvester,https://github.com/laramies/theHarvester.git,7,2011-01-01,4675,3831,54,0,4,0,0,X,63.09341694679778,A,64.80770431425793,A,1.1388888888888888,39.18156856932418,2.1767538094068986,0.011590201507293497,58,3898
+laramies/theHarvester,https://github.com/laramies/theHarvester.git,2.7,2016-04-18
+laramies/theHarvester,https://github.com/laramies/theHarvester.git,v3.0,2018-10-09
+laramies/theHarvester,https://github.com/laramies/theHarvester.git,v3.0.1,2018-11-26
+laramies/theHarvester,https://github.com/laramies/theHarvester.git,v3.0.4,2018-12-11
+laramies/theHarvester,https://github.com/laramies/theHarvester.git,v3.0.5,2018-12-17
+laramies/theHarvester,https://github.com/laramies/theHarvester.git,3.0.6,2018-12-19
+laramies/theHarvester,https://github.com/laramies/theHarvester.git,V3.1,2019-10-14

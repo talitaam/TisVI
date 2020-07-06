@@ -1,0 +1,12 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+darknessomi/musicbox,https://github.com/darknessomi/musicbox.git,10,2014-08-05,3747,2924,21,0,0,0,0,X,73.46779846094358,A,79.01185722014272,A,1.0,30.0,1.6666666666666667,0.01,21,8398
+darknessomi/musicbox,https://github.com/darknessomi/musicbox.git,0.2.3.4,2016-10-13
+darknessomi/musicbox,https://github.com/darknessomi/musicbox.git,0.2.3.5,2016-10-16
+darknessomi/musicbox,https://github.com/darknessomi/musicbox.git,0.2.3.6,2016-11-07
+darknessomi/musicbox,https://github.com/darknessomi/musicbox.git,0.2.3.7,2016-11-24
+darknessomi/musicbox,https://github.com/darknessomi/musicbox.git,0.2.3.9,2017-03-03
+darknessomi/musicbox,https://github.com/darknessomi/musicbox.git,0.2.4.0,2017-03-17
+darknessomi/musicbox,https://github.com/darknessomi/musicbox.git,0.2.4.1,2017-06-03
+darknessomi/musicbox,https://github.com/darknessomi/musicbox.git,0.2.4.2,2017-11-28
+darknessomi/musicbox,https://github.com/darknessomi/musicbox.git,0.2.4.3,2018-05-25
+darknessomi/musicbox,https://github.com/darknessomi/musicbox.git,0.2.5.4,2018-11-28

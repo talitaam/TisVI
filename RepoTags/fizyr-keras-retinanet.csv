@@ -1,0 +1,8 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+fizyr/keras-retinanet,https://github.com/fizyr/keras-retinanet.git,6,2017-08-14,8586,4682,59,0,10,0,0,X,61.66719549859374,A,73.77651170978122,A,2.3333333333333335,196.0,10.88888888888889,0.03269970273000272,69,3845
+fizyr/keras-retinanet,https://github.com/fizyr/keras-retinanet.git,0.1,2018-01-15
+fizyr/keras-retinanet,https://github.com/fizyr/keras-retinanet.git,0.2,2018-03-03
+fizyr/keras-retinanet,https://github.com/fizyr/keras-retinanet.git,0.3.1,2018-05-12
+fizyr/keras-retinanet,https://github.com/fizyr/keras-retinanet.git,0.4.1,2018-07-18
+fizyr/keras-retinanet,https://github.com/fizyr/keras-retinanet.git,0.5.0,2018-10-17
+fizyr/keras-retinanet,https://github.com/fizyr/keras-retinanet.git,0.5.1,2019-06-20

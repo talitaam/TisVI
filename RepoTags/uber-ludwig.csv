@@ -1,0 +1,8 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+uber/ludwig,https://github.com/uber/ludwig.git,6,2018-12-27,30048,21317,102,0,5,2,0,X,68.30824545305002,A,69.39387796011385,A,2.3125,297.4841193889268,16.526895521607045,0.043186477218475405,109,6809
+uber/ludwig,https://github.com/uber/ludwig.git,v0.1.0,2019-02-11
+uber/ludwig,https://github.com/uber/ludwig.git,v0.1.1,2019-04-09
+uber/ludwig,https://github.com/uber/ludwig.git,v0.1.2,2019-04-27
+uber/ludwig,https://github.com/uber/ludwig.git,v0.2,2019-07-24
+uber/ludwig,https://github.com/uber/ludwig.git,v0.2.1,2019-10-13
+uber/ludwig,https://github.com/uber/ludwig.git,v0.2.2,2020-03-06

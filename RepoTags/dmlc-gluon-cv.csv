@@ -1,0 +1,9 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+dmlc/gluon-cv,https://github.com/dmlc/gluon-cv.git,7,2018-02-26,75156,42997,351,0,10,0,0,X,58.13430702367554,A,63.38005586563922,A,3.6,581.6899455689701,32.316108087165006,0.04953446602426373,361,3990
+dmlc/gluon-cv,https://github.com/dmlc/gluon-cv.git,v0.1,2018-05-01
+dmlc/gluon-cv,https://github.com/dmlc/gluon-cv.git,v0.2.0,2018-06-26
+dmlc/gluon-cv,https://github.com/dmlc/gluon-cv.git,v0.3.0,2018-10-16
+dmlc/gluon-cv,https://github.com/dmlc/gluon-cv.git,v0.4.0,2019-03-26
+dmlc/gluon-cv,https://github.com/dmlc/gluon-cv.git,v0.5.0,2019-09-10
+dmlc/gluon-cv,https://github.com/dmlc/gluon-cv.git,v0.6.0,2020-01-13
+dmlc/gluon-cv,https://github.com/dmlc/gluon-cv.git,v0.7.0,2020-04-22

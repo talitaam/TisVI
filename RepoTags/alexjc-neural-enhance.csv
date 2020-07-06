@@ -1,0 +1,5 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+alexjc/neural-enhance,https://github.com/alexjc/neural-enhance.git,3,2016-10-01,587,429,1,0,0,0,0,X,19.31686086903665,A,21.303773343854,A,12.857142857142858,59044.86084836368,3280.2700471313156,1.5307926886612804,1,10326
+alexjc/neural-enhance,https://github.com/alexjc/neural-enhance.git,v0.1,2016-10-28
+alexjc/neural-enhance,https://github.com/alexjc/neural-enhance.git,v0.2,2016-11-03
+alexjc/neural-enhance,https://github.com/alexjc/neural-enhance.git,v0.3,2016-11-13

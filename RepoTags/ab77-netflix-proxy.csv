@@ -1,0 +1,4 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+ab77/netflix-proxy,https://github.com/ab77/netflix-proxy.git,2,2015-03-17,1118,856,5,1,0,0,0,X,100.0,A,100.0,A,0,0,0.0,0.0,6,2743
+ab77/netflix-proxy,https://github.com/ab77/netflix-proxy.git,python2,2019-05-24
+ab77/netflix-proxy,https://github.com/ab77/netflix-proxy.git,latest,2019-12-24

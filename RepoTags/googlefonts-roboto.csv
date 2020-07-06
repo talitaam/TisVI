@@ -1,0 +1,10 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+googlefonts/roboto,https://github.com/googlefonts/roboto.git,8,2015-04-11,1777,1092,22,29,0,0,0,X,75.03120208664751,A,74.97498623538124,A,2.705108359133127,372.3289394082317,20.68494107823509,0.04632115250221214,51,3501
+googlefonts/roboto,https://github.com/googlefonts/roboto.git,v2.129,2016-03-01
+googlefonts/roboto,https://github.com/googlefonts/roboto.git,v2.131,2016-03-17
+googlefonts/roboto,https://github.com/googlefonts/roboto.git,v2.132,2016-04-07
+googlefonts/roboto,https://github.com/googlefonts/roboto.git,v2.133,2016-06-14
+googlefonts/roboto,https://github.com/googlefonts/roboto.git,v2.134,2016-06-23
+googlefonts/roboto,https://github.com/googlefonts/roboto.git,v2.135,2016-11-03
+googlefonts/roboto,https://github.com/googlefonts/roboto.git,v2.136,2016-12-17
+googlefonts/roboto,https://github.com/googlefonts/roboto.git,v2.138,2017-08-02

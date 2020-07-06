@@ -1,0 +1,7 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+codertimo/BERT-pytorch,https://github.com/codertimo/BERT-pytorch.git,5,2018-10-15,974,582,27,0,0,0,0,X,82.78109675936061,A,96.89906534144248,A,0.5,4.0,0.2222222222222222,0.0015849625007211565,27,3546
+codertimo/BERT-pytorch,https://github.com/codertimo/BERT-pytorch.git,0.0.1a0,2018-10-18
+codertimo/BERT-pytorch,https://github.com/codertimo/BERT-pytorch.git,0.0.1a1,2018-10-18
+codertimo/BERT-pytorch,https://github.com/codertimo/BERT-pytorch.git,0.0.1a2,2018-10-19
+codertimo/BERT-pytorch,https://github.com/codertimo/BERT-pytorch.git,0.0.1a3,2018-10-20
+codertimo/BERT-pytorch,https://github.com/codertimo/BERT-pytorch.git,0.0.1a4,2018-10-23

@@ -1,0 +1,5 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+r0oth3x49/udemy-dl,https://github.com/r0oth3x49/udemy-dl.git,3,2017-05-01,1275,773,14,0,0,3,0,X,57.95908946861476,A,73.09453940065097,A,2.3,343.54617838778256,19.085898799321253,0.04495248383616436,17,3171
+r0oth3x49/udemy-dl,https://github.com/r0oth3x49/udemy-dl.git,v0.3,2017-12-30
+r0oth3x49/udemy-dl,https://github.com/r0oth3x49/udemy-dl.git,v0.4,2018-02-26
+r0oth3x49/udemy-dl,https://github.com/r0oth3x49/udemy-dl.git,v0.5,2018-05-21

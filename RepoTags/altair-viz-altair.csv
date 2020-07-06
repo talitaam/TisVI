@@ -1,0 +1,10 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+altair-viz/altair,https://github.com/altair-viz/altair.git,8,2015-09-19,69775,19638,236,0,10,2,0,X,96.60595331738998,A,100.0,A,0.5,2.3774437510817346,0.1320802083934297,0.0015849625007211565,248,5655
+altair-viz/altair,https://github.com/altair-viz/altair.git,v1.2.0,2016-11-07
+altair-viz/altair,https://github.com/altair-viz/altair.git,v2.1.0,2018-06-06
+altair-viz/altair,https://github.com/altair-viz/altair.git,v2.2.0,2018-08-15
+altair-viz/altair,https://github.com/altair-viz/altair.git,v3.0.0,2019-04-30
+altair-viz/altair,https://github.com/altair-viz/altair.git,v3.2.0,2019-08-06
+altair-viz/altair,https://github.com/altair-viz/altair.git,v3.3.0,2019-11-27
+altair-viz/altair,https://github.com/altair-viz/altair.git,v4.0.0,2019-12-11
+altair-viz/altair,https://github.com/altair-viz/altair.git,v4.1.0,2020-04-01

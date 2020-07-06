@@ -1,0 +1,7 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+microsoft/nlp-recipes,https://github.com/microsoft/nlp-recipes.git,5,2019-04-05,27637,17402,139,0,8,0,0,X,60.875266139165426,A,67.81578024013885,A,2.25,241.762061585218,13.431225643623222,0.03678716557125306,147,4934
+microsoft/nlp-recipes,https://github.com/microsoft/nlp-recipes.git,v0.1.0,2019-09-19
+microsoft/nlp-recipes,https://github.com/microsoft/nlp-recipes.git,v1.0.0,2019-10-04
+microsoft/nlp-recipes,https://github.com/microsoft/nlp-recipes.git,v2.0.0,2019-12-04
+microsoft/nlp-recipes,https://github.com/microsoft/nlp-recipes.git,v2.1.0,2020-01-25
+microsoft/nlp-recipes,https://github.com/microsoft/nlp-recipes.git,2.2.0,2020-03-30

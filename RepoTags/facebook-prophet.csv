@@ -1,0 +1,10 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+facebook/prophet,https://github.com/facebook/prophet.git,8,2016-11-16,5251,3470,12,0,1,1,0,X,48.478003928063075,A,48.478003928063075,A,7.355042016806722,3844.4016674526247,213.5778704140347,0.17365702068414668,14,11037
+facebook/prophet,https://github.com/facebook/prophet.git,v0.1,2017-03-05
+facebook/prophet,https://github.com/facebook/prophet.git,v0.1.1,2017-04-18
+facebook/prophet,https://github.com/facebook/prophet.git,v0.2,2017-09-12
+facebook/prophet,https://github.com/facebook/prophet.git,v0.2.1,2017-11-09
+facebook/prophet,https://github.com/facebook/prophet.git,v0.3,2018-06-02
+facebook/prophet,https://github.com/facebook/prophet.git,v0.4,2018-12-22
+facebook/prophet,https://github.com/facebook/prophet.git,v0.5,2019-05-15
+facebook/prophet,https://github.com/facebook/prophet.git,0.6,2020-03-03

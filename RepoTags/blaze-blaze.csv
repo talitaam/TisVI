@@ -1,0 +1,16 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+blaze/blaze,https://github.com/blaze/blaze.git,14,2012-10-26,27427,17451,126,0,3,4,0,X,50.74037327046008,A,56.410818538305044,A,2.5166666666666666,413.23906347322304,22.957725748512388,0.05064280713292747,133,2884
+blaze/blaze,https://github.com/blaze/blaze.git,0.6.2,2014-08-28
+blaze/blaze,https://github.com/blaze/blaze.git,0.6.3,2014-08-31
+blaze/blaze,https://github.com/blaze/blaze.git,0.6.4,2014-10-04
+blaze/blaze,https://github.com/blaze/blaze.git,0.6.5,2014-10-07
+blaze/blaze,https://github.com/blaze/blaze.git,0.7.1,2015-01-22
+blaze/blaze,https://github.com/blaze/blaze.git,0.7.2,2015-03-26
+blaze/blaze,https://github.com/blaze/blaze.git,0.7.3,2015-03-26
+blaze/blaze,https://github.com/blaze/blaze.git,0.8.0,2015-04-26
+blaze/blaze,https://github.com/blaze/blaze.git,0.8.1,2015-07-08
+blaze/blaze,https://github.com/blaze/blaze.git,0.8.2,2015-07-09
+blaze/blaze,https://github.com/blaze/blaze.git,0.8.3,2015-09-15
+blaze/blaze,https://github.com/blaze/blaze.git,0.10.0,2016-04-25
+blaze/blaze,https://github.com/blaze/blaze.git,0.10.1,2016-05-06
+blaze/blaze,https://github.com/blaze/blaze.git,0.11.0,2016-07-19

@@ -1,0 +1,15 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+flairNLP/flair,https://github.com/flairNLP/flair.git,12,2018-06-11,16680,11386,51,0,0,3,0,X,48.8904909814418,A,52.82263821320472,A,2.8846153846153846,805.82830299823,44.76823905545722,0.08221753104394951,54,8941
+flairNLP/flair,https://github.com/flairNLP/flair.git,v0.1.0,2018-07-13
+flairNLP/flair,https://github.com/flairNLP/flair.git,v0.2.0,2018-08-03
+flairNLP/flair,https://github.com/flairNLP/flair.git,v0.3.0,2018-10-16
+flairNLP/flair,https://github.com/flairNLP/flair.git,v0.3.1,2018-10-19
+flairNLP/flair,https://github.com/flairNLP/flair.git,v0.3.2,2018-11-12
+flairNLP/flair,https://github.com/flairNLP/flair.git,v0.4.0,2018-12-19
+flairNLP/flair,https://github.com/flairNLP/flair.git,v0.4.1,2019-02-22
+flairNLP/flair,https://github.com/flairNLP/flair.git,v0.4.2,2019-05-30
+flairNLP/flair,https://github.com/flairNLP/flair.git,v0.4.3,2019-08-26
+flairNLP/flair,https://github.com/flairNLP/flair.git,v0.4.4,2019-10-20
+flairNLP/flair,https://github.com/flairNLP/flair.git,v0.4.5,2020-01-24
+flairNLP/flair,https://github.com/flairNLP/flair.git,v0.5,2020-05-24
+flairNLP/flair,https://github.com/flairNLP/flair.git,v0.5.1,2020-07-05

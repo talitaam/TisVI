@@ -1,0 +1,5 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+webpy/webpy,https://github.com/webpy/webpy.git,3,2008-09-29,6140,3744,26,0,2,3,0,X,50.47859193362781,A,62.24310967379979,A,3.2916666666666665,693.7376238310347,38.540979101724155,0.09476710933828333,31,5407
+webpy/webpy,https://github.com/webpy/webpy.git,0.40,2019-09-27
+webpy/webpy,https://github.com/webpy/webpy.git,0.50,2020-03-21
+webpy/webpy,https://github.com/webpy/webpy.git,0.51,2020-03-25

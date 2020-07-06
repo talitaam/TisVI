@@ -1,0 +1,13 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+encode/httpx,https://github.com/encode/httpx.git,11,2019-04-04,9930,7217,45,0,4,1,0,X,46.8944481410104,A,51.73902340763474,A,1.7297297297297298,357.2196593574137,19.84553663096743,0.06730296890880645,50,5012
+encode/httpx,https://github.com/encode/httpx.git,0.7.2,2019-08-29
+encode/httpx,https://github.com/encode/httpx.git,0.7.3,2019-10-04
+encode/httpx,https://github.com/encode/httpx.git,0.7.4,2019-10-04
+encode/httpx,https://github.com/encode/httpx.git,0.7.5,2019-10-10
+encode/httpx,https://github.com/encode/httpx.git,0.13.0.dev0,2020-04-30
+encode/httpx,https://github.com/encode/httpx.git,0.13.0.dev1,2020-05-06
+encode/httpx,https://github.com/encode/httpx.git,0.13.0.dev2,2020-05-12
+encode/httpx,https://github.com/encode/httpx.git,0.13.0,2020-05-22
+encode/httpx,https://github.com/encode/httpx.git,0.13.1,2020-05-22
+encode/httpx,https://github.com/encode/httpx.git,0.13.2,2020-05-27
+encode/httpx,https://github.com/encode/httpx.git,0.13.3,2020-05-29

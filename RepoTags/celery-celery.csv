@@ -1,0 +1,11 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+celery/celery,https://github.com/celery/celery.git,9,2009-04-24,61852,43475,318,0,23,13,0,X,54.39863418881937,A,58.310367542795234,A,2.0,168.88551277684326,9.382528487602404,0.03129616994056038,354,15285
+celery/celery,https://github.com/celery/celery.git,v3.0.20,2013-07-03
+celery/celery,https://github.com/celery/celery.git,4.4.0rc5,2019-12-07
+celery/celery,https://github.com/celery/celery.git,4.4.0,2019-12-16
+celery/celery,https://github.com/celery/celery.git,4.4.1,2020-03-02
+celery/celery,https://github.com/celery/celery.git,4.4.2,2020-04-16
+celery/celery,https://github.com/celery/celery.git,4.4.3,2020-06-01
+celery/celery,https://github.com/celery/celery.git,v4.4.4,2020-06-03
+celery/celery,https://github.com/celery/celery.git,v4.4.5,2020-06-08
+celery/celery,https://github.com/celery/celery.git,v4.4.6,2020-06-24

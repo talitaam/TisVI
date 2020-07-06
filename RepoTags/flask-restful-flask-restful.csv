@@ -1,0 +1,8 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+flask-restful/flask-restful,https://github.com/flask-restful/flask-restful.git,6,2012-10-12,6009,3953,25,0,0,0,0,X,60.673122976652714,A,61.86886661155734,A,1.0909090909090908,36.0,2.0,0.008422064766172813,25,5619
+flask-restful/flask-restful,https://github.com/flask-restful/flask-restful.git,0.2.5,2013-09-24
+flask-restful/flask-restful,https://github.com/flask-restful/flask-restful.git,0.2.6,2013-11-18
+flask-restful/flask-restful,https://github.com/flask-restful/flask-restful.git,0.2.9,2013-12-17
+flask-restful/flask-restful,https://github.com/flask-restful/flask-restful.git,0.2.10,2013-12-18
+flask-restful/flask-restful,https://github.com/flask-restful/flask-restful.git,0.2.11,2014-01-17
+flask-restful/flask-restful,https://github.com/flask-restful/flask-restful.git,0.2.12,2014-03-04
