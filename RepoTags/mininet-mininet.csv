@@ -1,0 +1,5 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+mininet/mininet,https://github.com/mininet/mininet.git,3,2011-04-21,10863,6903,88,0,0,2,0,X,69.36521442866778,A,76.14872905755232,A,1.6648351648351647,114.07592518944666,6.337551399413703,0.01728293838892246,90,3427
+mininet/mininet,https://github.com/mininet/mininet.git,2.2.0,2014-12-10
+mininet/mininet,https://github.com/mininet/mininet.git,2.2.1,2015-04-15
+mininet/mininet,https://github.com/mininet/mininet.git,2.2.2,2017-03-21

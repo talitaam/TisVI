@@ -1,9 +1,0 @@
-nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
-fmfn/BayesianOptimization,https://github.com/fmfn/BayesianOptimization.git,7,2014-06-06,2273,1450,18,0,0,0,0,X,49.84214695102242,A,59.5228260132802,A,3.1565217391304348,559.7207811285718,31.095598951587323,0.05750629531084715,18,4240
-fmfn/BayesianOptimization,https://github.com/fmfn/BayesianOptimization.git,0.5,2017-11-16
-fmfn/BayesianOptimization,https://github.com/fmfn/BayesianOptimization.git,0.6.0,2017-12-17
-fmfn/BayesianOptimization,https://github.com/fmfn/BayesianOptimization.git,v1.0.0,2018-11-25
-fmfn/BayesianOptimization,https://github.com/fmfn/BayesianOptimization.git,v1.0.1,2019-02-12
-fmfn/BayesianOptimization,https://github.com/fmfn/BayesianOptimization.git,v1.0.3,2020-02-17
-fmfn/BayesianOptimization,https://github.com/fmfn/BayesianOptimization.git,v1.1.0,2020-02-17
-fmfn/BayesianOptimization,https://github.com/fmfn/BayesianOptimization.git,1.2.0,2020-05-16

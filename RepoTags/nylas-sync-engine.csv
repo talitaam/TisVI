@@ -1,0 +1,5 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+nylas/sync-engine,https://github.com/nylas/sync-engine.git,3,2014-01-15,58514,40113,540,58,34,1,0,X,77.18824222694036,A,84.83922017508102,A,0.5,7.4828921423310435,0.41571623012950243,0.004643856189774725,633,3497
+nylas/sync-engine,https://github.com/nylas/sync-engine.git,v0.2.0,2014-08-13
+nylas/sync-engine,https://github.com/nylas/sync-engine.git,v0.3.0,2014-09-09
+nylas/sync-engine,https://github.com/nylas/sync-engine.git,17.1.6,2017-01-06

@@ -1,0 +1,12 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+OpenMined/PySyft,https://github.com/OpenMined/PySyft.git,10,2017-07-18,49655,28168,248,0,45,0,0,X,61.18372208702572,A,69.44830303907338,A,2.0,177.43783897439727,9.85765772079985,0.02723308333814104,293,5802
+OpenMined/PySyft,https://github.com/OpenMined/PySyft.git,v0.2.0.a2,2020-01-19
+OpenMined/PySyft,https://github.com/OpenMined/PySyft.git,v0.2.1.a1,2020-01-19
+OpenMined/PySyft,https://github.com/OpenMined/PySyft.git,v0.2.2.a1,2020-01-21
+OpenMined/PySyft,https://github.com/OpenMined/PySyft.git,v0.2.3.a1,2020-01-30
+OpenMined/PySyft,https://github.com/OpenMined/PySyft.git,v0.2.3.a2,2020-02-23
+OpenMined/PySyft,https://github.com/OpenMined/PySyft.git,v0.2.3.a3,2020-02-26
+OpenMined/PySyft,https://github.com/OpenMined/PySyft.git,v0.2.3,2020-03-02
+OpenMined/PySyft,https://github.com/OpenMined/PySyft.git,v0.2.4,2020-03-18
+OpenMined/PySyft,https://github.com/OpenMined/PySyft.git,v0.2.5,2020-05-05
+OpenMined/PySyft,https://github.com/OpenMined/PySyft.git,v0.2.6,2020-05-24

@@ -1,4 +1,0 @@
-nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
-deepfakes/faceswap,https://github.com/deepfakes/faceswap.git,2,2017-12-19,38618,22828,152,0,27,5,0,X,57.81785436742753,A,64.64837595483513,A,3.1314285714285717,404.44285422887657,22.46904745715981,0.04706070969335388,184,31176
-deepfakes/faceswap,https://github.com/deepfakes/faceswap.git,v0.90,2019-02-23
-deepfakes/faceswap,https://github.com/deepfakes/faceswap.git,v1.0.0,2019-07-17

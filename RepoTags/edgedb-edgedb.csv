@@ -1,5 +1,0 @@
-nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
-edgedb/edgedb,https://github.com/edgedb/edgedb.git,3,2017-06-29,166341,123366,371,0,1,12,0,X,67.74113057272397,A,67.21301047092197,A,1.8,126.55503836042534,7.030835464468074,0.021575011224993085,384,3982
-edgedb/edgedb,https://github.com/edgedb/edgedb.git,v1.0a1,2019-04-12
-edgedb/edgedb,https://github.com/edgedb/edgedb.git,v1.0a2,2020-01-29
-edgedb/edgedb,https://github.com/edgedb/edgedb.git,v1.0a3,2020-06-23

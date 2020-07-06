@@ -1,4 +1,0 @@
-nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
-deepmind/sonnet,https://github.com/deepmind/sonnet.git,2,2017-04-03,22165,12838,124,0,0,0,0,X,73.31361454229418,A,71.82278190486882,A,1.9375,110.49845392726809,6.138802995959338,0.018251099295352728,124,8413
-deepmind/sonnet,https://github.com/deepmind/sonnet.git,v2.0-beta,2019-09-06
-deepmind/sonnet,https://github.com/deepmind/sonnet.git,v2.0.0,2020-03-27

@@ -1,0 +1,5 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+mstamy2/PyPDF2,https://github.com/mstamy2/PyPDF2.git,3,2012-01-06,3341,2150,14,1,1,1,0,X,51.35080452261958,A,64.38462115530291,A,3.2743055555555554,540.4762862408696,30.026460346714977,0.06904897722564948,17,3188
+mstamy2/PyPDF2,https://github.com/mstamy2/PyPDF2.git,v1.25,2015-07-07
+mstamy2/PyPDF2,https://github.com/mstamy2/PyPDF2.git,v1.25.1,2015-07-20
+mstamy2/PyPDF2,https://github.com/mstamy2/PyPDF2.git,1.26.0,2016-05-18

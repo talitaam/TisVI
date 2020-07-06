@@ -1,6 +1,0 @@
-nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
-django-tastypie/django-tastypie,https://github.com/django-tastypie/django-tastypie.git,4,2010-03-29,14484,9468,149,0,43,2,0,X,100.0,A,100.0,A,0,0,0.0,0.0,194,3655
-django-tastypie/django-tastypie,https://github.com/django-tastypie/django-tastypie.git,v0.14.0,2017-07-03
-django-tastypie/django-tastypie,https://github.com/django-tastypie/django-tastypie.git,v0.14.1,2018-04-09
-django-tastypie/django-tastypie,https://github.com/django-tastypie/django-tastypie.git,v0.14.2,2019-02-24
-django-tastypie/django-tastypie,https://github.com/django-tastypie/django-tastypie.git,v0.14.3,2020-01-06

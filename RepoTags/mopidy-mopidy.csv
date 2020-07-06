@@ -1,0 +1,11 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+mopidy/mopidy,https://github.com/mopidy/mopidy.git,9,2009-12-23,19683,12891,120,0,9,3,0,X,54.95633727328248,A,59.56828071688665,A,1.5,149.33534895464757,8.296408275258198,0.027674117084629815,132,6549
+mopidy/mopidy,https://github.com/mopidy/mopidy.git,v0.18.3,2014-05-07
+mopidy/mopidy,https://github.com/mopidy/mopidy.git,v0.18.2,2014-05-07
+mopidy/mopidy,https://github.com/mopidy/mopidy.git,v0.18.1,2014-05-07
+mopidy/mopidy,https://github.com/mopidy/mopidy.git,v0.18.0,2014-05-07
+mopidy/mopidy,https://github.com/mopidy/mopidy.git,v0.19.0,2014-07-21
+mopidy/mopidy,https://github.com/mopidy/mopidy.git,v0.19.1,2014-08-13
+mopidy/mopidy,https://github.com/mopidy/mopidy.git,v0.19.2,2014-08-13
+mopidy/mopidy,https://github.com/mopidy/mopidy.git,v0.19.3,2014-08-13
+mopidy/mopidy,https://github.com/mopidy/mopidy.git,v3.0.2,2020-06-18

@@ -1,4 +1,0 @@
-nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
-Blizzard/s2client-proto,https://github.com/Blizzard/s2client-proto.git,2,2017-07-22,351,276,3,0,1,0,0,X,59.85677776409543,A,59.85677776409543,A,2.0,114.22064766172811,6.345591536762672,0.019036774610288017,4,3264
-Blizzard/s2client-proto,https://github.com/Blizzard/s2client-proto.git,1.1.0,2017-09-01
-Blizzard/s2client-proto,https://github.com/Blizzard/s2client-proto.git,1.2.0,2017-11-14

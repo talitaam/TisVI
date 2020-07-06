@@ -1,0 +1,6 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+postmanlabs/httpbin,https://github.com/postmanlabs/httpbin.git,4,2011-05-20,3292,1812,8,0,0,0,0,X,72.16651198948975,A,77.98040545769621,A,0.75,11.237779644494513,0.6243210913608062,0.004906890595608518,8,8954
+postmanlabs/httpbin,https://github.com/postmanlabs/httpbin.git,v0.1.0,2014-06-01
+postmanlabs/httpbin,https://github.com/postmanlabs/httpbin.git,v0.1.1,2014-06-01
+postmanlabs/httpbin,https://github.com/postmanlabs/httpbin.git,v0.1.2,2014-06-09
+postmanlabs/httpbin,https://github.com/postmanlabs/httpbin.git,v0.6.1,2017-08-27

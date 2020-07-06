@@ -1,0 +1,11 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+pallets/flask-sqlalchemy,https://github.com/pallets/flask-sqlalchemy.git,9,2010-06-01,3018,1828,32,0,0,0,0,X,58.893054310439574,A,67.86939855716953,A,1.0176470588235293,43.426822396984136,2.4126012442768965,0.016746534469066876,32,3185
+pallets/flask-sqlalchemy,https://github.com/pallets/flask-sqlalchemy.git,2.1,2015-11-16
+pallets/flask-sqlalchemy,https://github.com/pallets/flask-sqlalchemy.git,2.2,2017-02-27
+pallets/flask-sqlalchemy,https://github.com/pallets/flask-sqlalchemy.git,2.3.0,2017-09-28
+pallets/flask-sqlalchemy,https://github.com/pallets/flask-sqlalchemy.git,2.3.1,2017-10-04
+pallets/flask-sqlalchemy,https://github.com/pallets/flask-sqlalchemy.git,2.3.2,2017-10-11
+pallets/flask-sqlalchemy,https://github.com/pallets/flask-sqlalchemy.git,2.4.0,2019-09-24
+pallets/flask-sqlalchemy,https://github.com/pallets/flask-sqlalchemy.git,2.4.1,2019-09-24
+pallets/flask-sqlalchemy,https://github.com/pallets/flask-sqlalchemy.git,2.4.2,2020-05-25
+pallets/flask-sqlalchemy,https://github.com/pallets/flask-sqlalchemy.git,2.4.3,2020-05-26

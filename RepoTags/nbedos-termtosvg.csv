@@ -1,0 +1,14 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+nbedos/termtosvg,https://github.com/nbedos/termtosvg.git,12,2018-06-09,2596,1940,13,0,2,0,0,X,55.32810743824071,A,57.849224936917814,A,1.5,36.0,2.0,0.008,15,8891
+nbedos/termtosvg,https://github.com/nbedos/termtosvg.git,0.2.0,2018-06-24
+nbedos/termtosvg,https://github.com/nbedos/termtosvg.git,0.2.1,2018-06-25
+nbedos/termtosvg,https://github.com/nbedos/termtosvg.git,0.2.2,2018-06-25
+nbedos/termtosvg,https://github.com/nbedos/termtosvg.git,0.3.0,2018-07-02
+nbedos/termtosvg,https://github.com/nbedos/termtosvg.git,0.4.0,2018-07-08
+nbedos/termtosvg,https://github.com/nbedos/termtosvg.git,0.5.0,2018-08-05
+nbedos/termtosvg,https://github.com/nbedos/termtosvg.git,0.6.0,2018-11-04
+nbedos/termtosvg,https://github.com/nbedos/termtosvg.git,0.7.0,2018-12-09
+nbedos/termtosvg,https://github.com/nbedos/termtosvg.git,0.8.0,2019-01-20
+nbedos/termtosvg,https://github.com/nbedos/termtosvg.git,0.9.0,2019-07-06
+nbedos/termtosvg,https://github.com/nbedos/termtosvg.git,1.0.0,2019-11-16
+nbedos/termtosvg,https://github.com/nbedos/termtosvg.git,1.1.0,2020-01-18
