@@ -1,6 +1,0 @@
-nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
-vaexio/vaex,https://github.com/vaexio/vaex.git,4,2014-09-27,50278,34685,314,13,13,5,0,X,58.89846202041279,A,60.23662076743657,A,2.2264957264957266,373.6430301114986,20.75794611730548,0.0510287741244225,345,4448
-vaexio/vaex,https://github.com/vaexio/vaex.git,v0.2,2015-02-25
-vaexio/vaex,https://github.com/vaexio/vaex.git,0.3.10,2015-02-27
-vaexio/vaex,https://github.com/vaexio/vaex.git,1.0.0-beta.1,2016-06-10
-vaexio/vaex,https://github.com/vaexio/vaex.git,vaexpaper_v1,2018-03-29

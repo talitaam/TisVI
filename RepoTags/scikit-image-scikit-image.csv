@@ -1,0 +1,6 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+scikit-image/scikit-image,https://github.com/scikit-image/scikit-image.git,3,2011-07-07,92944,45232,540,0,5,0,0,X,66.17315013077916,A,68.20195495488956,A,1.975,119.38321721092905,6.6324009561627255,0.019833623533038334,545,3808
+scikit-image/scikit-image,https://github.com/scikit-image/scikit-image.git,v0.14.3,2019-05-23
+scikit-image/scikit-image,https://github.com/scikit-image/scikit-image.git,v0.16.1,2019-10-14
+scikit-image/scikit-image,https://github.com/scikit-image/scikit-image.git,v0.16.2,2019-10-22
+scikit-image/scikit-image,https://github.com/scikit-image/scikit-image.git,v0.17.2,2020-07-06

@@ -1,0 +1,9 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+s3tools/s3cmd,https://github.com/s3tools/s3cmd.git,7,2011-06-07,7231,4982,24,0,0,1,0,X,46.375847290569446,A,49.837533359685764,A,6.737746200594498,5383.069507159551,299.05941706441945,0.23560590937241935,25,3351
+s3tools/s3cmd,https://github.com/s3tools/s3cmd.git,v1.5.2,2015-03-18
+s3tools/s3cmd,https://github.com/s3tools/s3cmd.git,v1.6.0,2015-09-18
+s3tools/s3cmd,https://github.com/s3tools/s3cmd.git,v1.6.1,2016-01-20
+s3tools/s3cmd,https://github.com/s3tools/s3cmd.git,v2.0.0,2017-06-26
+s3tools/s3cmd,https://github.com/s3tools/s3cmd.git,v2.0.1,2017-10-21
+s3tools/s3cmd,https://github.com/s3tools/s3cmd.git,v2.0.2,2018-07-15
+s3tools/s3cmd,https://github.com/s3tools/s3cmd.git,v2.1.0,2020-04-07

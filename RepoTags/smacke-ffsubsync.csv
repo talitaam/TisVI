@@ -1,8 +1,0 @@
-nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
-smacke/ffsubsync,https://github.com/smacke/ffsubsync.git,6,2019-02-24,4484,3069,25,0,0,0,0,X,68.85345066939695,A,68.85345066939695,A,1.875,42.793987519471216,2.377443751081734,0.009509775004326938,25,4420
-smacke/ffsubsync,https://github.com/smacke/ffsubsync.git,v0.3.0,2020-03-12
-smacke/ffsubsync,https://github.com/smacke/ffsubsync.git,v0.3.1,2020-03-12
-smacke/ffsubsync,https://github.com/smacke/ffsubsync.git,v0.3.2,2020-03-13
-smacke/ffsubsync,https://github.com/smacke/ffsubsync.git,v0.3.4,2020-03-20
-smacke/ffsubsync,https://github.com/smacke/ffsubsync.git,0.4.4,2020-06-08
-smacke/ffsubsync,https://github.com/smacke/ffsubsync.git,0.4.5,2020-06-09

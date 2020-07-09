@@ -1,0 +1,5 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+pypa/virtualenv,https://github.com/pypa/virtualenv.git,3,2011-03-06,11800,9036,138,0,8,0,0,X,60.50102245237362,A,62.45195732549331,A,1.5,85.26282110210897,4.736823394561609,0.01728293838892246,146,3602
+pypa/virtualenv,https://github.com/pypa/virtualenv.git,16.1.0,2018-10-31
+pypa/virtualenv,https://github.com/pypa/virtualenv.git,16.6.1,2019-06-19
+pypa/virtualenv,https://github.com/pypa/virtualenv.git,16.7.10,2020-02-26

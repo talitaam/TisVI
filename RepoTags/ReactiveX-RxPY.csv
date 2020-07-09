@@ -1,0 +1,7 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+ReactiveX/RxPY,https://github.com/ReactiveX/RxPY.git,5,2013-03-22,50466,32004,404,0,12,0,0,X,56.63943503695177,A,71.38117688989983,A,1.0,44.735389759625,2.4852994310902776,0.01383772647454919,416,3478
+ReactiveX/RxPY,https://github.com/ReactiveX/RxPY.git,v0.13,2014-11-16
+ReactiveX/RxPY,https://github.com/ReactiveX/RxPY.git,v1.0.0,2014-12-28
+ReactiveX/RxPY,https://github.com/ReactiveX/RxPY.git,v1.1,2015-03-30
+ReactiveX/RxPY,https://github.com/ReactiveX/RxPY.git,v1.5.9,2017-03-29
+ReactiveX/RxPY,https://github.com/ReactiveX/RxPY.git,v3.1.0,2020-02-28

@@ -23,7 +23,7 @@ NUMPAGESREPO = 50
 
 class searchAttributes():
 
-    headers = {"Authorization": "Bearer YOUR KEY HERE"}
+    headers = {"Authorization": "Bearer 755e96b28eb0b3e5d54405e11b2d6d70ab19ffaf"}
 
     query = ""
 
