@@ -1,0 +1,5 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+spyoungtech/grequests,https://github.com/spyoungtech/grequests.git,3,2012-05-10,453,274,3,0,0,0,0,X,61.68015225720166,A,70.283999733287,A,2.3076923076923075,216.94995080482573,12.05277504471254,0.031337215116252606,3,3428
+spyoungtech/grequests,https://github.com/spyoungtech/grequests.git,v0.4.0,2019-07-29,443,266,3,0,0,0,0,X,62.45624699244726,A,72.56848224877389,A,1.6363636363636365,112.14390861333307,6.23021714518517,0.022844129532345624,3
+spyoungtech/grequests,https://github.com/spyoungtech/grequests.git,v0.5.0,2020-04-02,445,268,3,0,0,0,0,X,60.78481212473763,A,71.0987557012746,A,2.3076923076923075,216.94995080482573,12.05277504471254,0.031337215116252606,3
+spyoungtech/grequests,https://github.com/spyoungtech/grequests.git,v0.6.0,2020-04-05,453,274,3,0,0,0,0,X,61.68015225720166,A,70.283999733287,A,2.3076923076923075,216.94995080482573,12.05277504471254,0.031337215116252606,3

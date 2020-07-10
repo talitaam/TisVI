@@ -8,11 +8,11 @@ from datetime import time, timedelta
 from numpy import quantile, median, max, min
 
 
-def writeInFinalCSV(fileNamePath, nameWithOwner, totalLoc, totalSloc, cc, miMultiFalse, miMultiTrue, difficulty, effort, timeHas, bugs):
+def writeInFinalCSV(fileNamePath, nameWithOwner, totalLoc, totalSloc, cc, miMultiFalse, miMultiTrue, difficulty, effort, timeHas, bugs, totalFiles):
     fileFinalTag = open(fileNamePath, 'a', newline='')
     finalTag = csv.writer(fileFinalTag)
     finalTag.writerow((nameWithOwner, str(totalLoc), str(totalSloc), str(cc), str(
-        miMultiFalse), str(miMultiTrue), str(difficulty), str(effort), str(timeHas), str(bugs)))
+        miMultiFalse), str(miMultiTrue), str(difficulty), str(effort), str(timeHas), str(bugs), str(totalFiles)))
     fileFinalTag.close()
 
 def where_stop(filePath):
@@ -175,7 +175,7 @@ if os.path.exists("RepoPercent.csv"):
 
 #----------------------------------------------------------------------------
 
-
+"""
 
 #higherNumFail = 0
 daysInOneYear = timedelta(days=365)
@@ -279,7 +279,7 @@ for fileName in os.listdir("RepoTags"):
         os.rename("RepoTags/" + fileName, "RepoTagsRestante/" + fileName)
 
 print("\n ------ Fim de um repositorio ------ \n")
-
+"""
 #----------------------------------------------------------------------------
 
 daysInOneYear = timedelta(days=365)
@@ -305,6 +305,7 @@ for fileName in os.listdir("RepoTags"):
     effortFile = []
     timeHasFile = []
     bugsFile = []
+    totalFiles = []
     nameWithOwner = ""
     numLine = 0
     equivYear = 0
@@ -359,7 +360,7 @@ for fileName in os.listdir("RepoTags"):
                     #print(median(timeHasFile))
                     #print(median(bugsFile))
                     print("")
-                    writeInFinalCSV(fileNamePath, nameWithOwner, median(totalLocFile), median(totalSlocFile), median(ccFile), median(miMultiFalseFile), median(miMultiTrueFile), median(difficultyFile), median(effortFile), median(timeHasFile), median(bugsFile))
+                    writeInFinalCSV(fileNamePath, nameWithOwner, median(totalLocFile), median(totalSlocFile), median(ccFile), median(miMultiFalseFile), median(miMultiTrueFile), median(difficultyFile), median(effortFile), median(timeHasFile), median(bugsFile), median(totalFiles))
                 #time.sleep(5)
                 actualDate = newDate
                 totalLocFile = []
@@ -371,6 +372,7 @@ for fileName in os.listdir("RepoTags"):
                 effortFile = []
                 timeHasFile = []
                 bugsFile = []
+                totalFiles = []
                 if ((newDate - pastDate) > daysInOneYear):
                     years = ceil((newDate - pastDate) / daysInOneYear)
                 else:
@@ -382,11 +384,11 @@ for fileName in os.listdir("RepoTags"):
                     fileFinal = open(fileNamePath, 'w', newline='')
                     final = csv.writer(fileFinal)
                     final.writerow(('nameWithOwner', 'totalLoc', 'totalSloc','cc', 
-                    'miMultiFalse', 'miMultiTrue', 'difficulty', 'effort', 'timeHas', 'bugs'))
+                    'miMultiFalse', 'miMultiTrue', 'difficulty', 'effort', 'timeHas', 'bugs', 'totalFiles'))
                     fileFinal.close()
             if str(node[10]) != "-1":
                 print("loc: " + str(node[4]) + " sloc: " + str(node[5]) + " cc: " + str(node[10]) + " miF: " + str(node[12]) + 
-                " miT: " + str(node[14]) + "\ndif: " + str(node[16]) + " eff: " + str(node[17]) + " time: " + str(node[18]) + " bug: " + str(node[19]))
+                " miT: " + str(node[14]) + "\ndif: " + str(node[16]) + " eff: " + str(node[17]) + " time: " + str(node[18]) + " bug: " + str(node[19])+ " totalFiles: " + str(node[20]))
                 #time.sleep(2)
                 totalLocFile.append(float(node[4]))
                 totalSlocFile.append(float(node[5]))
@@ -397,6 +399,7 @@ for fileName in os.listdir("RepoTags"):
                 effortFile.append(float(node[17]))
                 timeHasFile.append(float(node[18]))
                 bugsFile.append(float(node[19]))
+                totalFiles.append(float(node[20]))
             else:
                 print("Not valid.")
             if numLine == totalRows-1:
@@ -416,7 +419,7 @@ for fileName in os.listdir("RepoTags"):
                     #print(median(effortFile))
                     #print(median(timeHasFile))
                     #print(median(bugsFile))
-                    writeInFinalCSV(fileNamePath, nameWithOwner, median(totalLocFile), median(totalSlocFile), median(ccFile), median(miMultiFalseFile), median(miMultiTrueFile), median(difficultyFile), median(effortFile), median(timeHasFile), median(bugsFile))
+                    writeInFinalCSV(fileNamePath, nameWithOwner, median(totalLocFile), median(totalSlocFile), median(ccFile), median(miMultiFalseFile), median(miMultiTrueFile), median(difficultyFile), median(effortFile), median(timeHasFile), median(bugsFile), median(totalFiles))
                 #time.sleep(5)
         numLine += 1
     fileToRead.close()

@@ -1,0 +1,6 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+PyCQA/pycodestyle,https://github.com/PyCQA/pycodestyle.git,4,2009-10-02,3138,1789,30,10,2,1,0,X,84.50180232375743,A,84.50180232375743,A,1.0,9.804820237218404,0.5447122354010225,0.003934940079072802,43,4080
+PyCQA/pycodestyle,https://github.com/PyCQA/pycodestyle.git,2.2.0,2016-11-14,2294,1303,27,10,2,1,0,X,85.594704093087,A,85.594704093087,A,1.0,8.0,0.4444444444444444,0.004,40
+PyCQA/pycodestyle,https://github.com/PyCQA/pycodestyle.git,2.3.0,2017-06-29,2361,1347,27,10,2,1,0,X,85.594704093087,A,85.594704093087,A,1.0,8.0,0.4444444444444444,0.004,40
+PyCQA/pycodestyle,https://github.com/PyCQA/pycodestyle.git,2.3.1,2017-06-29,2368,1352,27,10,2,1,0,X,85.594704093087,A,85.594704093087,A,1.0,11.60964047443681,0.6449800263576005,0.004,40
+PyCQA/pycodestyle,https://github.com/PyCQA/pycodestyle.git,1.7.1,2017-10-25,2208,1256,27,10,2,1,0,X,85.78271273677039,A,85.78271273677039,A,1.0,22.458839376460833,1.2477132986922685,0.007486279792153611,40

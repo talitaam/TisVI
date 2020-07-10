@@ -1,4 +1,0 @@
-nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
-facebookresearch/visdom,https://github.com/facebookresearch/visdom.git,2,2020-05-13,833,656,4,0,0,3,4,A,71.54846872319477,A,71.54846872319477,A,1.71875,391.6814882042854,21.760082678015856,0.0574814520372908
-facebookresearch/visdom,https://github.com/facebookresearch/visdom.git,v0.1.8.4,2019-09-13,639,504,3,0,0,2,5,A,57.26129963257903,A,57.26129963257903,A,4.2368421052631575,1628.7680104114586,90.48711168952548,0.12814323891435908
-facebookresearch/visdom,https://github.com/facebookresearch/visdom.git,v0.1.8.9,2019-09-13,798,634,4,0,0,3,4,A,69.00088818376632,A,69.00088818376632,A,1.71875,391.6814882042854,21.760082678015856,0.0574814520372908

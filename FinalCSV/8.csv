@@ -1,0 +1,3 @@
+nameWithOwner,totalLoc,totalSloc,cc,miMultiFalse,miMultiTrue,difficulty,effort,timeHas,bugs,totalFiles
+benoitc/gunicorn,10939.5,7494.0,0.0,100.0,100.0,0.0,0.0,0.0,0.0,153.5
+mitmproxy/mitmproxy,59543.5,44697.0,0.0,60.30866274856301,65.99419387079485,1.5,77.51288970509195,4.306271650282886,0.017400562941359707,513.5
