@@ -1,0 +1,4 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+seemoo-lab/opendrop,https://github.com/seemoo-lab/opendrop.git,2,2019-05-14,1331,897,10,0,0,0,0,X,63.61012278715678,A,68.99261739528758,A,1.5833333333333333,227.13325721983057,12.618514289990587,0.02903554816839679,10,4261
+seemoo-lab/opendrop,https://github.com/seemoo-lab/opendrop.git,v0.10.3,2019-12-13,1257,830,8,0,0,1,0,X,54.15623359336951,A,63.061866696146296,A,3.449074074074074,735.5815286590821,40.86564048106011,0.06760677089726244,9
+seemoo-lab/opendrop,https://github.com/seemoo-lab/opendrop.git,v0.11.0,2019-12-19,1327,894,10,0,0,0,0,X,63.28429099349382,A,68.95668822706519,A,1.5833333333333333,227.13325721983057,12.618514289990587,0.02903554816839679,10
