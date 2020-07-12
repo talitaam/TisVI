@@ -1,0 +1,5 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+taoufik07/responder,https://github.com/taoufik07/responder.git,3,2018-10-09,3468,2320,25,0,2,0,0,X,65.3195580684234,A,76.736622536045,A,0.5,6.965784284662087,0.3869880158145604,0.004643856189774725,27,3491
+taoufik07/responder,https://github.com/taoufik07/responder.git,v1.3.0,2019-02-22,3143,2148,23,0,2,0,0,X,65.3195580684234,A,68.64822400626812,A,0.5,15.509775004326936,0.861654166907052,0.005169925001442312,25
+taoufik07/responder,https://github.com/taoufik07/responder.git,v1.3.2,2019-08-15,3345,2287,23,0,2,0,0,X,62.6102284920146,A,65.3195580684234,A,0.5,15.509775004326936,0.861654166907052,0.005169925001442312,25
+taoufik07/responder,https://github.com/taoufik07/responder.git,v2.0.0,2019-10-19,3416,2278,25,0,2,0,0,X,62.6102284920146,A,76.736622536045,A,0.5,6.965784284662087,0.3869880158145604,0.004643856189774725,27

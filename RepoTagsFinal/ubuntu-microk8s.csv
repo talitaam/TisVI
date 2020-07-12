@@ -1,0 +1,5 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+ubuntu/microk8s,https://github.com/ubuntu/microk8s.git,3,2018-05-09,6968,4599,36,0,8,0,0,X,58.831496877743675,A,67.09891428721735,A,2.416666666666667,169.78911469430653,9.432728594128141,0.02384310833766027,44,3519
+ubuntu/microk8s,https://github.com/ubuntu/microk8s.git,installer-v1.0.0,2020-03-18,4851,3037,29,0,7,0,0,X,67.2462939236559,A,75.69640698883752,A,1.2,30.319433158222125,1.6844129532345624,0.009,36
+ubuntu/microk8s,https://github.com/ubuntu/microk8s.git,v1.18,2020-03-26,5164,3273,32,0,8,0,0,X,64.22928753521455,A,74.95491881213366,A,1.2,43.07731158689954,2.3931839770499748,0.012254887502163466,40
+ubuntu/microk8s,https://github.com/ubuntu/microk8s.git,installer-v2.0.0,2020-05-22,6343,4065,36,0,8,0,0,X,61.28192417640863,A,70.52477800647684,A,2.104166666666667,138.4178258303146,7.6898792127952555,0.020217161484801075,44

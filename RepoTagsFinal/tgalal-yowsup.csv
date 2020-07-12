@@ -1,0 +1,17 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+tgalal/yowsup,https://github.com/tgalal/yowsup.git,15,2012-11-03,17672,13613,338,0,14,0,0,X,100.0,A,100.0,A,0.0,0.0,0.0,0.0,352,6233
+tgalal/yowsup,https://github.com/tgalal/yowsup.git,v2.0.53,2014-12-15,6629,4808,195,0,3,0,0,X,100.0,A,100.0,A,0,0,0.0,0.0,198
+tgalal/yowsup,https://github.com/tgalal/yowsup.git,v2.2.15,2015-01-12,8377,6162,234,2,4,0,0,X,100.0,A,100.0,A,0.0,0.0,0.0,0.0,240
+tgalal/yowsup,https://github.com/tgalal/yowsup.git,v2.2.78,2015-02-17,8824,6511,241,2,3,0,0,X,100.0,A,100.0,A,0,0,0.0,0.0,246
+tgalal/yowsup,https://github.com/tgalal/yowsup.git,v2.3.84,2015-05-26,10000,7407,267,2,2,0,0,X,100.0,A,100.0,A,0,0,0.0,0.0,271
+tgalal/yowsup,https://github.com/tgalal/yowsup.git,v2.3.123,2015-06-22,10434,7703,276,2,2,0,0,X,100.0,A,100.0,A,0.0,0.0,0.0,0.0,280
+tgalal/yowsup,https://github.com/tgalal/yowsup.git,v2.3.167,2015-07-21,10488,7747,277,2,2,0,0,X,100.0,A,100.0,A,0,0,0.0,0.0,281
+tgalal/yowsup,https://github.com/tgalal/yowsup.git,v2.3.183,2015-07-27,10572,7814,278,2,2,0,0,X,100.0,A,100.0,A,0.0,0.0,0.0,0.0,282
+tgalal/yowsup,https://github.com/tgalal/yowsup.git,v2.3.185,2015-08-01,10710,7911,279,2,2,0,0,X,100.0,A,100.0,A,0,0,0.0,0.0,283
+tgalal/yowsup,https://github.com/tgalal/yowsup.git,v2.4,2015-09-06,10858,8006,281,2,2,0,0,X,100.0,A,100.0,A,0,0,0.0,0.0,285
+tgalal/yowsup,https://github.com/tgalal/yowsup.git,v2.4.48,2015-12-14,11164,8214,289,2,2,0,0,X,100.0,A,100.0,A,0,0,0.0,0.0,293
+tgalal/yowsup,https://github.com/tgalal/yowsup.git,v2.4.102,2016-04-01,11360,8373,290,2,2,0,0,X,100.0,A,100.0,A,0.0,0.0,0.0,0.0,294
+tgalal/yowsup,https://github.com/tgalal/yowsup.git,v2.5.0,2016-05-22,12806,9605,297,3,3,0,0,X,100.0,A,100.0,A,0,0,0.0,0.0,303
+tgalal/yowsup,https://github.com/tgalal/yowsup.git,v2.5.2,2017-03-23,12811,9609,297,3,3,0,0,X,100.0,A,100.0,A,0,0,0.0,0.0,303
+tgalal/yowsup,https://github.com/tgalal/yowsup.git,v3.0.0,2019-04-23,14490,10743,309,0,11,0,0,X,100.0,A,100.0,A,0,0,0.0,0.0,320
+tgalal/yowsup,https://github.com/tgalal/yowsup.git,v3.1.0,2019-04-24,14534,10786,309,0,11,0,0,X,100.0,A,100.0,A,0,0,0.0,0.0,320
