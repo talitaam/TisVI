@@ -1,0 +1,4 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+jazzband/django-debug-toolbar,https://github.com/jazzband/django-debug-toolbar.git,2,2008-08-28,5344,3680,57,0,6,0,0,X,75.04077850395011,A,75.78063427519524,A,1.0,15.509775004326936,0.861654166907052,0.005169925001442312,63,5983
+jazzband/django-debug-toolbar,https://github.com/jazzband/django-debug-toolbar.git,1.0-alpha,2013-12-08
+jazzband/django-debug-toolbar,https://github.com/jazzband/django-debug-toolbar.git,1.0-beta,2013-12-15

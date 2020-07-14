@@ -1,0 +1,11 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+kemayo/sublime-text-git,https://github.com/kemayo/sublime-text-git.git,9,2011-09-27,2338,1710,17,0,0,0,0,X,51.936276733454974,A,51.936276733454974,A,3.0,383.7898336789724,21.321657426609576,0.04523561956057014,17,2814
+kemayo/sublime-text-git,https://github.com/kemayo/sublime-text-git.git,v1.0.0,2016-01-08
+kemayo/sublime-text-git,https://github.com/kemayo/sublime-text-git.git,v1.0.1,2016-01-09
+kemayo/sublime-text-git,https://github.com/kemayo/sublime-text-git.git,v1.0.2,2016-01-12
+kemayo/sublime-text-git,https://github.com/kemayo/sublime-text-git.git,v1.0.3,2016-01-12
+kemayo/sublime-text-git,https://github.com/kemayo/sublime-text-git.git,v1.0.4,2016-01-26
+kemayo/sublime-text-git,https://github.com/kemayo/sublime-text-git.git,v1.0.5,2016-02-01
+kemayo/sublime-text-git,https://github.com/kemayo/sublime-text-git.git,v1.0.6,2016-07-27
+kemayo/sublime-text-git,https://github.com/kemayo/sublime-text-git.git,v1.0.7,2016-07-27
+kemayo/sublime-text-git,https://github.com/kemayo/sublime-text-git.git,v1.0.8,2017-01-11

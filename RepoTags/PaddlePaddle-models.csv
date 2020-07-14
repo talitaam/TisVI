@@ -1,9 +1,0 @@
-nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
-PaddlePaddle/models,https://github.com/PaddlePaddle/models.git,7,2017-04-20,156874,113915,891,3,79,0,0,X,58.90045919535902,A,62.363685034650636,A,3.9,856.8,47.599999999999994,0.07203213491478938,973,4781
-PaddlePaddle/models,https://github.com/PaddlePaddle/models.git,v0.15.0-rc0,2018-09-13
-PaddlePaddle/models,https://github.com/PaddlePaddle/models.git,v1.3,2019-03-28
-PaddlePaddle/models,https://github.com/PaddlePaddle/models.git,v1.4,2019-04-22
-PaddlePaddle/models,https://github.com/PaddlePaddle/models.git,v1.5,2019-07-01
-PaddlePaddle/models,https://github.com/PaddlePaddle/models.git,v1.5.1,2019-07-29
-PaddlePaddle/models,https://github.com/PaddlePaddle/models.git,v1.6,2019-10-31
-PaddlePaddle/models,https://github.com/PaddlePaddle/models.git,v1.7.0,2020-03-17
