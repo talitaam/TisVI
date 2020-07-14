@@ -1,0 +1,10 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+hylang/hy,https://github.com/hylang/hy.git,8,2012-12-15,5776,3642,35,0,6,1,0,X,69.8635494247878,A,71.03938213125247,A,2.0,152.0,8.444444444444445,0.028,42,3511
+hylang/hy,https://github.com/hylang/hy.git,0.12.0,2017-01-17
+hylang/hy,https://github.com/hylang/hy.git,0.13.0,2017-06-20
+hylang/hy,https://github.com/hylang/hy.git,0.13.1,2017-11-03
+hylang/hy,https://github.com/hylang/hy.git,0.14.0,2018-02-14
+hylang/hy,https://github.com/hylang/hy.git,0.15.0,2018-07-21
+hylang/hy,https://github.com/hylang/hy.git,0.16.0,2019-02-12
+hylang/hy,https://github.com/hylang/hy.git,0.17.0,2019-05-20
+hylang/hy,https://github.com/hylang/hy.git,0.18.0,2020-02-02

@@ -1,0 +1,11 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+gorakhargosh/watchdog,https://github.com/gorakhargosh/watchdog.git,9,2010-10-23,8987,5020,51,0,0,0,0,X,71.2807097492947,A,72.75445162688261,A,1.6666666666666667,112.14390861333307,6.23021714518517,0.022844129532345624,51,4136
+gorakhargosh/watchdog,https://github.com/gorakhargosh/watchdog.git,v0.8.0,2019-12-12
+gorakhargosh/watchdog,https://github.com/gorakhargosh/watchdog.git,v0.8.1,2019-12-12
+gorakhargosh/watchdog,https://github.com/gorakhargosh/watchdog.git,v0.8.2,2019-12-12
+gorakhargosh/watchdog,https://github.com/gorakhargosh/watchdog.git,v0.8.3,2019-12-12
+gorakhargosh/watchdog,https://github.com/gorakhargosh/watchdog.git,v0.9.0,2019-12-12
+gorakhargosh/watchdog,https://github.com/gorakhargosh/watchdog.git,v0.10.0,2020-01-26
+gorakhargosh/watchdog,https://github.com/gorakhargosh/watchdog.git,v0.10.1,2020-01-31
+gorakhargosh/watchdog,https://github.com/gorakhargosh/watchdog.git,v0.10.2,2020-02-08
+gorakhargosh/watchdog,https://github.com/gorakhargosh/watchdog.git,v0.10.3,2020-06-25
