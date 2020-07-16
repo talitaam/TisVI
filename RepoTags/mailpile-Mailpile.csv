@@ -1,0 +1,10 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+mailpile/Mailpile,https://github.com/mailpile/Mailpile.git,8,2011-10-30,33817,24244,154,7,7,16,0,X,56.02834031291982,A,57.62108628872967,A,4.145502645502646,1028.0012846898765,57.111182482770914,0.07917629538637241,184,8167
+mailpile/Mailpile,https://github.com/mailpile/Mailpile.git,0.4.0,2014-09-13
+mailpile/Mailpile,https://github.com/mailpile/Mailpile.git,0.4.2,2015-01-19
+mailpile/Mailpile,https://github.com/mailpile/Mailpile.git,0.5.0,2015-07-16
+mailpile/Mailpile,https://github.com/mailpile/Mailpile.git,0.5.1,2015-07-19
+mailpile/Mailpile,https://github.com/mailpile/Mailpile.git,0.5.2,2015-08-09
+mailpile/Mailpile,https://github.com/mailpile/Mailpile.git,1.0.0rc2,2018-01-21
+mailpile/Mailpile,https://github.com/mailpile/Mailpile.git,Gunsmoke--TheLastApacheTag,2018-01-21
+mailpile/Mailpile,https://github.com/mailpile/Mailpile.git,1.0.0rc6,2019-09-03

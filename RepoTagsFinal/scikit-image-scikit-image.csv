@@ -1,6 +1,0 @@
-nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
-scikit-image/scikit-image,https://github.com/scikit-image/scikit-image.git,3,2011-07-07,92944,45232,540,0,5,0,0,X,66.17315013077916,A,68.20195495488956,A,1.975,119.38321721092905,6.6324009561627255,0.019833623533038334,545,3808
-scikit-image/scikit-image,https://github.com/scikit-image/scikit-image.git,v0.14.3,2019-05-23,76710,37829,461,0,5,1,0,X,64.79787115092752,A,68.02006386585211,A,1.8333333333333333,111.73133127247604,6.2072961818042245,0.019036774610288017,467
-scikit-image/scikit-image,https://github.com/scikit-image/scikit-image.git,v0.16.1,2019-10-14,85905,41630,516,0,6,1,0,X,66.12957691293079,A,68.45640003958756,A,1.8,108.60868867695302,6.033816037608501,0.019036774610288017,523
-scikit-image/scikit-image,https://github.com/scikit-image/scikit-image.git,v0.16.2,2019-10-22,85906,41632,516,0,6,1,0,X,66.12957691293079,A,68.45640003958756,A,1.8,108.60868867695302,6.033816037608501,0.019036774610288017,523
-scikit-image/scikit-image,https://github.com/scikit-image/scikit-image.git,v0.17.2,2020-07-06,92172,44891,535,0,5,0,0,X,65.56561972268787,A,67.96192484755348,A,2.0,119.8942468677714,6.660791492653967,0.019735678496752493,540

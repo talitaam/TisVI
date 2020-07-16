@@ -1,0 +1,11 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+MechanicalSoup/MechanicalSoup,https://github.com/MechanicalSoup/MechanicalSoup.git,9,2014-05-26,3212,1917,20,0,0,0,0,X,100.0,A,100.0,A,0.0,0.0,0.0,0.0,20,3505
+MechanicalSoup/MechanicalSoup,https://github.com/MechanicalSoup/MechanicalSoup.git,v0.4.0,2015-11-24,605,291,8,0,0,0,0,X,100.0,A,100.0,A,0.0,0.0,0.0,0.0,8
+MechanicalSoup/MechanicalSoup,https://github.com/MechanicalSoup/MechanicalSoup.git,v0.5.0,2016-09-27,634,304,8,0,0,0,0,X,91.44621058876868,A,91.44621058876868,A,0.25,7.754887502163468,0.430827083453526,0.002584962500721156,8
+MechanicalSoup/MechanicalSoup,https://github.com/MechanicalSoup/MechanicalSoup.git,v0.6.0,2016-10-07,637,306,8,0,0,0,0,X,91.44621058876868,A,91.44621058876868,A,0.25,7.754887502163468,0.430827083453526,0.002584962500721156,8
+MechanicalSoup/MechanicalSoup,https://github.com/MechanicalSoup/MechanicalSoup.git,v0.7.0,2017-05-07,1074,615,12,0,0,0,0,X,83.48990687982702,A,83.48990687982702,A,0.25,24.52477704750204,1.3624876137501134,0.01634985136500136,12
+MechanicalSoup/MechanicalSoup,https://github.com/MechanicalSoup/MechanicalSoup.git,v0.8.0,2017-10-01,1416,883,13,0,0,0,0,X,100.0,A,100.0,A,0,0,0.0,0.0,13
+MechanicalSoup/MechanicalSoup,https://github.com/MechanicalSoup/MechanicalSoup.git,v0.9.0,2017-11-02,2306,1317,17,0,0,0,0,X,100.0,A,100.0,A,0,0,0.0,0.0,17
+MechanicalSoup/MechanicalSoup,https://github.com/MechanicalSoup/MechanicalSoup.git,v0.10.0,2018-02-04,2704,1551,19,0,0,0,0,X,100.0,A,100.0,A,0,0,0.0,0.0,19
+MechanicalSoup/MechanicalSoup,https://github.com/MechanicalSoup/MechanicalSoup.git,v0.11.0,2018-09-11,2896,1684,19,0,0,0,0,X,100.0,A,100.0,A,0,0,0.0,0.0,19
+MechanicalSoup/MechanicalSoup,https://github.com/MechanicalSoup/MechanicalSoup.git,v0.12.0,2019-08-27,3145,1875,19,0,0,0,0,X,100.0,A,100.0,A,0,0,0.0,0.0,19

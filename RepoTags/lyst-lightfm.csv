@@ -1,0 +1,9 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+lyst/lightfm,https://github.com/lyst/lightfm.git,7,2015-07-30,4743,2492,21,0,1,0,0,X,55.39364862254139,A,64.43796465322242,A,2.6341463414634148,284.4594317038115,15.803301761322862,0.03539939594536321,22,3160
+lyst/lightfm,https://github.com/lyst/lightfm.git,1.9,2016-05-25
+lyst/lightfm,https://github.com/lyst/lightfm.git,1.10,2016-11-25
+lyst/lightfm,https://github.com/lyst/lightfm.git,1.11,2016-12-26
+lyst/lightfm,https://github.com/lyst/lightfm.git,1.12,2017-01-27
+lyst/lightfm,https://github.com/lyst/lightfm.git,1.13,2017-05-20
+lyst/lightfm,https://github.com/lyst/lightfm.git,1.14,2017-11-18
+lyst/lightfm,https://github.com/lyst/lightfm.git,1.15,2018-05-26

@@ -1,0 +1,5 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+LazoCoder/Pokemon-Terminal,https://github.com/LazoCoder/Pokemon-Terminal.git,3,2017-04-18,2073,1447,36,0,1,0,0,X,68.49741091025042,A,71.52433019610802,A,1.0,100.12987383951793,5.562770768862107,0.016688312306586323,37,3474
+LazoCoder/Pokemon-Terminal,https://github.com/LazoCoder/Pokemon-Terminal.git,v1.1.0,2017-10-07,1527,1072,21,0,2,0,0,X,72.9066793577724,A,73.38391474588099,A,2.0,142.3950740849544,7.9108374491641325,0.021575011224993085,23
+LazoCoder/Pokemon-Terminal,https://github.com/LazoCoder/Pokemon-Terminal.git,v1.2.0,2018-08-12,1986,1389,34,0,1,0,0,X,68.09992989812105,A,70.31473214919762,A,1.0,115.45635311184344,6.4142418395468574,0.020305892917640553,35
+LazoCoder/Pokemon-Terminal,https://github.com/LazoCoder/Pokemon-Terminal.git,v1.3.0,2020-05-01,2073,1447,36,0,1,0,0,X,68.49741091025042,A,71.52433019610802,A,1.0,100.12987383951793,5.562770768862107,0.016688312306586323,37

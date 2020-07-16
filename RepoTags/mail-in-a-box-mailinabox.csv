@@ -1,0 +1,14 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+mail-in-a-box/mailinabox,https://github.com/mail-in-a-box/mailinabox.git,12,2013-08-21,7811,4979,21,0,0,0,0,X,56.59228763859114,A,56.59228763859114,A,6.6521739130434785,3247.4008047922434,180.4111558217913,0.2731638324210078,21,9235
+mail-in-a-box/mailinabox,https://github.com/mail-in-a-box/mailinabox.git,v0.08,2015-04-01
+mail-in-a-box/mailinabox,https://github.com/mail-in-a-box/mailinabox.git,v0.09,2015-05-08
+mail-in-a-box/mailinabox,https://github.com/mail-in-a-box/mailinabox.git,v0.10,2015-06-01
+mail-in-a-box/mailinabox,https://github.com/mail-in-a-box/mailinabox.git,v0.11,2015-06-30
+mail-in-a-box/mailinabox,https://github.com/mail-in-a-box/mailinabox.git,v0.12,2015-07-03
+mail-in-a-box/mailinabox,https://github.com/mail-in-a-box/mailinabox.git,v0.24,2017-10-03
+mail-in-a-box/mailinabox,https://github.com/mail-in-a-box/mailinabox.git,v0.25,2018-01-18
+mail-in-a-box/mailinabox,https://github.com/mail-in-a-box/mailinabox.git,v0.26,2018-01-18
+mail-in-a-box/mailinabox,https://github.com/mail-in-a-box/mailinabox.git,v0.30,2019-01-12
+mail-in-a-box/mailinabox,https://github.com/mail-in-a-box/mailinabox.git,v0.40,2019-01-12
+mail-in-a-box/mailinabox,https://github.com/mail-in-a-box/mailinabox.git,v0.45,2020-05-16
+mail-in-a-box/mailinabox,https://github.com/mail-in-a-box/mailinabox.git,v0.46,2020-06-11

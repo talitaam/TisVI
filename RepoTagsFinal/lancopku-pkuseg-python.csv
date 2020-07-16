@@ -1,0 +1,4 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+lancopku/pkuseg-python,https://github.com/lancopku/pkuseg-python.git,2,2018-08-05,2390,1509,13,0,1,0,0,X,59.641296768015756,A,59.641296768015756,A,4.5,1052.663503534078,58.481305751893224,0.07761574219606106,14,4889
+lancopku/pkuseg-python,https://github.com/lancopku/pkuseg-python.git,v0.0.11,2019-01-12,2673,2451,14,0,0,0,0,X,35.41565796110112,A,35.41565796110112,A,6.800774134790528,4978.215804730733,276.567544707263,0.25247110545724377,14
+lancopku/pkuseg-python,https://github.com/lancopku/pkuseg-python.git,v0.0.16,2019-02-18,2039,1200,10,0,1,0,0,X,57.28717994273287,A,57.28717994273287,A,4.510416666666666,1562.2457180062952,86.79142877812751,0.11554223896760504,11
