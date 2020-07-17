@@ -1,0 +1,4 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+iperov/DeepFaceLab,https://github.com/iperov/DeepFaceLab.git,3,2018-06-04,15349,10784,120,6,0,1,0,X,53.064431918006946,A,57.35544513436338,A,3.8865384615384615,627.1145906033798,34.83969947796555,0.05197388346579015,127,16873
+iperov/DeepFaceLab,https://github.com/iperov/DeepFaceLab.git,pretrained,2020-03-18,15644,10968,111,6,0,0,0,X,52.46233595746635,A,57.199347407816205,A,4.290322580645161,692.3267587934404,38.462597710746685,0.061813537528125094,117
+iperov/DeepFaceLab,https://github.com/iperov/DeepFaceLab.git,DF.wf.288res.384.92.72.22,2020-04-09,15171,10668,118,6,0,1,0,X,53.96625738992586,A,57.557097519851325,A,3.813888888888889,519.0819592647196,28.837886625817752,0.0458527823998381,125
