@@ -1,0 +1,5 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+alicevision/meshroom,https://github.com/alicevision/meshroom.git,3,2015-04-22,13153,9951,78,0,4,1,0,X,74.82141639621506,A,75.42417966846843,A,0.5,2.3774437510817346,0.1320802083934297,0.0015849625007211565,83,4721
+alicevision/meshroom,https://github.com/alicevision/meshroom.git,v2018.1.0,2018-08-09,10437,7582,67,0,4,0,0,X,75.42417966846843,A,76.68921391438496,A,0.5,2.3774437510817346,0.1320802083934297,0.0015849625007211565,71
+alicevision/meshroom,https://github.com/alicevision/meshroom.git,v2019.1.0,2019-02-28,11230,8165,65,0,4,0,0,X,75.42417966846843,A,76.30552023603097,A,0.5,8.0,0.4444444444444444,0.004,69
+alicevision/meshroom,https://github.com/alicevision/meshroom.git,v2019.2.0,2019-08-14,11655,8500,68,0,4,0,0,X,75.42417966846843,A,76.25694696534784,A,0.5,4.671614017871911,0.259534112103995,0.0021258145836939115,72

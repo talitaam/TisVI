@@ -1,0 +1,5 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+a1studmuffin/SpaceshipGenerator,https://github.com/a1studmuffin/SpaceshipGenerator.git,3,2016-06-14,905,700,3,0,0,0,0,X,61.92176833167995,A,61.92176833167995,A,1.0,15.509775004326936,0.861654166907052,0.005169925001442312,3,6389
+a1studmuffin/SpaceshipGenerator,https://github.com/a1studmuffin/SpaceshipGenerator.git,v0.1.0,2016-06-19,893,695,3,0,0,0,0,X,64.3425161009563,A,64.3425161009563,A,1.0,15.509775004326936,0.861654166907052,0.005169925001442312,3
+a1studmuffin/SpaceshipGenerator,https://github.com/a1studmuffin/SpaceshipGenerator.git,v0.1.1,2016-06-21,893,695,3,0,0,0,0,X,64.3425161009563,A,64.3425161009563,A,1.0,15.509775004326936,0.861654166907052,0.005169925001442312,3
+a1studmuffin/SpaceshipGenerator,https://github.com/a1studmuffin/SpaceshipGenerator.git,v1.1.2,2016-11-20,894,696,3,0,0,0,0,X,64.27561278819205,A,64.27561278819205,A,1.0,15.509775004326936,0.861654166907052,0.005169925001442312,3

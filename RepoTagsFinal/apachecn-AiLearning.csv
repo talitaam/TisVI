@@ -1,0 +1,4 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+apachecn/AiLearning,https://github.com/apachecn/AiLearning.git,2,2017-02-25,23652,10568,128,3,0,0,0,X,69.61357014156891,A,60.96322536997809,A,3.888888888888889,1119.0538244259822,62.169656912554565,0.09403685531065772,131,25643
+apachecn/AiLearning,https://github.com/apachecn/AiLearning.git,v1.0,2017-04-28,1248,579,10,21,0,0,0,X,73.36011607581642,A,74.36952079709293,A,2.286324786324786,235.75640316027597,13.097577953348663,0.027042161832219774,31
+apachecn/AiLearning,https://github.com/apachecn/AiLearning.git,v2.0,2017-10-09,2372,1013,24,31,0,0,0,X,79.17189593148024,A,76.05948443175015,A,2.458333333333333,198.05349027740527,11.002971682078071,0.024120651108676325,55

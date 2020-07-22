@@ -1,0 +1,5 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+chriskiehl/Gooey,https://github.com/chriskiehl/Gooey.git,3,2014-01-01,6264,4057,93,0,11,0,0,X,74.17383745932607,A,82.87517586014691,A,0.5,2.3774437510817346,0.1320802083934297,0.0015849625007211565,104,8924
+chriskiehl/Gooey,https://github.com/chriskiehl/Gooey.git,1.0.3,2019-09-22,5322,3466,83,0,11,0,0,X,74.17383745932607,A,84.43293026365993,A,0.5,2.3774437510817346,0.1320802083934297,0.0015849625007211565,94
+chriskiehl/Gooey,https://github.com/chriskiehl/Gooey.git,1.0.3.1-hotfix,2020-04-25,5322,3466,83,0,11,0,0,X,74.17383745932607,A,84.43293026365993,A,0.5,2.3774437510817346,0.1320802083934297,0.0015849625007211565,94
+chriskiehl/Gooey,https://github.com/chriskiehl/Gooey.git,1.0.4,2020-06-21,6264,4057,93,0,11,0,0,X,74.17383745932607,A,82.87517586014691,A,0.5,2.3774437510817346,0.1320802083934297,0.0015849625007211565,104

@@ -1,0 +1,5 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+facebookresearch/pytorch3d,https://github.com/facebookresearch/pytorch3d.git,3,2019-10-25,31748,19859,135,0,0,0,0,X,67.83221592918673,A,67.93869245376199,A,3.6363636363636362,548.5714285714286,30.476190476190474,0.06089316234606298,135,3278
+facebookresearch/pytorch3d,https://github.com/facebookresearch/pytorch3d.git,v0.1.0,2020-03-05,19560,12489,88,0,0,0,0,X,67.90503021882094,A,69.2918589184581,A,2.947368421052632,404.0492666393966,22.44718147996648,0.047144683682790206,88
+facebookresearch/pytorch3d,https://github.com/facebookresearch/pytorch3d.git,v0.1.1,2020-03-08,21279,13616,98,0,0,0,0,X,69.2918589184581,A,70.0852667733409,A,2.947368421052632,404.0492666393966,22.44718147996648,0.04774615485137876,98
+facebookresearch/pytorch3d,https://github.com/facebookresearch/pytorch3d.git,v0.2.0,2020-04-27,30503,19065,129,0,0,0,0,X,66.76395275781805,A,67.12960681936757,A,3.6363636363636362,601.9718002568683,33.442877792048236,0.06498346252956741,129

@@ -1,0 +1,4 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+encode/uvicorn,https://github.com/encode/uvicorn.git,2,2017-05-31,6395,5000,54,0,8,0,0,X,58.177404271318565,A,59.288158335519526,A,1.5,68.53238859703687,3.8073549220576037,0.018213505547155624,62,2716
+encode/uvicorn,https://github.com/encode/uvicorn.git,0.11.4,2020-04-28,6384,4990,55,0,8,0,0,X,57.36457066005517,A,61.42172398704591,A,1.5,66.56842503028857,3.6982458350160314,0.017924812503605784,63
+encode/uvicorn,https://github.com/encode/uvicorn.git,0.11.5,2020-04-29,6348,4963,54,0,8,0,0,X,58.177404271318565,A,60.20598093481394,A,1.5,67.55040681366272,3.7528003785368176,0.017924812503605784,62

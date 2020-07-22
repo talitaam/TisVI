@@ -1,0 +1,14 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+asciinema/asciinema,https://github.com/asciinema/asciinema.git,12,2011-11-21,2000,1463,28,0,3,0,0,X,60.991721372033425,A,60.991721372033425,A,1.5,59.37873483889085,3.298818602160603,0.014704762504567323,31,8239
+asciinema/asciinema,https://github.com/asciinema/asciinema.git,v0.9.9,2014-12-17,0,0,0,0,0,0,0,Z,-3,Z,-3,Z,-3,-3,-3,-3,0
+asciinema/asciinema,https://github.com/asciinema/asciinema.git,v1.0.0.rc1,2015-03-02,0,0,0,0,0,0,0,Z,-3,Z,-3,Z,-3,-3,-3,-3,0
+asciinema/asciinema,https://github.com/asciinema/asciinema.git,v1.0.0.rc2,2015-03-08,0,0,0,0,0,0,0,Z,-3,Z,-3,Z,-3,-3,-3,-3,0
+asciinema/asciinema,https://github.com/asciinema/asciinema.git,v1.0.0,2015-03-12,0,0,0,0,0,0,0,Z,-3,Z,-3,Z,-3,-3,-3,-3,0
+asciinema/asciinema,https://github.com/asciinema/asciinema.git,v1.1.0,2015-05-25,0,0,0,0,0,0,0,Z,-3,Z,-3,Z,-3,-3,-3,-3,0
+asciinema/asciinema,https://github.com/asciinema/asciinema.git,v1.1.1,2015-06-21,0,0,0,0,0,0,0,Z,-3,Z,-3,Z,-3,-3,-3,-3,0
+asciinema/asciinema,https://github.com/asciinema/asciinema.git,v1.2.0,2016-02-22,0,0,0,0,0,0,0,Z,-3,Z,-3,Z,-3,-3,-3,-3,0
+asciinema/asciinema,https://github.com/asciinema/asciinema.git,v1.3.0,2018-02-10,1197,877,22,0,2,0,0,X,61.461857517145276,A,61.461857517145276,A,1.105072463768116,36.51955000865388,2.02886388936966,0.010536546824812271,24
+asciinema/asciinema,https://github.com/asciinema/asciinema.git,v1.4.0,2018-02-10,1254,909,22,0,2,0,0,X,61.461857517145276,A,61.461857517145276,A,1.105072463768116,65.62406251802891,3.645781251001606,0.012983706192659351,24
+asciinema/asciinema,https://github.com/asciinema/asciinema.git,v2.0.0,2018-02-12,1656,1206,24,0,2,0,0,X,60.701450186073544,A,60.701450186073544,A,1.5,80.66165626622602,4.4812031259014455,0.01553483750312501,26
+asciinema/asciinema,https://github.com/asciinema/asciinema.git,v2.0.1,2018-04-04,1743,1272,25,0,3,0,0,X,60.622390723236144,A,60.622390723236144,A,1.5,86.03910001730776,4.779950000961542,0.016729825003365395,28
+asciinema/asciinema,https://github.com/asciinema/asciinema.git,v2.0.2,2019-09-08,1806,1316,25,0,3,0,0,X,59.026836073169754,A,59.15084251487704,A,1.5,102.79858289555531,5.7110323830864065,0.019534452978042596,28
