@@ -1,0 +1,5 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+bitcoinbook/bitcoinbook,https://github.com/bitcoinbook/bitcoinbook.git,3,2013-08-11,448,261,12,0,0,0,0,X,79.88949336358252,A,79.88949336358252,A,1.7159090909090908,113.95736655224945,6.330964808458303,0.018342916075119065,12,13413
+bitcoinbook/bitcoinbook,https://github.com/bitcoinbook/bitcoinbook.git,second_edition_print_1,2017-07-03,103,56,4,8,0,0,0,X,97.70532130860113,A,97.70532130860113,A,0.3333333333333333,4.0,0.2222222222222222,0.002,12
+bitcoinbook/bitcoinbook,https://github.com/bitcoinbook/bitcoinbook.git,second_edition_print2,2018-02-02,103,56,4,8,0,0,0,X,97.70532130860113,A,97.70532130860113,A,0.3333333333333333,4.0,0.2222222222222222,0.002,12
+bitcoinbook/bitcoinbook,https://github.com/bitcoinbook/bitcoinbook.git,second_edition_print3_rc1,2018-03-03,453,262,12,0,0,0,0,X,79.88949336358252,A,79.88949336358252,A,1.7159090909090908,113.95736655224945,6.330964808458303,0.018342916075119065,12

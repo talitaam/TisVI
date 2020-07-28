@@ -1,5 +1,5 @@
 nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
-Netflix/security_monkey,https://github.com/Netflix/security_monkey.git,18,2020-05-13,41658,25700,286,0,33,28,2,A,81.13525271634998,A,82.76959517928796,A,0.5,8.75488750216347,0.48638263900908163,0.0038698801581456034
+Netflix/security_monkey,https://github.com/Netflix/security_monkey.git,18,2014-06-27,41658,25700,286,0,33,28,2,A,81.13525271634998,A,82.76959517928796,A,0.5,8.75488750216347,0.48638263900908163,0.0038698801581456034
 Netflix/security_monkey,https://github.com/Netflix/security_monkey.git,lsv0.3.4,2015-02-20,9085,4931,61,7,0,10,2,A,72.13895849701537,A,74.72695798639724,A,1.7142857142857142,87.63893433881154,4.86882968548953,0.020314787504086555
 Netflix/security_monkey,https://github.com/Netflix/security_monkey.git,v0.3.5,2015-03-31,9923,5473,66,8,3,10,2,A,72.35308831657548,A,74.99828500137116,A,1.5326086956521738,77.98787043110435,4.332659468394686,0.016801249941818003
 Netflix/security_monkey,https://github.com/Netflix/security_monkey.git,v0.3.8,2015-08-28,11048,6192,72,7,3,10,2,A,70.17197492342518,A,72.43548427500559,A,1.5,78.57367987939169,4.365204437743983,0.0170653501206322

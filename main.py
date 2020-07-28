@@ -24,14 +24,20 @@ for fileName in os.listdir("RepoTags"):
         if numLine == 1:
             nameWithOwner = line[0]
         if numLine > 1:
-            if line[10] == "-1":
+            if line[12] == "-1" or line[12] == "-2" or line[12] == "-3":
                 numFail += 1
             if line[6] != -1 and line[7] != -1 and line[8] != -1 and line[9] != -1:
                 total = int(line[6]) + int(line[7]) + int(line[8]) + int(line[9])
-                validFiles.append((int(line[6])/total)*100)
-                invalidFiles.append((int(line[7])/total)*100)
-                filesNotRead.append((int(line[8])/total)*100)
-                filesNoMetrics.append((int(line[9])/total)*100)
+                if total == 0:
+                    validFiles.append(int(0))
+                    invalidFiles.append(int(0))
+                    filesNotRead.append(int(0))
+                    filesNoMetrics.append(int(0))
+                else:
+                    validFiles.append((int(line[6])/total)*100)
+                    invalidFiles.append((int(line[7])/total)*100)
+                    filesNotRead.append((int(line[8])/total)*100)
+                    filesNoMetrics.append((int(line[9])/total)*100)
         numLine += 1
     repoPercent.writerow((nameWithOwner, median(validFiles), median(invalidFiles), median(filesNotRead), median(filesNoMetrics)))
     file.close()

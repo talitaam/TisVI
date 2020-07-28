@@ -1,0 +1,4 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+facebookresearch/mmf,https://github.com/facebookresearch/mmf.git,2,2018-06-27,28094,19372,218,0,1,0,0,X,70.48908709830698,A,70.99027535157217,A,1.0238095238095237,42.793987519471216,2.377443751081734,0.009509775004326938,219,3625
+facebookresearch/mmf,https://github.com/facebookresearch/mmf.git,v0.3,2019-06-26,18015,12062,158,0,2,0,0,X,69.60308787595457,A,70.38877625824458,A,2.0,105.441971801316,5.857887322295333,0.01850219859070546,160
+facebookresearch/mmf,https://github.com/facebookresearch/mmf.git,v0.3.1,2019-08-26,19265,12940,168,0,3,0,0,X,69.1143840594506,A,69.90883390900343,A,2.0,105.441971801316,5.857887322295333,0.018769486600496738,171

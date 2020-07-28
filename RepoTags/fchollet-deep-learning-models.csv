@@ -1,5 +1,5 @@
 nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
-fchollet/deep-learning-models,https://github.com/fchollet/deep-learning-models.git,8,2020-05-13,2764,1574,10,0,0,0,6,B,49.57107577943293,A,59.24956591656132,A,6.227754237288135,2624.785420218781,145.82141223437674,0.12264167015724543
+fchollet/deep-learning-models,https://github.com/fchollet/deep-learning-models.git,8,2016-08-03,2764,1574,10,0,0,0,6,B,49.57107577943293,A,59.24956591656132,A,6.227754237288135,2624.785420218781,145.82141223437674,0.12264167015724543
 fchollet/deep-learning-models,https://github.com/fchollet/deep-learning-models.git,v0.1,2016-08-03,623,410,4,0,0,0,9,B,57.99330830300323,A,64.57992752765652,A,2.9362179487179487,538.6286900611618,29.923816114508988,0.05484254335504567
 fchollet/deep-learning-models,https://github.com/fchollet/deep-learning-models.git,v0.2,2016-08-09,947,631,5,0,0,0,4,A,57.73685242936631,A,61.81256496901769,A,3.605769230769231,826.9128519967151,45.93960288870639,0.07286971492691359
 fchollet/deep-learning-models,https://github.com/fchollet/deep-learning-models.git,v0.3,2016-10-01,1202,790,7,0,0,0,4,A,58.24976417664016,A,66.43002604289664,A,3.605769230769231,826.9128519967151,45.93960288870639,0.07286971492691359

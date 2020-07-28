@@ -1,0 +1,6 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+wifiphisher/wifiphisher,https://github.com/wifiphisher/wifiphisher.git,4,2014-09-26,9515,4811,29,0,4,0,0,X,53.73991226531682,A,57.241241361883,A,2.4,458.0706963948461,25.448372021935896,0.05572627427729669,33,8967
+wifiphisher/wifiphisher,https://github.com/wifiphisher/wifiphisher.git,v1.1,2015-07-03,0,0,0,1,0,0,0,Z,-3,Z,-3,Z,-3,-3,-3,-3,1
+wifiphisher/wifiphisher,https://github.com/wifiphisher/wifiphisher.git,v1.2,2016-12-05,946,400,5,2,1,0,0,X,53.970636990095436,A,59.13115652685832,A,2.5925925925925926,544.4444444444445,30.246913580246915,0.07,8
+wifiphisher/wifiphisher,https://github.com/wifiphisher/wifiphisher.git,v1.3,2017-04-15,1968,841,10,1,2,0,0,X,53.245054404184756,A,54.71649856594286,A,2.161290322580645,649.9297964696718,36.10721091498177,0.09010790966476435,13
+wifiphisher/wifiphisher,https://github.com/wifiphisher/wifiphisher.git,v1.4,2018-01-12,8239,3759,23,2,3,0,0,X,51.71356438066692,A,57.241241361883,A,2.0,536.9445651405878,29.830253618921542,0.08869880158145606,28

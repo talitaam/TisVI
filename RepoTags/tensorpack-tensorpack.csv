@@ -1,0 +1,5 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+tensorpack/tensorpack,https://github.com/tensorpack/tensorpack.git,3,2015-12-25,41502,24909,236,8,3,0,0,X,55.84684463473678,A,64.15470029507904,A,4.217592592592593,811.1472138936988,45.0637341052055,0.05979233398798284,247,5568
+tensorpack/tensorpack,https://github.com/tensorpack/tensorpack.git,0.4.0-doc,2017-08-16,27762,17039,197,2,0,0,0,X,62.32648138707869,A,69.90747928034511,A,3.1578947368421053,327.59999999999997,18.2,0.03745671015569048,199
+tensorpack/tensorpack,https://github.com/tensorpack/tensorpack.git,0.7.1-docs,2017-11-12,32752,19837,225,7,1,0,0,X,61.437615194391974,A,69.9008770903803,A,3.3333333333333335,450.4588063218547,25.025489240103038,0.04099496261260177,233
+tensorpack/tensorpack,https://github.com/tensorpack/tensorpack.git,doc-v0.9.0.1,2019-01-18,38515,23106,226,8,2,0,0,X,55.84684463473678,A,64.86185835952561,A,4.027027027027027,685.9651653699906,38.10917585388836,0.0560563605189108,236

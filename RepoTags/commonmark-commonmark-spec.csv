@@ -1,5 +1,5 @@
 nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
-commonmark/commonmark-spec,https://github.com/commonmark/commonmark-spec.git,12,2020-05-13,377,294,3,0,0,0,3,A,44.60409947952425,A,54.08664494741089,A,4.5,3882.8410383055457,215.71339101697475,0.2311214903753301
+commonmark/commonmark-spec,https://github.com/commonmark/commonmark-spec.git,12,2014-08-14,377,294,3,0,0,0,3,A,44.60409947952425,A,54.08664494741089,A,4.5,3882.8410383055457,215.71339101697475,0.2311214903753301
 commonmark/commonmark-spec,https://github.com/commonmark/commonmark-spec.git,0.16,2015-01-15,1151,607,8,0,0,1,2,A,58.678768902274854,A,61.02180902787943,A,2.863978494623656,1417.64806430033,78.75822579446277,0.10654386462119403
 commonmark/commonmark-spec,https://github.com/commonmark/commonmark-spec.git,0.17,2015-01-25,523,430,4,0,0,0,3,A,43.483176841042834,A,48.647830760342366,A,4.584191260581102,3852.198127015474,214.01100705641522,0.25594578182156286
 commonmark/commonmark-spec,https://github.com/commonmark/commonmark-spec.git,0.18,2015-03-04,523,430,4,0,0,0,3,A,43.483176841042834,A,48.647830760342366,A,4.584191260581102,3852.198127015474,214.01100705641522,0.25594578182156286

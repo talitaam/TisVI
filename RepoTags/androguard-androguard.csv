@@ -1,5 +1,5 @@
 nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
-androguard/androguard,https://github.com/androguard/androguard.git,17,2020-05-12,22170,15116,66,2,2,18,2,A,47.31774063854226,A,49.91218948919985,A,4.44502457002457,1483.0781978412256,82.39323321340143,0.11539255200447526
+androguard/androguard,https://github.com/androguard/androguard.git,17,2014-09-12,22170,15116,66,2,2,18,2,A,47.31774063854226,A,49.91218948919985,A,4.44502457002457,1483.0781978412256,82.39323321340143,0.11539255200447526
 androguard/androguard,https://github.com/androguard/androguard.git,v3.1.0-pre,2017-09-07,-1,-1,-1,-1,-1,-1,-1,Z,-1,Z,-1,Z,-1,-1,-1,-1
 androguard/androguard,https://github.com/androguard/androguard.git,v3.1.0-pre.2,2017-09-12,-1,-1,-1,-1,-1,-1,-1,Z,-1,Z,-1,Z,-1,-1,-1,-1
 androguard/androguard,https://github.com/androguard/androguard.git,v2.0,2017-09-12,-1,-1,-1,-1,-1,-1,-1,Z,-1,Z,-1,Z,-1,-1,-1,-1

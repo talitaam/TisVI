@@ -1,6 +1,0 @@
-nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
-expectocode/telegram-export,https://github.com/expectocode/telegram-export.git,4,2020-05-06,3139,2242,11,0,1,3,4,A,42.8371670879412,A,53.810686610527256,A,5.25,1792.3522807949653,99.5751267108314,0.1089368907605677
-expectocode/telegram-export,https://github.com/expectocode/telegram-export.git,v0.1,2018-02-28,2397,1770,8,0,0,1,4,A,42.819883327063856,A,48.80665553413975,A,6.28125,3183.4725614920408,176.85958674955782,0.16292887673516804
-expectocode/telegram-export,https://github.com/expectocode/telegram-export.git,v1.5,2018-06-06,3126,2231,11,0,1,3,4,A,43.41734466041266,A,54.29649725783325,A,5.25,1732.0300822360841,96.22389345756022,0.10466458586611814
-expectocode/telegram-export,https://github.com/expectocode/telegram-export.git,v1.7,2018-07-14,3138,2243,11,0,1,3,4,A,43.022738242443346,A,54.29649725783325,A,5.25,1732.0300822360841,96.22389345756022,0.10466458586611814
-expectocode/telegram-export,https://github.com/expectocode/telegram-export.git,v1.8,2018-12-15,3139,2242,11,0,1,3,4,A,42.8371670879412,A,53.810686610527256,A,5.25,1792.3522807949653,99.5751267108314,0.1089368907605677

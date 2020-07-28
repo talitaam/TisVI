@@ -1,0 +1,7 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+deepmind/pysc2,https://github.com/deepmind/pysc2.git,5,2017-07-25,17771,12154,105,0,0,2,0,X,76.22237952697493,A,75.15244614556562,A,2.0,97.296514274174,5.405361904120777,0.017767656302935482,107,6915
+deepmind/pysc2,https://github.com/deepmind/pysc2.git,v1.0,2017-08-09,7909,5225,53,1,0,0,0,X,82.16400047150763,A,82.16400047150763,A,1.0,36.0,2.0,0.008422064766172813,54
+deepmind/pysc2,https://github.com/deepmind/pysc2.git,v1.2,2017-10-12,8501,5645,55,0,0,0,0,X,81.34468889010638,A,81.34468889010638,A,1.5,39.863137138648355,2.2146187299249087,0.012679700005769252,55
+deepmind/pysc2,https://github.com/deepmind/pysc2.git,v2.0,2018-06-08,12397,8162,77,0,0,1,0,X,78.4313560372051,A,74.87044054211981,A,1.8,76.0782000346155,4.226566668589751,0.01383772647454919,78
+deepmind/pysc2,https://github.com/deepmind/pysc2.git,v2.0.1,2018-06-08,12397,8162,77,0,0,1,0,X,78.4313560372051,A,74.87044054211981,A,1.8,76.0782000346155,4.226566668589751,0.01383772647454919,78
+deepmind/pysc2,https://github.com/deepmind/pysc2.git,v3.0,2019-09-27,6040,3838,40,0,0,0,-1,Z,-1,Z,-1,Z,-1,-1,-1,-1,107

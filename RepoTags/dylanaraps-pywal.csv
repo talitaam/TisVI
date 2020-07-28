@@ -1,5 +1,5 @@
 nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
-dylanaraps/pywal,https://github.com/dylanaraps/pywal.git,78,2020-05-13,1960,1222,20,0,0,5,3,A,58.6257205452768,A,62.64500415076594,A,2.375,147.2279308383477,8.179329491019317,0.018060521789710182
+dylanaraps/pywal,https://github.com/dylanaraps/pywal.git,78,2017-06-16,1960,1222,20,0,0,5,3,A,58.6257205452768,A,62.64500415076594,A,2.375,147.2279308383477,8.179329491019317,0.018060521789710182
 dylanaraps/pywal,https://github.com/dylanaraps/pywal.git,0.1.0,2017-06-22,-1,-1,-1,-1,-1,-1,-1,Z,-1,Z,-1,Z,-1,-1,-1,-1
 dylanaraps/pywal,https://github.com/dylanaraps/pywal.git,0.1.1,2017-06-22,-1,-1,-1,-1,-1,-1,-1,Z,-1,Z,-1,Z,-1,-1,-1,-1
 dylanaraps/pywal,https://github.com/dylanaraps/pywal.git,0.1.2,2017-06-22,-1,-1,-1,-1,-1,-1,-1,Z,-1,Z,-1,Z,-1,-1,-1,-1

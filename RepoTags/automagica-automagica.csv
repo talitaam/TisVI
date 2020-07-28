@@ -1,0 +1,4 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+automagica/automagica,https://github.com/automagica/automagica.git,2,2018-02-08,1581,1045,9,0,0,1,0,X,71.47119618719404,A,81.82939347736989,A,1.5,47.548875021634686,2.6416041678685938,0.010566416671474375,10,2887
+automagica/automagica,https://github.com/automagica/automagica.git,v1.0.0,2019-08-13,2280,1154,16,2,0,0,0,X,91.74998923611568,A,91.74998923611568,A,0.5,2.3774437510817346,0.1320802083934297,0.0015849625007211565,18
+automagica/automagica,https://github.com/automagica/automagica.git,v1.0.10,2019-10-16,2308,1179,16,2,0,0,0,X,91.68265790525587,A,91.68265790525587,A,0.5,2.3774437510817346,0.1320802083934297,0.0015849625007211565,18

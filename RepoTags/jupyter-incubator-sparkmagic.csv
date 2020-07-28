@@ -1,4 +1,0 @@
-nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
-jupyter-incubator/sparkmagic,https://github.com/jupyter-incubator/sparkmagic.git,2,2020-05-07,9867,7246,91,8,11,10,2,A,72.49631947756941,A,73.73387349545808,A,0.5,15.509775004326936,0.861654166907052,0.005169925001442312
-jupyter-incubator/sparkmagic,https://github.com/jupyter-incubator/sparkmagic.git,0.14.0,2019-11-25,9792,7192,91,8,11,10,2,A,72.49631947756941,A,73.73387349545808,A,0.5,15.509775004326936,0.861654166907052,0.005169925001442312
-jupyter-incubator/sparkmagic,https://github.com/jupyter-incubator/sparkmagic.git,0.15.0,2020-01-22,9867,7246,91,8,11,10,2,A,72.49631947756941,A,73.73387349545808,A,0.5,15.509775004326936,0.861654166907052,0.005169925001442312

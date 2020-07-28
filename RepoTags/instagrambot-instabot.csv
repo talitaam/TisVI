@@ -1,5 +1,5 @@
 nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
-instagrambot/instabot,https://github.com/instagrambot/instabot.git,57,2020-05-14,10300,8395,49,0,2,62,3,A,51.56115056859072,A,55.58381784631068,A,2.5,315.78222090468125,17.543456716926737,0.040337995552282055
+instagrambot/instabot,https://github.com/instagrambot/instabot.git,57,2017-01-13,10300,8395,49,0,2,62,3,A,51.56115056859072,A,55.58381784631068,A,2.5,315.78222090468125,17.543456716926737,0.040337995552282055
 instagrambot/instabot,https://github.com/instagrambot/instabot.git,0.1.1,2017-01-17,418,346,7,0,0,2,4,A,60.90215582589203,A,63.83187013996008,A,2.0,199.3846153846154,11.076923076923077,0.036
 instagrambot/instabot,https://github.com/instagrambot/instabot.git,0.1.2,2017-01-19,457,378,8,0,0,2,4,A,61.00202212073822,A,62.46687927777224,A,2.369047619047619,324.921710853235,18.051206158513057,0.042453133337179504
 instagrambot/instabot,https://github.com/instagrambot/instabot.git,0.1.3,2017-01-19,482,396,8,0,0,2,4,A,59.94277084628443,A,62.367012982926056,A,3.206896551724138,526.5854247710229,29.254745820612385,0.04732180626334139
