@@ -1,9 +1,0 @@
-nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
-EnableSecurity/wafw00f,https://github.com/EnableSecurity/wafw00f.git,7,2020-05-13,3478,2153,156,0,2,4,3,A,100.0,A,100.0,A,0.0,0.0,0.0,0.0
-EnableSecurity/wafw00f,https://github.com/EnableSecurity/wafw00f.git,v0.9.1,2014-05-15,1180,1002,2,0,1,0,3,A,15.596392408348766,B,18.211588452241138,B,8.410945903195191,17394.228709561623,966.3460394200902,0.6911069562203084
-EnableSecurity/wafw00f,https://github.com/EnableSecurity/wafw00f.git,v0.9.4,2016-03-15,1635,1164,41,0,3,3,2,A,100.0,A,100.0,A,0,0,0.0,0.0
-EnableSecurity/wafw00f,https://github.com/EnableSecurity/wafw00f.git,v0.9.5,2018-06-14,1697,1171,52,0,3,4,2,A,100.0,A,100.0,A,0.0,0.0,0.0,0.0
-EnableSecurity/wafw00f,https://github.com/EnableSecurity/wafw00f.git,v0.9.6,2019-02-20,1706,1169,55,0,3,4,2,A,100.0,A,100.0,A,0,0,0.0,0.0
-EnableSecurity/wafw00f,https://github.com/EnableSecurity/wafw00f.git,v1.0.0,2019-05-01,3019,2054,115,0,3,4,5,A,91.84651940669325,A,91.84651940669325,A,1.0,15.509775004326936,0.861654166907052,0.005169925001442312
-EnableSecurity/wafw00f,https://github.com/EnableSecurity/wafw00f.git,v2.0.0,2019-12-13,3329,2028,154,0,2,4,3,A,100.0,A,100.0,A,0.0,0.0,0.0,0.0
-EnableSecurity/wafw00f,https://github.com/EnableSecurity/wafw00f.git,v2.1.0,2020-01-29,3458,2143,155,0,2,4,3,A,100.0,A,100.0,A,0,0,0.0,0.0

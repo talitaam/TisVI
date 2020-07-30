@@ -1,0 +1,4 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+what-studio/profiling,https://github.com/what-studio/profiling.git,2,2014-09-03,4587,3061,28,1,0,0,0,X,59.797425096351624,A,65.3708165044231,A,2.4886363636363633,432.8888317139035,24.049379539661302,0.04319451094717275,29,2988
+what-studio/profiling,https://github.com/what-studio/profiling.git,first-working-prototype,2015-08-12,3016,2091,22,1,0,0,0,X,68.9883622965744,A,73.9025718830755,A,1.7333333333333334,69.11203125901446,3.8395572921674703,0.015606262441577617,23
+what-studio/profiling,https://github.com/what-studio/profiling.git,0.1.1,2015-12-25,4452,3020,28,1,0,0,0,X,59.928878275883164,A,67.2120803473832,A,2.291666666666667,384.94422427401906,21.385790237445505,0.040662781256490685,29

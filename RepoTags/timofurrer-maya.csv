@@ -1,0 +1,9 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+timofurrer/maya,https://github.com/timofurrer/maya.git,7,2016-12-16,2170,1482,8,0,1,0,0,X,71.90779684540476,A,77.38798718293825,A,3.1923076923076925,788.2631937349109,43.7923996519395,0.04677571424174374,9,3156
+timofurrer/maya,https://github.com/timofurrer/maya.git,v0.4.0,2018-05-10,2089,1444,9,0,1,0,0,X,67.43289334515612,A,73.05228217065367,A,1.5,36.0,2.0,0.008,10
+timofurrer/maya,https://github.com/timofurrer/maya.git,v0.4.1,2018-05-10,2089,1444,9,0,1,0,0,X,67.43289334515612,A,73.05228217065367,A,1.5,36.0,2.0,0.008,10
+timofurrer/maya,https://github.com/timofurrer/maya.git,v0.4.3,2018-05-15,2126,1462,9,0,1,0,0,X,67.43289334515612,A,73.05228217065367,A,1.5,36.0,2.0,0.008,10
+timofurrer/maya,https://github.com/timofurrer/maya.git,v0.4.2,2018-05-15,2119,1459,9,0,1,0,0,X,67.43289334515612,A,73.05228217065367,A,1.5,36.0,2.0,0.008,10
+timofurrer/maya,https://github.com/timofurrer/maya.git,v0.5.0,2018-05-26,2171,1485,9,0,1,0,0,X,67.43289334515612,A,73.05228217065367,A,1.5,36.0,2.0,0.008,10
+timofurrer/maya,https://github.com/timofurrer/maya.git,v0.6.0,2019-01-06,2173,1485,9,0,1,0,0,X,67.43289334515612,A,73.05228217065367,A,1.5,36.0,2.0,0.008,10
+timofurrer/maya,https://github.com/timofurrer/maya.git,v0.6.1,2019-01-06,2232,1538,9,0,1,0,0,X,67.43289334515612,A,73.05228217065367,A,1.5,36.0,2.0,0.008,10

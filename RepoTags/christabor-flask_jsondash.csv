@@ -1,0 +1,8 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+christabor/flask_jsondash,https://github.com/christabor/flask_jsondash.git,6,2016-02-18,4870,3589,35,0,5,0,0,X,56.04668893091997,A,57.66714255884416,A,1.5,135.6923076923077,7.538461538461539,0.03752932501298081,40,3057
+christabor/flask_jsondash,https://github.com/christabor/flask_jsondash.git,1.0.3-pre-pypackage,2016-07-25,562,385,6,0,2,0,0,X,63.766233761150204,A,67.27692527096686,A,0.75,10.236090628064915,0.568671701559162,0.0038082708345352602,8
+christabor/flask_jsondash,https://github.com/christabor/flask_jsondash.git,3.0.0,2016-08-23,744,524,7,0,4,0,0,X,63.274621664171654,A,65.82351070077945,A,1.0,18.094737505048094,1.0052631947248942,0.006031579168349364,11
+christabor/flask_jsondash,https://github.com/christabor/flask_jsondash.git,3.2.1,2016-08-24,869,622,7,0,4,0,0,X,62.49877346512715,A,64.25808196284153,A,1.0,27.0,1.5,0.009,11
+christabor/flask_jsondash,https://github.com/christabor/flask_jsondash.git,4.0.0,2016-10-26,1274,923,7,0,4,0,0,X,65.75463912910553,A,73.481061043251,A,1.0,15.509775004326936,0.861654166907052,0.005169925001442312,11
+christabor/flask_jsondash,https://github.com/christabor/flask_jsondash.git,5.0.0,2016-12-19,2352,1758,18,0,4,0,0,X,61.92826289283674,A,67.84868999015606,A,1.1964285714285714,75.9551071485835,4.219728174921305,0.0172672264890213,22
+christabor/flask_jsondash,https://github.com/christabor/flask_jsondash.git,6.2.3,2017-06-13,4246,3136,32,0,5,0,0,X,57.413288176132376,A,57.413288176132376,A,1.0984615384615384,102.78212305802275,5.71011794766793,0.027674117084629815,37

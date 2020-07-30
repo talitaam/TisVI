@@ -1,0 +1,4 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+ytisf/theZoo,https://github.com/ytisf/theZoo.git,2,2014-01-09,1450,1022,11,0,0,2,3,A,59.14237547173211,A,60.99555333604193,A,2.7142857142857144,350.10637535084226,19.450354186157902,0.08719781128806443
+ytisf/theZoo,https://github.com/ytisf/theZoo.git,v0.50,2014-06-19,103,73,1,7,0,1,1,A,62.19299215979522,A,62.19299215979522,A,0.6190476190476191,434.5714285714286,24.142857142857146,0.234
+ytisf/theZoo,https://github.com/ytisf/theZoo.git,v0.60,2014-12-14,120,83,1,8,0,1,1,A,61.797435120125904,A,61.797435120125904,A,0.6129032258064516,417.6383327193813,23.202129595521185,0.22713663709299683

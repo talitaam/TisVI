@@ -1,0 +1,4 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+trailofbits/algo,https://github.com/trailofbits/algo.git,2,2016-05-15,1821,1366,6,0,0,0,0,X,56.21645780074037,A,56.21645780074037,A,3.6489547038327523,1076.7001874802345,59.81667708223525,0.09461804793818118,6,18583
+trailofbits/algo,https://github.com/trailofbits/algo.git,v1.0,2019-03-19,792,603,3,0,0,0,0,X,65.16158867298071,A,65.16158867298071,A,1.5,47.548875021634686,2.6416041678685938,0.010566416671474375,3
+trailofbits/algo,https://github.com/trailofbits/algo.git,v1.1,2019-07-31,1411,1072,4,0,0,0,0,X,47.49370931842658,A,51.27211724908652,A,3.2523364485981308,3250.037889396206,180.55766052201145,0.22016661284973446,4

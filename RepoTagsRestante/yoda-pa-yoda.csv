@@ -1,7 +1,0 @@
-nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
-yoda-pa/yoda,https://github.com/yoda-pa/yoda.git,5,2020-05-12,7949,5235,63,2,9,5,1,A,81.55642988714698,A,89.62555276076999,A,0.5,2.3774437510817346,0.1320802083934297,0.0015849625007211565
-yoda-pa/yoda,https://github.com/yoda-pa/yoda.git,v0.1.0,2017-05-08,1555,1065,13,0,0,3,2,A,64.67802003854743,A,66.2813080217397,A,1.0,140.65524087198165,7.814180048443425,0.030579450010576957
-yoda-pa/yoda,https://github.com/yoda-pa/yoda.git,0.2.0,2018-01-28,2648,1556,24,0,6,2,1,A,100.0,A,100.0,A,0.0,0.0,0.0,0.0
-yoda-pa/yoda,https://github.com/yoda-pa/yoda.git,v0.3.0,2018-05-30,3274,2009,28,0,7,2,1,A,100.0,A,100.0,A,0.0,0.0,0.0,0.0
-yoda-pa/yoda,https://github.com/yoda-pa/yoda.git,v0.4.0,2019-01-11,6625,4308,55,2,9,5,1,A,82.3500893552505,A,89.5186078544907,A,0.5,2.3774437510817346,0.1320802083934297,0.0015849625007211565
-yoda-pa/yoda,https://github.com/yoda-pa/yoda.git,v1.0.0,2019-05-02,7949,5235,63,2,9,5,1,A,81.55642988714698,A,89.62555276076999,A,0.5,2.3774437510817346,0.1320802083934297,0.0015849625007211565

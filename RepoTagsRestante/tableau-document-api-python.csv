@@ -1,8 +1,0 @@
-nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
-tableau/document-api-python,https://github.com/tableau/document-api-python.git,6,2020-05-06,1785,1180,13,0,1,5,1,A,64.6870716165482,A,69.90251871985363,A,0.5,6.965784284662087,0.3869880158145604,0.004643856189774725
-tableau/document-api-python,https://github.com/tableau/document-api-python.git,v0.0.1,2016-06-29,550,281,4,0,0,4,1,A,82.94129947022154,A,79.27598353979768,A,0.75,6.993542112759273,0.3885301173755151,0.0027274213294333797
-tableau/document-api-python,https://github.com/tableau/document-api-python.git,v0.2.0,2016-07-26,1269,780,10,0,0,6,1,A,72.96899344906743,A,72.84395436077732,A,0.75,14.688721875540868,0.8160401041967149,0.005292481250360578
-tableau/document-api-python,https://github.com/tableau/document-api-python.git,v0.3.0,2016-08-31,1568,999,13,0,0,6,1,A,76.74102647469219,A,76.49094829811199,A,0.5,2.3774437510817346,0.1320802083934297,0.0015849625007211565
-tableau/document-api-python,https://github.com/tableau/document-api-python.git,v0.4.0,2016-10-07,1640,1054,13,0,0,6,1,A,77.35256782978563,A,76.62775420357619,A,0.5,2.3774437510817346,0.1320802083934297,0.0015849625007211565
-tableau/document-api-python,https://github.com/tableau/document-api-python.git,v0.5,2016-11-01,1727,1123,13,0,0,6,1,A,77.35256782978563,A,76.62775420357619,A,0.5,6.965784284662087,0.3869880158145604,0.0038698801581456034
-tableau/document-api-python,https://github.com/tableau/document-api-python.git,v0.6,2017-01-11,1784,1179,13,0,1,5,1,A,64.6870716165482,A,69.90251871985363,A,0.5,6.965784284662087,0.3869880158145604,0.004643856189774725

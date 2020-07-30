@@ -1,0 +1,4 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+ufoym/deepo,https://github.com/ufoym/deepo.git,2,2017-10-27,964,762,25,0,3,0,0,X,83.07400935070177,A,83.07400935070177,A,1.0,15.509775004326936,0.861654166907052,0.005169925001442312,28,5617
+ufoym/deepo,https://github.com/ufoym/deepo.git,v1.0.0,2017-11-27,0,0,0,0,0,0,0,Z,-3,Z,-3,Z,-3,-3,-3,-3,0
+ufoym/deepo,https://github.com/ufoym/deepo.git,v2.0.0,2017-11-27,826,662,21,0,2,0,0,X,83.60539318270183,A,83.60539318270183,A,0.5,6.965784284662087,0.3869880158145604,0.004643856189774725,23

@@ -1,0 +1,16 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+chrissimpkins/Crunch,https://github.com/chrissimpkins/Crunch.git,14,2016-04-10,1947,1246,7,0,1,0,0,X,68.31853437974253,A,68.31853437974253,A,3.0,925.8355845585663,51.43531025325368,0.09745637732195435,8,2889
+chrissimpkins/Crunch,https://github.com/chrissimpkins/Crunch.git,v0.9.0-dev-1,2016-04-11,0,0,0,0,0,0,0,Z,-3,Z,-3,Z,-3,-3,-3,-3,0
+chrissimpkins/Crunch,https://github.com/chrissimpkins/Crunch.git,v0.9.0-dev-2,2016-04-11,0,0,0,0,0,0,0,Z,-3,Z,-3,Z,-3,-3,-3,-3,0
+chrissimpkins/Crunch,https://github.com/chrissimpkins/Crunch.git,v0.9.0,2016-04-12,0,0,0,0,0,0,0,Z,-3,Z,-3,Z,-3,-3,-3,-3,0
+chrissimpkins/Crunch,https://github.com/chrissimpkins/Crunch.git,v0.10.0,2018-03-23,0,0,0,0,0,0,0,Z,-3,Z,-3,Z,-3,-3,-3,-3,0
+chrissimpkins/Crunch,https://github.com/chrissimpkins/Crunch.git,v1.0.0,2018-03-24,0,0,0,0,0,0,0,Z,-3,Z,-3,Z,-3,-3,-3,-3,0
+chrissimpkins/Crunch,https://github.com/chrissimpkins/Crunch.git,v1.0.1,2018-03-26,0,0,0,0,0,0,0,Z,-3,Z,-3,Z,-3,-3,-3,-3,0
+chrissimpkins/Crunch,https://github.com/chrissimpkins/Crunch.git,v1.1.0,2018-03-30,0,0,0,0,0,0,0,Z,-3,Z,-3,Z,-3,-3,-3,-3,0
+chrissimpkins/Crunch,https://github.com/chrissimpkins/Crunch.git,v2.0.0,2018-05-12,957,591,5,0,1,0,0,X,52.34555859718682,A,52.34555859718682,A,2.3529411764705883,908.5532095344745,50.475178307470806,0.1823619345302171,6
+chrissimpkins/Crunch,https://github.com/chrissimpkins/Crunch.git,v2.0.1,2018-05-16,967,595,5,0,1,0,0,X,52.29851580941914,A,52.29851580941914,A,2.3529411764705883,908.5532095344745,50.475178307470806,0.1823619345302171,6
+chrissimpkins/Crunch,https://github.com/chrissimpkins/Crunch.git,v2.0.2,2018-05-17,1039,627,5,0,1,0,0,X,51.213830403138424,A,51.213830403138424,A,2.3529411764705883,908.5532095344745,50.475178307470806,0.1823619345302171,6
+chrissimpkins/Crunch,https://github.com/chrissimpkins/Crunch.git,v2.1.0,2018-05-19,1178,705,5,0,1,0,0,X,50.62181471955992,A,50.62181471955992,A,2.3529411764705883,1990.5220006501702,110.58455559167612,0.4205838835617846,6
+chrissimpkins/Crunch,https://github.com/chrissimpkins/Crunch.git,v3.0.0,2018-06-04,1458,882,5,0,1,0,0,X,46.288472200273624,A,46.288472200273624,A,2.8260869565217392,3971.133858535113,220.61854769639518,0.4992282565015571,6
+chrissimpkins/Crunch,https://github.com/chrissimpkins/Crunch.git,v3.0.1,2018-06-19,1458,882,5,0,1,0,0,X,46.288472200273624,A,46.288472200273624,A,2.8260869565217392,3971.133858535113,220.61854769639518,0.4992282565015571,6
+chrissimpkins/Crunch,https://github.com/chrissimpkins/Crunch.git,v4.0.0,2019-10-21,1947,1246,7,0,1,0,0,X,68.31853437974253,A,68.31853437974253,A,3.0,925.8355845585663,51.43531025325368,0.09745637732195435,8

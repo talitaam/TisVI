@@ -1,0 +1,4 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs
+Qix-/better-exceptions,https://github.com/Qix-/better-exceptions.git,2,2017-03-12,920,631,16,0,0,5,1,A,74.84529027930373,A,78.07760084461921,A,1.0,15.509775004326936,0.861654166907052,0.005169925001442312
+Qix-/better-exceptions,https://github.com/Qix-/better-exceptions.git,0.1.8,2017-05-12,606,407,8,0,0,4,2,A,65.12790579698603,A,66.96316939018203,A,1.1,22.914604081274533,1.2730335600708071,0.006795994883807562
+Qix-/better-exceptions,https://github.com/Qix-/better-exceptions.git,0.2.1,2018-01-16,777,537,13,0,0,6,1,A,75.0206708965386,A,75.0206708965386,A,1.0,15.509775004326936,0.861654166907052,0.005169925001442312

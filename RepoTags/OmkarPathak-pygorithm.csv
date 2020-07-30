@@ -1,0 +1,5 @@
+nameWithOwner,url,tagName,publishedAt,totalLoc,totalSloc,validFiles,invalidFiles,filesNotRead,filesNoMetric,cc,ccRank,miMultiFalse,miMultiFalseRank,miMultiTrue,miMultiTrueRank,difficulty,effort,timeHas,bugs,totalFiles,stars
+OmkarPathak/pygorithm,https://github.com/OmkarPathak/pygorithm.git,3,2017-07-31,11447,5216,117,0,2,1,0,X,65.54198670791806,A,71.38385044213702,A,2.2857142857142856,178.58961863209367,9.921645479560759,0.02588726466125215,120,3983
+OmkarPathak/pygorithm,https://github.com/OmkarPathak/pygorithm.git,v1.0.0,2017-08-16,2260,1391,38,0,2,0,0,X,79.11608087642585,A,84.01155525723503,A,2.619047619047619,130.26703743522586,7.237057635290325,0.01861436333125533,40
+OmkarPathak/pygorithm,https://github.com/OmkarPathak/pygorithm.git,v1.0.3,2017-08-23,4631,2243,61,0,1,0,0,X,72.31443689722072,A,76.91184695644925,A,2.142857142857143,97.63369004442322,5.424093891356845,0.01383772647454919,62
+OmkarPathak/pygorithm,https://github.com/OmkarPathak/pygorithm.git,v1.0.4,2017-09-04,9428,4067,82,0,1,1,0,X,69.5211639202203,A,75.47645481502997,A,2.8285714285714283,240.44950457524538,13.358305809735853,0.02588726466125215,84
