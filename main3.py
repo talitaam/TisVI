@@ -14,22 +14,26 @@ import numpy as np
 nameCSVreleases = "AnaliseFinalRelease.csv"
 nameCSVrepo = "AnaliseFinalRepo.csv"
 
-def writeCSVreleases(node, typeRelease, isFirstRow, isNotaMax, isLOCchanged, isMetricChanged, qtDias, porcValF, deltaLOC,
-                     deltaSLOC, deltaMIF, deltaMIT, deltaDiff, deltaEff, deltaTimeH, deltaBug, deltaFiles, totalFiles):
+def writeCSVreleases(node, typeRelease, isFirstRow, isNotaMax, isLOCchanged, isMetricChanged, qtDias, qtDiasChangedRel, 
+                    porcValF, deltaLOC,deltaSLOC, deltaMIF, deltaMIT, deltaDiff, deltaEff, deltaTimeH, deltaBug, 
+                    deltaFiles, totalFiles):
     fileFinalTag = open(nameCSVreleases, 'a', newline='')
     finalTag = csv.writer(fileFinalTag, delimiter=';')
     finalTag.writerow((str(node[0]), str(node[2]), typeRelease, str(isFirstRow), str(isNotaMax), str(isLOCchanged),
-     str(isMetricChanged), str(qtDias), str(porcValF).replace('.',','), str(deltaLOC), str(deltaSLOC), str(deltaMIF).replace('.',','), 
-     str(deltaMIT).replace('.',','), str(deltaDiff).replace('.',','), str(deltaEff).replace('.',','), str(deltaTimeH).replace('.',','), 
-     str(deltaBug).replace('.',','), str(deltaFiles), str(totalFiles)))
+     str(isMetricChanged), str(qtDias), str(qtDiasChangedRel), str(porcValF).replace('.',','), str(deltaLOC), 
+     str(deltaSLOC), str(deltaMIF).replace('.',','), str(deltaMIT).replace('.',','), str(deltaDiff).replace('.',','), 
+     str(deltaEff).replace('.',','), str(deltaTimeH).replace('.',','), str(deltaBug).replace('.',','), 
+     str(deltaFiles), str(totalFiles)))
     fileFinalTag.close()
 
-def writeCSVrepo(node, createdAt, countNV, countNM, countNF, countVR, totRel, contMetChange, countNotaMax, qtDias, porcValF, deltaLOC,
-                     deltaSLOC, deltaMIF, deltaMIT, deltaDiff, deltaEff, deltaTimeH, deltaBug, deltaFiles, totalFiles):
+def writeCSVrepo(node, createdAt, countNV, countNM, countNF, countVR, totRel, contMetChange, countNotaMax, qtDias, 
+                qtDiasChangedRel, porcValF, deltaLOC,deltaSLOC, deltaMIF, deltaMIT, deltaDiff, deltaEff, deltaTimeH, 
+                deltaBug, deltaFiles, totalFiles):
     fileFinalTag = open(nameCSVrepo, 'a', newline='')
     finalTag = csv.writer(fileFinalTag, delimiter=';')
     finalTag.writerow((str(node[0]), createdAt, str(countNV), str(countNM), str(countNF), str(countVR), 
-    str(totRel), str(contMetChange), str(countNotaMax), str(qtDias), str(porcValF).replace('.',','), 
+    str(totRel), str(contMetChange), str(countNotaMax), str(qtDias).replace('.',','), 
+    str(qtDiasChangedRel).replace('.',','), str(porcValF).replace('.',','), 
     str(deltaLOC).replace('.',','), str(deltaSLOC).replace('.',','), 
     str(deltaMIF).replace('.',','), str(deltaMIT).replace('.',','), 
     str(deltaDiff).replace('.',','), str(deltaEff).replace('.',','), 
@@ -44,15 +48,6 @@ def where_stop(filePath):
         row = sum(1 for line in csv.reader(fileFinal))
         fileFinal.close()
     return row
-
-def round_half_up(n, decimals=0):
-    multiplier = 10 ** decimals
-    return math.floor(n*multiplier + 0.5) / multiplier
-
-def round_half_away_from_zero(n, decimals=0):
-    rounded_abs = round_half_up(abs(n), decimals)
-    return math.copysign(rounded_abs, n)
-
 
 
 """
@@ -70,79 +65,28 @@ bugs 19
 totalFiles, 20
 """
 
+#if not os.path.isfile(nameCSVreleases):
+fileFinal = open(nameCSVreleases, 'w', newline='')
+final = csv.writer(fileFinal, delimiter=';')
+final.writerow(('nameWithOwner', 'tag', 'typeRelease','isFirstRow(bool)', 'isNotaMax(bool)',
+                    'isLOCchanged(bool)', 'isMetricChanged(bool)', 'qtDias', 'qtDiasChangedRel', 'porcValF(%)', 
+                    'deltaLOC(qtd)', 'deltaSLOC(qtd)', 'deltaMIF(%)', 'deltaMIT(%)', 'deltaDiff(%)', 'deltaEff(%)',
+                    'deltaTimeH(%)', 'deltaBug(%)', 'deltaFiles(qtd)', 'totalFiles(qtd)'))
+fileFinal.close()
 
-totalRepo = 0
-
-"""
-data = [-2.15, 1.45, 4.35, -12.75] 
-print("data = " + str(data))
-#print(str(mean(data)))
-
-
-rhaz_data = [round_half_away_from_zero(n, 1) for n in data]
-print("rhaz_data = " + str(rhaz_data))
-#print(str(mean(rhaz_data)))
-
-
-data = [-2.1593, 1.4564, 4.3593, -12.7564] 
-print("data = " + str(data))
-#print(str(mean(data)))
-
-
-rhaz_data = [round_half_away_from_zero(n, 1) for n in data]
-print("rhaz_data = " + str(rhaz_data))
-#print(str(mean(rhaz_data))
-
-data = -34.54999999999999456662342
-rhaz_data = np.around(data, decimals=1)
-print("rhaz_data = " + str(rhaz_data))
-print("rhaz_data = " + str(round(data,1)))
-
-a=8.543
-b=10.987
-
-deltaMIF = np.around((((float(b) - float(a)) * 100) / float(a)), decimals=1)
-print("deltaMIF = " + str(deltaMIF))
-deltaMIF = np.around(deltaMIF, decimals=1)
-print("deltaMIF np= " + str(deltaMIF))
-
-c=3
-totalFiles = 9
-porcValF = ((int(c)/totalFiles)*100)
-print("porcValF = " + str(porcValF))
-porcValF = np.around(porcValF, decimals=1)
-print("porcValF = " + str(porcValF))
-if porcValF > 0:
-    print("ok")
-
-"""
-
-
-
-if not os.path.isfile(nameCSVreleases):
-    fileFinal = open(nameCSVreleases, 'w', newline='')
-    final = csv.writer(fileFinal, delimiter=';')
-    final.writerow(('nameWithOwner', 'tag', 'typeRelease','isFirstRow(bool)', 'isNotaMax(bool)',
-                    'isLOCchanged(bool)', 'isMetricChanged(bool)', 'qtDias', 'porcValF(%)', 'deltaLOC(qtd)',
-                     'deltaSLOC(qtd)', 'deltaMIF(%)', 'deltaMIT(%)', 'deltaDiff(%)', 'deltaEff(%)',
-                      'deltaTimeH(%)', 'deltaBug(%)', 'deltaFiles(qtd)', 'totalFiles(qtd)'))
-    fileFinal.close()
-
-if not os.path.isfile(nameCSVrepo):
-    fileFinal = open(nameCSVrepo, 'w', newline='')
-    final = csv.writer(fileFinal, delimiter=';')
-    final.writerow(('nameWithOwner', 'createdAt','countNV', 
-                    'countNM', 'countNF', 'countVR', 'totRel(qtd)', 'countMetChange', 'countNotaMax', 
-                    'qtDias', 'porcValF(%)', 'deltaLOC(qtd)',
-                     'deltaSLOC(qtd)', 'deltaMIF(%)', 'deltaMIT(%)', 'deltaDiff(%)', 'deltaEff(%)', 'deltaTimeH(%)', 
-                     'deltaBug(%)', 'deltaFiles(qtd)', 'totalFiles(qtd)'))
-    fileFinal.close()
+#if not os.path.isfile(nameCSVrepo):
+fileFinal = open(nameCSVrepo, 'w', newline='')
+final = csv.writer(fileFinal, delimiter=';')
+final.writerow(('nameWithOwner', 'createdAt','countNV', 'countNM', 'countNF', 'countVR', 'totRel(qtd)', 
+                    'countMetChange', 'countNotaMax', 'qtDiasLastRel', 'qtDiasChangedRel', 'porcValF(%)', 
+                    'deltaLOC(qtd)','deltaSLOC(qtd)', 'deltaMIF(%)', 'deltaMIT(%)', 'deltaDiff(%)', 'deltaEff(%)', 
+                    'deltaTimeH(%)', 'deltaBug(%)', 'deltaFiles(qtd)', 'totalFiles(qtd)'))
+fileFinal.close()
 
 
 for fileName in os.listdir("RepoTags"):
     #if not os.path.exists(path):
         #os.mkdir(path)
-    totalRepo += 1
     fileRepo = "RepoTags/" + fileName
     totalRows = where_stop(fileRepo)
     print("\n\n----------- Novo Repo -------------")
@@ -167,12 +111,14 @@ for fileName in os.listdir("RepoTags"):
     porcVF = []
     totalDeltaF = []
     totalF = []
-    dias = []
+    diasLastRel = []
+    diasLastChanged = []
     numLine = 0
     pastNode = ""
     actualDate = ""
     newDate = ""
     pastDate = ""
+    pastChangedDate = ""
     pastTotalFiles = 0
     createdAt = ""
     for node in repo:
@@ -192,6 +138,7 @@ for fileName in os.listdir("RepoTags"):
         deltaBug = 0
         deltaFiles = 0
         qtDias = 0
+        qtDiasLastChanged = 0
         totalFiles = 0
         if numLine > 0:
             if numLine == 1:
@@ -215,7 +162,6 @@ for fileName in os.listdir("RepoTags"):
             if numLine > 1:
                 diasPastNode = actualDate - pastDate
                 qtDias = diasPastNode.days
-                dias.append(qtDias)
                 #print("diasPastNode = " + str(diasPastNode.days))
                 if numLine == 2:
                     isFirstRow = 1
@@ -236,6 +182,8 @@ for fileName in os.listdir("RepoTags"):
                 else:
                     countVR += 1
                     typeRelease = "VR"
+                    if not pastNode:
+                        pastChangedDate = actualDate
                     if isFirstRow == 0 and pastNode and float(pastNode[14]) !=100 and float(pastNode[16]) != 0:
                         deltaLOC = int(node[4]) - int(pastNode[4])
                         deltaSLOC = int(node[5]) - int(pastNode[5])
@@ -244,12 +192,28 @@ for fileName in os.listdir("RepoTags"):
                         deltaDiff = np.around((((float(node[16]) - float(pastNode[16])) * 100) / float(pastNode[16])), decimals=2)
                         deltaEff = np.around((((float(node[17]) - float(pastNode[17])) * 100) / float(pastNode[17])), decimals=2)
                         deltaTimeH = np.around((((float(node[18]) - float(pastNode[18])) * 100) / float(pastNode[18])), decimals=2)
-                        deltaFiles = totalFiles - pastTotalFiles
                         deltaBug = np.around((((float(node[19]) - float(pastNode[19])) * 100) / float(pastNode[19])), decimals=2)
+                        deltaFiles = totalFiles - pastTotalFiles
                         porcValF = np.around(((int(node[6])/totalFiles)*100), decimals=1)
-                        if deltaLOC > 0:
+                        if qtDias < 0:
+                            qtDias = qtDias * (-1)
+                            deltaLOC = deltaLOC * (-1)
+                            deltaSLOC = deltaSLOC * (-1)
+                            deltaMIF = deltaMIF * (-1)
+                            deltaMIT = deltaMIT * (-1)
+                            deltaDiff = deltaDiff * (-1)
+                            deltaEff = deltaEff * (-1)
+                            deltaTimeH = deltaTimeH * (-1)
+                            deltaBug = deltaBug * (-1)
+                            deltaFiles = deltaFiles * (-1)
+                        if deltaLOC != 0:
                             isLOCchanged = 1
-                        if deltaMIT != 0.000 or deltaDiff != 0.000 or deltaBug != 0.000:
+                        if deltaMIT != 0.00 or deltaDiff != 0.00 or deltaBug != 0.00:
+                            diasPastChangedNode = actualDate - pastChangedDate
+                            qtDiasLastChanged = diasPastChangedNode.days
+                            if qtDiasLastChanged < 0:
+                                qtDiasLastChanged = qtDiasLastChanged * (-1)
+                            diasLastChanged.append(qtDiasLastChanged)
                             isMetricChanged = 1
                             contMetChange += 1
                             tLoc.append(deltaLOC)
@@ -263,16 +227,22 @@ for fileName in os.listdir("RepoTags"):
                             porcVF.append(porcValF)
                             totalDeltaF.append(deltaFiles)
                             totalF.append(totalFiles)
+                            pastChangedDate = actualDate
                     if float(node[14])==100 and float(node[16])==0:
                         isNotaMax = 1
                         countNotaMax += 1
                     pastTotalFiles = totalFiles
                     pastNode = node
-                writeCSVreleases(node, typeRelease, isFirstRow, isNotaMax, isLOCchanged, isMetricChanged, qtDias, porcValF, deltaLOC,
-                     deltaSLOC, deltaMIF, deltaMIT, deltaDiff, deltaEff, deltaTimeH, deltaBug, deltaFiles, totalFiles)
+                if qtDias < 0:
+                    qtDias = qtDias * (-1)
+                diasLastRel.append(qtDias)
+                writeCSVreleases(node, typeRelease, isFirstRow, isNotaMax, isLOCchanged, isMetricChanged, qtDias, 
+                                qtDiasLastChanged, porcValF, deltaLOC,deltaSLOC, deltaMIF, deltaMIT, deltaDiff, 
+                                deltaEff, deltaTimeH, deltaBug, deltaFiles, totalFiles)
             pastDate = newDate
         numLine +=1
-    writeCSVrepo(node, createdAt, countNV, countNM, countNF, countVR, totalReleases, contMetChange, countNotaMax, qtDias, 
+    writeCSVrepo(node, createdAt, countNV, countNM, countNF, countVR, totalReleases, contMetChange, countNotaMax, 
+                (np.around(median(diasLastRel), decimals=2)), (np.around(median(diasLastChanged), decimals=2)),
                 (np.around(median(porcValF), decimals=2)), (np.around(median(tLoc), decimals=2)), 
                 (np.around(median(tSloc), decimals=2)), (np.around(median(miF), decimals=2)), 
                 (np.around(median(miT), decimals=2)), (np.around(median(diff), decimals=2)), 
@@ -280,28 +250,4 @@ for fileName in os.listdir("RepoTags"):
                 (np.around(median(bugs), decimals=2)), (np.around(median(totalDeltaF), decimals=2)), 
                 (np.around(median(totalFiles), decimals=2)))
 
-
-
-"""
-            if numLine == 2:
-                nameWithOwner = node[0]
-                equivYear = 1
-                actualDate = newDate
-                pastDate = newDate
-                print("newDate - actualDate: " + str(newDate - actualDate))
-                print("")
-                fileYear = str(equivYear) + '.csv'
-                fileNamePath = os.path.join(path, fileYear)
-                if not os.path.exists(fileNamePath):
-                    fileFinal = open(fileNamePath, 'w', newline='')
-                    final = csv.writer(fileFinal)
-                    final.writerow(('nameWithOwner', 'totalLoc', 'totalSloc','cc', 
-                    'miMultiFalse', 'miMultiTrue', 'difficulty', 'effort', 'timeHas', 'bugs'))
-                    fileFinal.close()
-            if ((newDate - actualDate) > daysInOneYear) or numLine == totalRows:
-                print("\n---Entrou no year")
-                print("newDate - actualDate: " + str(newDate - actualDate))
-                print("Ano " + str(equivYear) + " - Repo: " + nameWithOwner)
-                #print("quantidade linhas: " + str(len(totalLocFile)))
-                #time.sleep(2)
-        """
+print("_____________________FIM Execução__________________________")
