@@ -208,7 +208,7 @@ for fileName in os.listdir("RepoTags"):
                             deltaFiles = deltaFiles * (-1)
                         if deltaLOC != 0:
                             isLOCchanged = 1
-                        if deltaMIT != 0.00 or deltaDiff != 0.00 or deltaBug != 0.00:
+                        if deltaMIF != 0.00 or deltaMIT != 0.00 or deltaDiff != 0.00 or deltaEff != 0.00 or deltaTimeH!= 0.00 or deltaBug != 0.00:
                             diasPastChangedNode = actualDate - pastChangedDate
                             qtDiasLastChanged = diasPastChangedNode.days
                             if qtDiasLastChanged < 0:
