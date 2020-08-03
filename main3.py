@@ -121,6 +121,7 @@ for fileName in os.listdir("RepoTags"):
     pastChangedDate = ""
     pastTotalFiles = 0
     createdAt = ""
+    firstValidRelease = False
     for node in repo:
         typeRelease = "" # NV - not valid, NM - no metrics, NF - no files, VR - valid Release
         isFirstRow = 0
@@ -184,15 +185,32 @@ for fileName in os.listdir("RepoTags"):
                     typeRelease = "VR"
                     if not pastNode:
                         pastChangedDate = actualDate
-                    if isFirstRow == 0 and pastNode and float(pastNode[14]) !=100 and float(pastNode[16]) != 0:
+                        porcValF = np.around(((int(node[6])/totalFiles)*100), decimals=1)
+                    if isFirstRow == 0 and pastNode:
+                        if float(pastNode[16]) == 0.0000:
+                            pastNode16 = -1
+                        else:
+                            pastNode16 = float(pastNode[16])
+                        if float(pastNode[17]) == 0.0000:
+                            pastNode17 = -1
+                        else:
+                            pastNode17 = float(pastNode[17])
+                        if float(pastNode[18]) == 0.0000:
+                            pastNode18 = -1
+                        else:
+                            pastNode18 = float(pastNode[18])
+                        if float(pastNode[19]) == 0.0000:
+                            pastNode19 = -1
+                        else:
+                            pastNode19 = float(pastNode[19])
                         deltaLOC = int(node[4]) - int(pastNode[4])
                         deltaSLOC = int(node[5]) - int(pastNode[5])
                         deltaMIF = np.around((((float(node[12]) - float(pastNode[12])) * 100) / float(pastNode[12])), decimals=2)
                         deltaMIT = np.around((((float(node[14]) - float(pastNode[14])) * 100) / float(pastNode[14])), decimals=2)
-                        deltaDiff = np.around((((float(node[16]) - float(pastNode[16])) * 100) / float(pastNode[16])), decimals=2)
-                        deltaEff = np.around((((float(node[17]) - float(pastNode[17])) * 100) / float(pastNode[17])), decimals=2)
-                        deltaTimeH = np.around((((float(node[18]) - float(pastNode[18])) * 100) / float(pastNode[18])), decimals=2)
-                        deltaBug = np.around((((float(node[19]) - float(pastNode[19])) * 100) / float(pastNode[19])), decimals=2)
+                        deltaDiff = np.around((((float(node[16]) - float(pastNode[16])) * 100) / pastNode16), decimals=2)
+                        deltaEff = np.around((((float(node[17]) - float(pastNode[17])) * 100) / pastNode17), decimals=2)
+                        deltaTimeH = np.around((((float(node[18]) - float(pastNode[18])) * 100) / pastNode18), decimals=2)
+                        deltaBug = np.around((((float(node[19]) - float(pastNode[19])) * 100) / pastNode19), decimals=2)
                         deltaFiles = totalFiles - pastTotalFiles
                         porcValF = np.around(((int(node[6])/totalFiles)*100), decimals=1)
                         if qtDias < 0:
@@ -201,19 +219,34 @@ for fileName in os.listdir("RepoTags"):
                             deltaSLOC = deltaSLOC * (-1)
                             deltaMIF = deltaMIF * (-1)
                             deltaMIT = deltaMIT * (-1)
-                            deltaDiff = deltaDiff * (-1)
-                            deltaEff = deltaEff * (-1)
-                            deltaTimeH = deltaTimeH * (-1)
-                            deltaBug = deltaBug * (-1)
                             deltaFiles = deltaFiles * (-1)
+                            if float(pastNode[16]) == 0.0000 and float(node[16]) != 0.000:
+                                deltaDiff = np.around((((float(pastNode[16]) - float(node[16])) * 100) / float(node[16])), decimals=2)
+                            else:
+                                deltaDiff = deltaDiff * (-1)
+                            if float(pastNode[17]) == 0.0000 and float(node[17]) != 0.000:
+                                deltaDiff = np.around((((float(pastNode[17]) - float(node[17])) * 100) / float(node[17])), decimals=2)
+                            else:
+                                deltaEff = deltaEff * (-1)
+                            if float(pastNode[18]) == 0.0000 and float(node[18]) != 0.000:
+                                deltaDiff = np.around((((float(pastNode[18]) - float(node[18])) * 100) / float(node[18])), decimals=2)
+                            else:
+                                deltaTimeH = deltaTimeH * (-1)
+                            if float(pastNode[19]) == 0.0000 and float(node[19]) != 0.000:
+                                deltaDiff = np.around((((float(pastNode[19]) - float(node[19])) * 100) / float(node[19])), decimals=2)
+                            else:
+                                deltaBug = deltaBug * (-1)
                         if deltaLOC != 0:
                             isLOCchanged = 1
                         if deltaMIF != 0.00 or deltaMIT != 0.00 or deltaDiff != 0.00 or deltaEff != 0.00 or deltaTimeH!= 0.00 or deltaBug != 0.00:
-                            diasPastChangedNode = actualDate - pastChangedDate
-                            qtDiasLastChanged = diasPastChangedNode.days
-                            if qtDiasLastChanged < 0:
-                                qtDiasLastChanged = qtDiasLastChanged * (-1)
-                            diasLastChanged.append(qtDiasLastChanged)
+                            if firstValidRelease == True:
+                                diasPastChangedNode = actualDate - pastChangedDate
+                                qtDiasLastChanged = diasPastChangedNode.days
+                                if qtDiasLastChanged < 0:
+                                    qtDiasLastChanged = qtDiasLastChanged * (-1)
+                                diasLastChanged.append(qtDiasLastChanged)
+                            else:
+                                firstValidRelease = True
                             isMetricChanged = 1
                             contMetChange += 1
                             tLoc.append(deltaLOC)
@@ -243,7 +276,7 @@ for fileName in os.listdir("RepoTags"):
         numLine +=1
     writeCSVrepo(node, createdAt, countNV, countNM, countNF, countVR, totalReleases, contMetChange, countNotaMax, 
                 (np.around(median(diasLastRel), decimals=2)), (np.around(median(diasLastChanged), decimals=2)),
-                (np.around(median(porcValF), decimals=2)), (np.around(median(tLoc), decimals=2)), 
+                (np.around(median(porcVF), decimals=2)), (np.around(median(tLoc), decimals=2)), 
                 (np.around(median(tSloc), decimals=2)), (np.around(median(miF), decimals=2)), 
                 (np.around(median(miT), decimals=2)), (np.around(median(diff), decimals=2)), 
                 (np.around(median(eff), decimals=2)), (np.around(median(timeH), decimals=2)), 
