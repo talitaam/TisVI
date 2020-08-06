@@ -9,17 +9,18 @@ from datetime import date, datetime
 from datetime import timedelta
 from numpy import quantile, median, max, min
 import numpy as np
+import operator
 
 
 nameCSVreleases = "AnaliseFinalRelease.csv"
 nameCSVrepo = "AnaliseFinalRepo.csv"
 
-def writeCSVreleases(node, typeRelease, isFirstRow, isNotaMax, isLOCchanged, isMetricChanged, qtDias, qtDiasChangedRel, 
+def writeCSVreleases(node, typeRelease, isFirstRow, isNotaMax, isSLOCchanged, isMetricChanged, qtDias, qtDiasChangedRel, 
                     porcValF, deltaLOC,deltaSLOC, deltaMIF, deltaMIT, deltaDiff, deltaEff, deltaTimeH, deltaBug, 
                     deltaFiles, totalFiles):
     fileFinalTag = open(nameCSVreleases, 'a', newline='')
     finalTag = csv.writer(fileFinalTag, delimiter=';')
-    finalTag.writerow((str(node[0]), str(node[2]), typeRelease, str(isFirstRow), str(isNotaMax), str(isLOCchanged),
+    finalTag.writerow((str(node[0]), str(node[2]), typeRelease, str(isFirstRow), str(isNotaMax), str(isSLOCchanged),
      str(isMetricChanged), str(qtDias), str(qtDiasChangedRel), str(porcValF).replace('.',','), str(deltaLOC), 
      str(deltaSLOC), str(deltaMIF).replace('.',','), str(deltaMIT).replace('.',','), str(deltaDiff).replace('.',','), 
      str(deltaEff).replace('.',','), str(deltaTimeH).replace('.',','), str(deltaBug).replace('.',','), 
@@ -69,9 +70,9 @@ totalFiles, 20
 fileFinal = open(nameCSVreleases, 'w', newline='')
 final = csv.writer(fileFinal, delimiter=';')
 final.writerow(('nameWithOwner', 'tag', 'typeRelease','isFirstRow(bool)', 'isNotaMax(bool)',
-                    'isLOCchanged(bool)', 'isMetricChanged(bool)', 'qtDias', 'qtDiasChangedRel', 'porcValF(%)', 
-                    'deltaLOC(qtd)', 'deltaSLOC(qtd)', 'deltaMIF(%)', 'deltaMIT(%)', 'deltaDiff(%)', 'deltaEff(%)',
-                    'deltaTimeH(%)', 'deltaBug(%)', 'deltaFiles(qtd)', 'totalFiles(qtd)'))
+                    'isSLOCchanged(bool)', 'isMetricChanged(bool)', 'qtDias', 'qtDiasChangedRel', 'porcValF(%)', 
+                    'deltaLOC(qtd)', 'deltaSLOC(qtd)', 'deltaMIF', 'deltaMIT', 'deltaDiff', 'deltaEff',
+                    'deltaTimeH', 'deltaBug', 'deltaFiles(qtd)', 'totalFiles(qtd)'))
 fileFinal.close()
 
 #if not os.path.isfile(nameCSVrepo):
@@ -79,8 +80,8 @@ fileFinal = open(nameCSVrepo, 'w', newline='')
 final = csv.writer(fileFinal, delimiter=';')
 final.writerow(('nameWithOwner', 'createdAt','countNV', 'countNM', 'countNF', 'countVR', 'totRel(qtd)', 
                     'countMetChange', 'countNotaMax', 'qtDiasLastRel', 'qtDiasChangedRel', 'porcValF(%)', 
-                    'deltaLOC(qtd)','deltaSLOC(qtd)', 'deltaMIF(%)', 'deltaMIT(%)', 'deltaDiff(%)', 'deltaEff(%)', 
-                    'deltaTimeH(%)', 'deltaBug(%)', 'deltaFiles(qtd)', 'totalFiles(qtd)'))
+                    'deltaLOC(qtd)','deltaSLOC(qtd)', 'deltaMIF', 'deltaMIT', 'deltaDiff', 'deltaEff', 
+                    'deltaTimeH', 'deltaBug', 'deltaFiles(qtd)', 'totalFiles(qtd)'))
 fileFinal.close()
 
 
@@ -93,6 +94,7 @@ for fileName in os.listdir("RepoTags"):
     print("Lendo " + fileName)
     fileToRead = open(fileRepo, encoding='utf-8')
     repo = csv.reader(fileToRead)
+    sortedlist = sorted(repo, key=operator.itemgetter(3))
     countNV = 0
     countNM = 0
     countNF = 0
@@ -122,10 +124,10 @@ for fileName in os.listdir("RepoTags"):
     pastTotalFiles = 0
     createdAt = ""
     firstValidRelease = False
-    for node in repo:
+    for node in sortedlist:
         typeRelease = "" # NV - not valid, NM - no metrics, NF - no files, VR - valid Release
         isFirstRow = 0
-        isLOCchanged = 0
+        isSLOCchanged = 0
         isMetricChanged = 0
         isNotaMax = 0
         porcValF = 0
@@ -141,9 +143,8 @@ for fileName in os.listdir("RepoTags"):
         qtDias = 0
         qtDiasLastChanged = 0
         totalFiles = 0
-        if numLine > 0:
-            if numLine == 1:
-                totalReleases = int(node[2])
+        firstNode = []
+        if numLine >= 0 and node[3] != "publishedAt":
             print("")
             print(str(numLine))
             if (node[3].find('/') != -1):
@@ -156,16 +157,16 @@ for fileName in os.listdir("RepoTags"):
                 newDate = date.fromisoformat(str(node[3]))
                 #print("")
                 #print("newYear: " + str(newDate))
-            if numLine == 1:
+            if numLine == 0:
                 totalReleases = int(node[2])
                 createdAt = str(node[3])
             actualDate = newDate
-            if numLine > 1:
+            if numLine > 0:
                 diasPastNode = actualDate - pastDate
                 qtDias = diasPastNode.days
                 #print("diasPastNode = " + str(diasPastNode.days))
-                if numLine == 2:
-                    isFirstRow = 1
+                #if numLine == 2:
+                    #isFirstRow = 1
                 if len(node) == 20:
                     totalFiles = int(node[6]) + int(node[7]) + int(node[8]) + int(node[9])
                 else:
@@ -186,21 +187,22 @@ for fileName in os.listdir("RepoTags"):
                     if not pastNode:
                         pastChangedDate = actualDate
                         porcValF = np.around(((int(node[6])/totalFiles)*100), decimals=1)
+                        isFirstRow = 1
                     if isFirstRow == 0 and pastNode:
                         if float(pastNode[16]) == 0.0000:
-                            pastNode16 = -1
+                            pastNode16 = 100
                         else:
                             pastNode16 = float(pastNode[16])
                         if float(pastNode[17]) == 0.0000:
-                            pastNode17 = -1
+                            pastNode17 = 100
                         else:
                             pastNode17 = float(pastNode[17])
                         if float(pastNode[18]) == 0.0000:
-                            pastNode18 = -1
+                            pastNode18 = 100
                         else:
                             pastNode18 = float(pastNode[18])
                         if float(pastNode[19]) == 0.0000:
-                            pastNode19 = -1
+                            pastNode19 = 100
                         else:
                             pastNode19 = float(pastNode[19])
                         deltaLOC = int(node[4]) - int(pastNode[4])
@@ -211,42 +213,23 @@ for fileName in os.listdir("RepoTags"):
                         deltaEff = np.around((((float(node[17]) - float(pastNode[17])) * 100) / pastNode17), decimals=2)
                         deltaTimeH = np.around((((float(node[18]) - float(pastNode[18])) * 100) / pastNode18), decimals=2)
                         deltaBug = np.around((((float(node[19]) - float(pastNode[19])) * 100) / pastNode19), decimals=2)
+                        """
+                        deltaMIF = np.around((float(node[12]) - float(pastNode[12])), decimals=3)
+                        deltaMIT = np.around((float(node[14]) - float(pastNode[14])), decimals=3)
+                        deltaDiff = np.around((float(node[16]) - float(pastNode[16])), decimals=4)
+                        deltaEff = np.around((float(node[17]) - float(pastNode[17])), decimals=4)
+                        deltaTimeH = np.around((float(node[18]) - float(pastNode[18])), decimals=4)
+                        deltaBug = np.around((float(node[19]) - float(pastNode[19])), decimals=5)
+                        """
                         deltaFiles = totalFiles - pastTotalFiles
-                        porcValF = np.around(((int(node[6])/totalFiles)*100), decimals=1)
-                        if qtDias < 0:
-                            qtDias = qtDias * (-1)
-                            deltaLOC = deltaLOC * (-1)
-                            deltaSLOC = deltaSLOC * (-1)
-                            deltaMIF = deltaMIF * (-1)
-                            deltaMIT = deltaMIT * (-1)
-                            deltaFiles = deltaFiles * (-1)
-                            if float(pastNode[16]) == 0.0000 and float(node[16]) != 0.000:
-                                deltaDiff = np.around((((float(pastNode[16]) - float(node[16])) * 100) / float(node[16])), decimals=2)
-                            else:
-                                deltaDiff = deltaDiff * (-1)
-                            if float(pastNode[17]) == 0.0000 and float(node[17]) != 0.000:
-                                deltaDiff = np.around((((float(pastNode[17]) - float(node[17])) * 100) / float(node[17])), decimals=2)
-                            else:
-                                deltaEff = deltaEff * (-1)
-                            if float(pastNode[18]) == 0.0000 and float(node[18]) != 0.000:
-                                deltaDiff = np.around((((float(pastNode[18]) - float(node[18])) * 100) / float(node[18])), decimals=2)
-                            else:
-                                deltaTimeH = deltaTimeH * (-1)
-                            if float(pastNode[19]) == 0.0000 and float(node[19]) != 0.000:
-                                deltaDiff = np.around((((float(pastNode[19]) - float(node[19])) * 100) / float(node[19])), decimals=2)
-                            else:
-                                deltaBug = deltaBug * (-1)
-                        if deltaLOC != 0:
-                            isLOCchanged = 1
-                        if deltaMIF != 0.00 or deltaMIT != 0.00 or deltaDiff != 0.00 or deltaEff != 0.00 or deltaTimeH!= 0.00 or deltaBug != 0.00:
-                            if firstValidRelease == True:
-                                diasPastChangedNode = actualDate - pastChangedDate
-                                qtDiasLastChanged = diasPastChangedNode.days
-                                if qtDiasLastChanged < 0:
-                                    qtDiasLastChanged = qtDiasLastChanged * (-1)
-                                diasLastChanged.append(qtDiasLastChanged)
-                            else:
-                                firstValidRelease = True
+                        porcValF = np.around(((int(node[6])/totalFiles)*100), decimals=1)                        
+                        if deltaSLOC != 0:
+                            isSLOCchanged = 1
+                        if deltaSLOC != 0.000 or deltaMIF != 0.000 or deltaMIT != 0.000 or deltaDiff != 0.000 or deltaEff != 0.000 or deltaTimeH!= 0.000 or deltaBug != 0.000:
+                            #if firstValidRelease == True:
+                            diasPastChangedNode = actualDate - pastChangedDate
+                            qtDiasLastChanged = diasPastChangedNode.days
+                            diasLastChanged.append(qtDiasLastChanged)
                             isMetricChanged = 1
                             contMetChange += 1
                             tLoc.append(deltaLOC)
@@ -257,19 +240,17 @@ for fileName in os.listdir("RepoTags"):
                             eff.append(deltaEff)
                             timeH.append(deltaTimeH)
                             bugs.append(deltaBug)
-                            porcVF.append(porcValF)
                             totalDeltaF.append(deltaFiles)
                             totalF.append(totalFiles)
                             pastChangedDate = actualDate
+                            porcVF.append(porcValF)
                     if float(node[14])==100 and float(node[16])==0:
                         isNotaMax = 1
                         countNotaMax += 1
                     pastTotalFiles = totalFiles
                     pastNode = node
-                if qtDias < 0:
-                    qtDias = qtDias * (-1)
                 diasLastRel.append(qtDias)
-                writeCSVreleases(node, typeRelease, isFirstRow, isNotaMax, isLOCchanged, isMetricChanged, qtDias, 
+                writeCSVreleases(node, typeRelease, isFirstRow, isNotaMax, isSLOCchanged, isMetricChanged, qtDias, 
                                 qtDiasLastChanged, porcValF, deltaLOC,deltaSLOC, deltaMIF, deltaMIT, deltaDiff, 
                                 deltaEff, deltaTimeH, deltaBug, deltaFiles, totalFiles)
             pastDate = newDate
@@ -277,10 +258,10 @@ for fileName in os.listdir("RepoTags"):
     writeCSVrepo(node, createdAt, countNV, countNM, countNF, countVR, totalReleases, contMetChange, countNotaMax, 
                 (np.around(median(diasLastRel), decimals=2)), (np.around(median(diasLastChanged), decimals=2)),
                 (np.around(median(porcVF), decimals=2)), (np.around(median(tLoc), decimals=2)), 
-                (np.around(median(tSloc), decimals=2)), (np.around(median(miF), decimals=2)), 
-                (np.around(median(miT), decimals=2)), (np.around(median(diff), decimals=2)), 
-                (np.around(median(eff), decimals=2)), (np.around(median(timeH), decimals=2)), 
-                (np.around(median(bugs), decimals=2)), (np.around(median(totalDeltaF), decimals=2)), 
+                (np.around(median(tSloc), decimals=2)), (np.around(median(miF), decimals=3)), 
+                (np.around(median(miT), decimals=3)), (np.around(median(diff), decimals=4)), 
+                (np.around(median(eff), decimals=4)), (np.around(median(timeH), decimals=4)), 
+                (np.around(median(bugs), decimals=4)), (np.around(median(totalDeltaF), decimals=2)), 
                 (np.around(median(totalFiles), decimals=2)))
 
 print("_____________________FIM Execução__________________________")
